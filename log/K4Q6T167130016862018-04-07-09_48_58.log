@@ -1,0 +1,220 @@
+2018-04-07 01:49:08:253 - info: [Appium] Welcome to Appium v1.7.2
+2018-04-07 01:49:08:256 - info: [Appium] Non-default server args:
+2018-04-07 01:49:08:257 - info: [Appium]   port: 4700
+2018-04-07 01:49:08:257 - info: [Appium]   bootstrapPort: 4900
+2018-04-07 01:49:08:257 - info: [Appium]   sessionOverride: true
+2018-04-07 01:49:08:257 - info: [Appium]   log: D:/PycharmProjects/Appium27/log/K4Q6T167130016862018-04-07-09_48_58.log
+2018-04-07 01:49:08:257 - info: [Appium]   udid: K4Q6T16713001686
+2018-04-07 01:49:08:257 - info: [Appium]   noReset: true
+2018-04-07 01:49:08:258 - warn: [Appium] Deprecated server args:
+2018-04-07 01:49:08:259 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"K4Q6T16713001686"}'
+2018-04-07 01:49:08:259 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2018-04-07 01:49:08:259 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-04-07 01:49:08:259 - info: [Appium]   udid: K4Q6T16713001686
+2018-04-07 01:49:08:260 - info: [Appium]   noReset: true
+2018-04-07 01:49:08:293 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4700
+2018-04-07 01:49:20:282 - info: [HTTP] --> POST /wd/hub/session {"capabilities":{"alwaysMatch":{"platformName":"Android"},"firstMatch":[{}]},"desiredCapabilities":{"deviceName":"K4Q6T16713001686","automationName":"uiautomator2","platformName":"Android","app":"../apk/wdfp.apk"}}
+2018-04-07 01:49:20:285 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"K4Q6T16713001686","automationName":"uiautomator2","platformName":"Android","app":"../apk/wdfp.apk"},null,{"alwaysMatch":{"platformName":"Android"},"firstMatch":[{}]}]
+2018-04-07 01:49:20:287 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1523065760286 (09:49:20 GMT+0800 (China Standard Time))
+2018-04-07 01:49:20:288 - info: [Appium] Merged W3C capabilities {"alwaysMatch":{"platformName":"Android"},"firs... into desiredCapabilities object {"deviceName":"K4Q6T16713001686","automationNam...
+2018-04-07 01:49:20:292 - info: [Appium] Creating new AndroidUiautomator2Driver (v0.11.0) session
+2018-04-07 01:49:20:292 - info: [Appium] Capabilities:
+2018-04-07 01:49:20:292 - info: [Appium]   deviceName: K4Q6T16713001686
+2018-04-07 01:49:20:292 - info: [Appium]   automationName: uiautomator2
+2018-04-07 01:49:20:292 - info: [Appium]   platformName: Android
+2018-04-07 01:49:20:293 - info: [Appium]   app: ../apk/wdfp.apk
+2018-04-07 01:49:20:293 - info: [Appium]   udid: K4Q6T16713001686
+2018-04-07 01:49:20:293 - info: [Appium]   noReset: true
+2018-04-07 01:49:20:307 - info: [BaseDriver] Session created with session id: cb98a9a7-1041-421c-9fec-dd1a987f1f15
+2018-04-07 01:49:20:308 - info: [BaseDriver] Using local app '../apk/wdfp.apk'
+2018-04-07 01:49:20:331 - info: [debug] [UiAutomator2] Checking whether app is actually present
+2018-04-07 01:49:20:738 - info: [debug] [AndroidDriver] Getting Java version
+2018-04-07 01:49:21:153 - info: [AndroidDriver] Java version is: 1.8.0_151
+2018-04-07 01:49:21:157 - info: [ADB] Checking whether adb is present
+2018-04-07 01:49:21:161 - info: [ADB] Using adb.exe from D:\sdk\platform-tools\adb.exe
+2018-04-07 01:49:21:161 - info: [AndroidDriver] Retrieving device list
+2018-04-07 01:49:21:162 - info: [debug] [ADB] Trying to find a connected android device
+2018-04-07 01:49:21:163 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:21:268 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:21:269 - info: [AndroidDriver] Using device: K4Q6T16713001686
+2018-04-07 01:49:21:270 - info: [ADB] Checking whether adb is present
+2018-04-07 01:49:21:270 - info: [debug] [ADB] Setting device id to K4Q6T16713001686
+2018-04-07 01:49:21:272 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:21:358 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:21:361 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","getprop","ro.build.version.sdk"]
+2018-04-07 01:49:21:477 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 24
+2018-04-07 01:49:21:477 - info: [debug] [ADB] Device API level: 24
+2018-04-07 01:49:21:478 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-04-07 01:49:21:479 - info: [ADB] Checking whether aapt is present
+2018-04-07 01:49:21:481 - info: [ADB] Using aapt.exe from D:\sdk\tools\aapt.exe
+2018-04-07 01:49:21:481 - info: [ADB] Extracting package and launch activity from manifest
+2018-04-07 01:49:21:580 - info: [debug] [ADB] badging package: com.elephant.myinvoice
+2018-04-07 01:49:21:580 - info: [debug] [ADB] badging act: com.elephant.myinvoice.MainActivity
+2018-04-07 01:49:21:581 - info: [debug] [AndroidDriver] Parsed package and activity are: com.elephant.myinvoice/com.elephant.myinvoice.MainActivity
+2018-04-07 01:49:21:581 - info: [ADB] Getting device platform version
+2018-04-07 01:49:21:581 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:21:655 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:21:655 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","getprop","ro.build.version.release"]
+2018-04-07 01:49:21:753 - info: [debug] [ADB] Current device property 'ro.build.version.release': 7.0
+2018-04-07 01:49:21:754 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:21:826 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:21:826 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","wm","size"]
+2018-04-07 01:49:23:165 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:23:255 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:23:255 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","wm","density"]
+2018-04-07 01:49:23:977 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:24:057 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:24:057 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","getprop","ro.product.model"]
+2018-04-07 01:49:24:156 - info: [debug] [ADB] Current device property 'ro.product.model': NEM-AL10
+2018-04-07 01:49:24:157 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:24:244 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:24:244 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","getprop","ro.product.manufacturer"]
+2018-04-07 01:49:24:350 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': HUAWEI
+2018-04-07 01:49:24:352 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:24:431 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:24:431 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","am","force-stop","io.appium.uiautomator2.server"]
+2018-04-07 01:49:25:178 - info: [ADB] Checking whether aapt is present
+2018-04-07 01:49:25:237 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server
+2018-04-07 01:49:25:237 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:25:308 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:25:308 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","list","packages","io.appium.uiautomator2.server"]
+2018-04-07 01:49:26:033 - info: [debug] [ADB] App is installed
+2018-04-07 01:49:26:033 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+2018-04-07 01:49:26:033 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:26:098 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:26:099 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","list","packages","io.appium.uiautomator2.server.test"]
+2018-04-07 01:49:26:797 - info: [debug] [ADB] App is installed
+2018-04-07 01:49:26:798 - info: [debug] [ADB] Getting package info for io.appium.uiautomator2.server
+2018-04-07 01:49:26:798 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:26:876 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:26:876 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","dumpsys","package","io.appium.uiautomator2.server"]
+2018-04-07 01:49:27:121 - info: [debug] [UiAutomator2] Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+2018-04-07 01:49:27:122 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:27:199 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:27:199 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","list","instrumentation"]
+2018-04-07 01:49:27:932 - info: [debug] [UiAutomator2] Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+2018-04-07 01:49:27:934 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","wait-for-device"]
+2018-04-07 01:49:28:031 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:28:109 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:28:109 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","echo","ping"]
+2018-04-07 01:49:28:242 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-04-07 01:49:28:243 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-04-07 01:49:28:244 - info: [debug] [Logcat] Starting logcat capture
+2018-04-07 01:49:28:358 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-04-07 01:49:28:359 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-04-07 01:49:28:359 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:28:448 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:28:449 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","list","packages","io.appium.settings"]
+2018-04-07 01:49:29:182 - info: [debug] [ADB] App is installed
+2018-04-07 01:49:29:183 - info: [debug] [ADB] Getting package info for io.appium.settings
+2018-04-07 01:49:29:183 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:29:282 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:29:282 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","dumpsys","package","io.appium.settings"]
+2018-04-07 01:49:29:544 - info: [ADB] Checking whether aapt is present
+2018-04-07 01:49:29:608 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade (5 >= 5)
+2018-04-07 01:49:29:609 - info: [debug] [ADB] Device API level: 24
+2018-04-07 01:49:29:610 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:29:677 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:29:677 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","dumpsys","package","io.appium.settings"]
+2018-04-07 01:49:29:801 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:30:013 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:30:013 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","dump","io.appium.settings"]
+2018-04-07 01:49:31:158 - info: [debug] [ADB] Got the following command chunks to execute: pm,grant,io.appium.settings,android.permission.WRITE_SETTINGS,;,pm,grant,io.appium.settings,android.permission.ACCESS_MOCK_LOCATION,;
+2018-04-07 01:49:31:158 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:31:243 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:31:243 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
+2018-04-07 01:49:32:551 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:32:653 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:32:654 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","ps"]
+2018-04-07 01:49:32:826 - info: [debug] [ADB] Device API level: 24
+2018-04-07 01:49:32:827 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:32:941 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:32:941 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","am","start","-W","-n","io.appium.settings/.Settings","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2018-04-07 01:49:34:174 - info: [debug] [ADB] Device API level: 24
+2018-04-07 01:49:34:174 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:34:273 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:34:273 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+2018-04-07 01:49:34:396 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-04-07 01:49:34:396 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-04-07 01:49:34:396 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:34:474 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:34:475 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","list","packages","io.appium.unlock"]
+2018-04-07 01:49:35:294 - info: [debug] [ADB] App is installed
+2018-04-07 01:49:35:294 - info: [debug] [ADB] Getting package info for io.appium.unlock
+2018-04-07 01:49:35:294 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:35:383 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:35:384 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","dumpsys","package","io.appium.unlock"]
+2018-04-07 01:49:35:491 - info: [ADB] Checking whether aapt is present
+2018-04-07 01:49:35:589 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade (2 >= 2)
+2018-04-07 01:49:35:589 - info: [debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2018-04-07 01:49:35:590 - info: [debug] [ADB] Forwarding system: 8200 to device: 6790
+2018-04-07 01:49:35:590 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","forward","tcp:8200","tcp:6790"]
+2018-04-07 01:49:35:655 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:35:719 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:35:720 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","dumpsys","window"]
+2018-04-07 01:49:35:825 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-04-07 01:49:35:827 - info: [debug] [AndroidDriver] Extracting strings from apk ../apk/wdfp.apk null C:\Users\Myron.Guo\AppData\Local\Temp\com.elephant.myinvoice
+2018-04-07 01:49:35:828 - info: [debug] [ADB] Extracting strings for language: default
+2018-04-07 01:49:35:828 - info: [debug] [ADB] Device API level: 24
+2018-04-07 01:49:35:829 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:36:201 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:36:201 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","getprop","persist.sys.locale"]
+2018-04-07 01:49:36:313 - info: [debug] [ADB] Current device property 'persist.sys.locale': zh-CN
+2018-04-07 01:49:37:886 - info: [debug] [ADB] Reading strings from converted strings.json
+2018-04-07 01:49:37:889 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","push","C:\\Users\\Myron.Guo\\AppData\\Local\\Temp\\com.elephant.myinvoice\\strings.json","/data/local/tmp"]
+2018-04-07 01:49:38:175 - info: [debug] [ADB] Checking app cert for ../apk/wdfp.apk
+2018-04-07 01:49:38:180 - warn: [ADB] Cannot use apksigner tool for signature verification. Defaulting to verify.jar. Original error: Could not find apksigner.bat in D:\sdk\platform-tools\apksigner.bat,D:\sdk\emulator\apksigner.bat,D:\sdk\tools\apksigner.bat,D:\sdk\tools\bin\apksigner.bat,D:\sdk\build-tools\android-4.3\apksigner.bat, or supported build-tools under D:\sdk do you have the Android SDK installed at this location?
+2018-04-07 01:49:39:716 - info: [debug] [ADB] '../apk/wdfp.apk' is already signed.
+2018-04-07 01:49:39:889 - info: [AndroidDriver] Remote apk path is /data/local/tmp/4a9053f45d358d0242a66992e1a83312.apk
+2018-04-07 01:49:39:890 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:39:964 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:39:964 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","ls","/data/local/tmp/4a9053f45d358d0242a66992e1a83312.apk"]
+2018-04-07 01:49:40:074 - info: [debug] [AndroidDriver] Checking if app is installed
+2018-04-07 01:49:40:074 - info: [debug] [ADB] Getting install status for com.elephant.myinvoice
+2018-04-07 01:49:40:075 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:40:149 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:40:149 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","list","packages","com.elephant.myinvoice"]
+2018-04-07 01:49:40:898 - info: [debug] [ADB] App is not installed
+2018-04-07 01:49:40:919 - info: [AndroidDriver] Apk is not yet installed
+2018-04-07 01:49:40:920 - info: [AndroidDriver] installing apk from remote
+2018-04-07 01:49:40:920 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:41:030 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:41:030 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","mkdir","-p","/data/local/tmp"]
+2018-04-07 01:49:41:160 - info: [AndroidDriver] Clearing out any existing remote apks with the same hash
+2018-04-07 01:49:41:161 - info: [debug] [AndroidDriver] Removing any old apks
+2018-04-07 01:49:41:161 - info: [debug] [AndroidDriver] Except ["4a9053f45d358d0242a66992e1a83312"]
+2018-04-07 01:49:41:161 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:41:268 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:41:268 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","ls","/data/local/tmp/*.apk"]
+2018-04-07 01:49:41:386 - info: [debug] [ADB] Uninstalling com.elephant.myinvoice
+2018-04-07 01:49:41:386 - info: [debug] [ADB] Getting install status for com.elephant.myinvoice
+2018-04-07 01:49:41:386 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:41:467 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:41:467 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","list","packages","com.elephant.myinvoice"]
+2018-04-07 01:49:42:188 - info: [debug] [ADB] App is not installed
+2018-04-07 01:49:42:188 - info: [ADB] com.elephant.myinvoice was not uninstalled, because it was not present on the device
+2018-04-07 01:49:42:189 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:42:284 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:42:284 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","install","-r","/data/local/tmp/4a9053f45d358d0242a66992e1a83312.apk"]
+2018-04-07 01:49:47:101 - error: [ADB] Error: Remote install failed: Failure [INSTALL_CANCELED_BY_USER]
+    at Object.wrappedLogger.errorAndThrow (C:\Users\Myron.Guo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at ADB.callee$0$0$ (C:\Users\Myron.Guo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\apk-utils.js:276:9)
+    at tryCatch (C:\Users\Myron.Guo\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Myron.Guo\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Myron.Guo\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Myron.Guo\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>
+ Error: Remote install failed: Failure [INSTALL_CANCELED_BY_USER]
+    at Object.wrappedLogger.errorAndThrow (C:\Users\Myron.Guo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at ADB.callee$0$0$ (C:\Users\Myron.Guo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\apk-utils.js:276:9)
+    at tryCatch (C:\Users\Myron.Guo\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Myron.Guo\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Myron.Guo\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Myron.Guo\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>
+2018-04-07 01:49:47:102 - warn: [AndroidDriver] Installing remote APK failed, going to uninstall and try again
+2018-04-07 01:49:47:102 - info: [debug] [AndroidDriver] Removing any old apks
+2018-04-07 01:49:47:102 - info: [debug] [ADB] Getting connected devices...
+2018-04-07 01:49:47:190 - info: [debug] [ADB] 1 device(s) connected
+2018-04-07 01:49:47:190 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","ls","/data/local/tmp/*.apk"]
+2018-04-07 01:49:47:305 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","push","../apk/wdfp.apk","/data/local/tmp/4a9053f45d358d0242a66992e1a83312.apk"]

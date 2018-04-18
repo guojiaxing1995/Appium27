@@ -1,0 +1,566 @@
+2018-04-09 09:49:10:269 - info: [Appium] Welcome to Appium v1.7.2
+2018-04-09 09:49:10:271 - info: [Appium] Non-default server args:
+2018-04-09 09:49:10:272 - info: [Appium]   port: 4701
+2018-04-09 09:49:10:273 - info: [Appium]   bootstrapPort: 4900
+2018-04-09 09:49:10:273 - info: [Appium]   sessionOverride: true
+2018-04-09 09:49:10:273 - info: [Appium]   log: D:/PycharmProjects/Appium27/log/K4Q6T167130016862018-04-09-17_48_57.log
+2018-04-09 09:49:10:273 - info: [Appium]   udid: K4Q6T16713001686
+2018-04-09 09:49:10:273 - info: [Appium]   noReset: true
+2018-04-09 09:49:10:274 - warn: [Appium] Deprecated server args:
+2018-04-09 09:49:10:275 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"K4Q6T16713001686"}'
+2018-04-09 09:49:10:275 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2018-04-09 09:49:10:275 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-04-09 09:49:10:275 - info: [Appium]   udid: K4Q6T16713001686
+2018-04-09 09:49:10:276 - info: [Appium]   noReset: true
+2018-04-09 09:49:10:360 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4701
+2018-04-09 09:49:20:862 - info: [HTTP] --> POST /wd/hub/session {"capabilities":{"alwaysMatch":{"platformName":"Android"},"firstMatch":[{}]},"desiredCapabilities":{"deviceName":"K4Q6T16713001686","unicodeKeyboard":true,"automationName":"uiautomator2","resetKeyboard":true,"platformName":"Android","app":"../apk/wdfp.apk"}}
+2018-04-09 09:49:20:866 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"K4Q6T16713001686","unicodeKeyboard":true,"automationName":"uiautomator2","resetKeyboard":true,"platformName":"Android","app":"../apk/wdfp.apk"},null,{"alwaysMatch":{"platformName":"Android"},"firstMatch":[{}]}]
+2018-04-09 09:49:20:868 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1523267360867 (17:49:20 GMT+0800 (China Standard Time))
+2018-04-09 09:49:20:869 - info: [Appium] Merged W3C capabilities {"alwaysMatch":{"platformName":"Android"},"firs... into desiredCapabilities object {"deviceName":"K4Q6T16713001686","unicodeKeyboa...
+2018-04-09 09:49:20:875 - info: [Appium] Creating new AndroidUiautomator2Driver (v0.11.0) session
+2018-04-09 09:49:20:875 - info: [Appium] Capabilities:
+2018-04-09 09:49:20:875 - info: [Appium]   deviceName: K4Q6T16713001686
+2018-04-09 09:49:20:876 - info: [Appium]   unicodeKeyboard: true
+2018-04-09 09:49:20:876 - info: [Appium]   automationName: uiautomator2
+2018-04-09 09:49:20:876 - info: [Appium]   resetKeyboard: true
+2018-04-09 09:49:20:876 - info: [Appium]   platformName: Android
+2018-04-09 09:49:20:876 - info: [Appium]   app: ../apk/wdfp.apk
+2018-04-09 09:49:20:876 - info: [Appium]   udid: K4Q6T16713001686
+2018-04-09 09:49:20:877 - info: [Appium]   noReset: true
+2018-04-09 09:49:20:896 - info: [BaseDriver] Session created with session id: c81a6644-3565-41b6-9455-8d3e65a490c8
+2018-04-09 09:49:20:899 - info: [BaseDriver] Using local app '../apk/wdfp.apk'
+2018-04-09 09:49:20:938 - info: [debug] [UiAutomator2] Checking whether app is actually present
+2018-04-09 09:49:21:348 - info: [debug] [AndroidDriver] Getting Java version
+2018-04-09 09:49:21:858 - info: [AndroidDriver] Java version is: 1.8.0_151
+2018-04-09 09:49:21:862 - info: [ADB] Checking whether adb is present
+2018-04-09 09:49:21:868 - info: [ADB] Using adb.exe from D:\sdk\platform-tools\adb.exe
+2018-04-09 09:49:21:868 - info: [AndroidDriver] Retrieving device list
+2018-04-09 09:49:21:869 - info: [debug] [ADB] Trying to find a connected android device
+2018-04-09 09:49:21:871 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:22:046 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:22:047 - info: [AndroidDriver] Using device: K4Q6T16713001686
+2018-04-09 09:49:22:048 - info: [ADB] Checking whether adb is present
+2018-04-09 09:49:22:049 - info: [debug] [ADB] Setting device id to K4Q6T16713001686
+2018-04-09 09:49:22:051 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:22:163 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:22:165 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","getprop","ro.build.version.sdk"]
+2018-04-09 09:49:22:287 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 24
+2018-04-09 09:49:22:288 - info: [debug] [ADB] Device API level: 24
+2018-04-09 09:49:22:288 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-04-09 09:49:22:289 - info: [ADB] Checking whether aapt is present
+2018-04-09 09:49:22:292 - info: [ADB] Using aapt.exe from D:\sdk\tools\aapt.exe
+2018-04-09 09:49:22:292 - info: [ADB] Extracting package and launch activity from manifest
+2018-04-09 09:49:22:429 - info: [debug] [ADB] badging package: com.elephant.myinvoice
+2018-04-09 09:49:22:429 - info: [debug] [ADB] badging act: com.elephant.myinvoice.MainActivity
+2018-04-09 09:49:22:430 - info: [debug] [AndroidDriver] Parsed package and activity are: com.elephant.myinvoice/com.elephant.myinvoice.MainActivity
+2018-04-09 09:49:22:431 - info: [ADB] Getting device platform version
+2018-04-09 09:49:22:431 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:22:640 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:22:640 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","getprop","ro.build.version.release"]
+2018-04-09 09:49:22:770 - info: [debug] [ADB] Current device property 'ro.build.version.release': 7.0
+2018-04-09 09:49:22:771 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:22:864 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:22:865 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","wm","size"]
+2018-04-09 09:49:23:674 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:23:783 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:23:784 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","wm","density"]
+2018-04-09 09:49:24:558 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:24:737 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:24:737 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","getprop","ro.product.model"]
+2018-04-09 09:49:24:850 - info: [debug] [ADB] Current device property 'ro.product.model': NEM-AL10
+2018-04-09 09:49:24:850 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:24:958 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:24:959 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","getprop","ro.product.manufacturer"]
+2018-04-09 09:49:25:108 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': HUAWEI
+2018-04-09 09:49:25:110 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:25:253 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:25:253 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","am","force-stop","io.appium.uiautomator2.server"]
+2018-04-09 09:49:25:992 - info: [ADB] Checking whether aapt is present
+2018-04-09 09:49:26:058 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server
+2018-04-09 09:49:26:058 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:26:169 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:26:169 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","list","packages","io.appium.uiautomator2.server"]
+2018-04-09 09:49:26:955 - info: [debug] [ADB] App is installed
+2018-04-09 09:49:26:956 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+2018-04-09 09:49:26:956 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:27:062 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:27:062 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","list","packages","io.appium.uiautomator2.server.test"]
+2018-04-09 09:49:27:835 - info: [debug] [ADB] App is installed
+2018-04-09 09:49:27:836 - info: [debug] [ADB] Getting package info for io.appium.uiautomator2.server
+2018-04-09 09:49:27:836 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:27:922 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:27:923 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","dumpsys","package","io.appium.uiautomator2.server"]
+2018-04-09 09:49:28:158 - info: [debug] [UiAutomator2] Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+2018-04-09 09:49:28:160 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:28:258 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:28:259 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","list","instrumentation"]
+2018-04-09 09:49:29:030 - info: [debug] [UiAutomator2] Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+2018-04-09 09:49:29:032 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","wait-for-device"]
+2018-04-09 09:49:29:149 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:29:366 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:29:367 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","echo","ping"]
+2018-04-09 09:49:30:010 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-04-09 09:49:30:010 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-04-09 09:49:30:013 - info: [debug] [Logcat] Starting logcat capture
+2018-04-09 09:49:30:135 - info: [debug] [AndroidDriver] Enabling Unicode keyboard support
+2018-04-09 09:49:30:135 - info: [debug] [AndroidDriver] Pushing unicode ime to device...
+2018-04-09 09:49:30:136 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","install","C:\\Users\\Myron.Guo\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-ime\\bin\\UnicodeIME-debug.apk"]
+2018-04-09 09:49:31:525 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:31:677 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:31:677 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","settings","get","secure","default_input_method"]
+2018-04-09 09:49:32:414 - info: [debug] [AndroidDriver] Unsetting previous IME io.appium.android.ime/.UnicodeIME
+2018-04-09 09:49:32:414 - info: [debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+2018-04-09 09:49:32:415 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:32:520 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:32:521 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","ime","enable","io.appium.android.ime/.UnicodeIME"]
+2018-04-09 09:49:33:234 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:33:418 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:33:418 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
+2018-04-09 09:49:34:145 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-04-09 09:49:34:147 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-04-09 09:49:34:147 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:34:272 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:34:273 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","list","packages","io.appium.settings"]
+2018-04-09 09:49:35:032 - info: [debug] [ADB] App is installed
+2018-04-09 09:49:35:032 - info: [debug] [ADB] Getting package info for io.appium.settings
+2018-04-09 09:49:35:033 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:35:157 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:35:157 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","dumpsys","package","io.appium.settings"]
+2018-04-09 09:49:35:311 - info: [ADB] Checking whether aapt is present
+2018-04-09 09:49:35:430 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade (5 >= 5)
+2018-04-09 09:49:35:432 - info: [debug] [ADB] Device API level: 24
+2018-04-09 09:49:35:432 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:35:530 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:35:530 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","dumpsys","package","io.appium.settings"]
+2018-04-09 09:49:35:680 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:35:793 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:35:794 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","dump","io.appium.settings"]
+2018-04-09 09:49:37:031 - info: [debug] [ADB] Got the following command chunks to execute: pm,grant,io.appium.settings,android.permission.WRITE_SETTINGS,;,pm,grant,io.appium.settings,android.permission.ACCESS_MOCK_LOCATION,;
+2018-04-09 09:49:37:032 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:37:122 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:37:122 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
+2018-04-09 09:49:38:512 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:38:696 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:38:696 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","ps"]
+2018-04-09 09:49:38:890 - info: [debug] [ADB] Device API level: 24
+2018-04-09 09:49:38:890 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:39:036 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:39:036 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+2018-04-09 09:49:39:222 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-04-09 09:49:39:222 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-04-09 09:49:39:222 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:39:382 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:39:383 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","list","packages","io.appium.unlock"]
+2018-04-09 09:49:40:172 - info: [debug] [ADB] App is installed
+2018-04-09 09:49:40:172 - info: [debug] [ADB] Getting package info for io.appium.unlock
+2018-04-09 09:49:40:173 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:40:255 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:40:255 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","dumpsys","package","io.appium.unlock"]
+2018-04-09 09:49:40:409 - info: [ADB] Checking whether aapt is present
+2018-04-09 09:49:40:549 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade (2 >= 2)
+2018-04-09 09:49:40:549 - info: [debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8201
+2018-04-09 09:49:40:550 - info: [debug] [ADB] Forwarding system: 8201 to device: 6790
+2018-04-09 09:49:40:550 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","forward","tcp:8201","tcp:6790"]
+2018-04-09 09:49:40:677 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:40:771 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:40:772 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","dumpsys","window"]
+2018-04-09 09:49:40:945 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-04-09 09:49:40:946 - info: [debug] [AndroidDriver] Extracting strings from apk ../apk/wdfp.apk null C:\Users\Myron.Guo\AppData\Local\Temp\com.elephant.myinvoice
+2018-04-09 09:49:40:947 - info: [debug] [ADB] Extracting strings for language: default
+2018-04-09 09:49:40:948 - info: [debug] [ADB] Device API level: 24
+2018-04-09 09:49:40:948 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:41:099 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:41:100 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","getprop","persist.sys.locale"]
+2018-04-09 09:49:41:297 - info: [debug] [ADB] Current device property 'persist.sys.locale': zh-CN
+2018-04-09 09:49:43:301 - info: [debug] [ADB] Reading strings from converted strings.json
+2018-04-09 09:49:43:305 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","push","C:\\Users\\Myron.Guo\\AppData\\Local\\Temp\\com.elephant.myinvoice\\strings.json","/data/local/tmp"]
+2018-04-09 09:49:43:611 - info: [debug] [ADB] Checking app cert for ../apk/wdfp.apk
+2018-04-09 09:49:43:617 - warn: [ADB] Cannot use apksigner tool for signature verification. Defaulting to verify.jar. Original error: Could not find apksigner.bat in D:\sdk\platform-tools\apksigner.bat,D:\sdk\emulator\apksigner.bat,D:\sdk\tools\apksigner.bat,D:\sdk\tools\bin\apksigner.bat,D:\sdk\build-tools\android-4.3\apksigner.bat, or supported build-tools under D:\sdk do you have the Android SDK installed at this location?
+2018-04-09 09:49:45:502 - info: [debug] [ADB] '../apk/wdfp.apk' is already signed.
+2018-04-09 09:49:45:869 - info: [AndroidDriver] Remote apk path is /data/local/tmp/b06fa2ebf8ccb1b1b6b2d93087a88da9.apk
+2018-04-09 09:49:45:870 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:46:198 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:46:199 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","ls","/data/local/tmp/b06fa2ebf8ccb1b1b6b2d93087a88da9.apk"]
+2018-04-09 09:49:46:343 - info: [debug] [AndroidDriver] Checking if app is installed
+2018-04-09 09:49:46:343 - info: [debug] [ADB] Getting install status for com.elephant.myinvoice
+2018-04-09 09:49:46:343 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:46:483 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:46:483 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","list","packages","com.elephant.myinvoice"]
+2018-04-09 09:49:47:260 - info: [debug] [ADB] App is not installed
+2018-04-09 09:49:47:260 - info: [AndroidDriver] Apk is not yet installed
+2018-04-09 09:49:47:261 - info: [AndroidDriver] installing apk from remote
+2018-04-09 09:49:47:261 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:47:393 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:47:394 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","mkdir","-p","/data/local/tmp"]
+2018-04-09 09:49:47:559 - info: [AndroidDriver] Clearing out any existing remote apks with the same hash
+2018-04-09 09:49:47:560 - info: [debug] [AndroidDriver] Removing any old apks
+2018-04-09 09:49:47:561 - info: [debug] [AndroidDriver] Except ["b06fa2ebf8ccb1b1b6b2d93087a88da9"]
+2018-04-09 09:49:47:561 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:47:671 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:47:671 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","ls","/data/local/tmp/*.apk"]
+2018-04-09 09:49:47:797 - info: [debug] [ADB] Uninstalling com.elephant.myinvoice
+2018-04-09 09:49:47:797 - info: [debug] [ADB] Getting install status for com.elephant.myinvoice
+2018-04-09 09:49:47:798 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:47:918 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:47:918 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","list","packages","com.elephant.myinvoice"]
+2018-04-09 09:49:48:668 - info: [debug] [ADB] App is not installed
+2018-04-09 09:49:48:669 - info: [ADB] com.elephant.myinvoice was not uninstalled, because it was not present on the device
+2018-04-09 09:49:48:669 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:48:806 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:48:806 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","pm","install","-r","/data/local/tmp/b06fa2ebf8ccb1b1b6b2d93087a88da9.apk"]
+2018-04-09 09:49:53:900 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:54:090 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:54:092 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","am","force-stop","io.appium.uiautomator2.server"]
+2018-04-09 09:49:55:017 - info: [UiAutomator2] Starting uiautomator2 server v0.3.0
+2018-04-09 09:49:55:018 - info: [UiAutomator2] Running command: 'adb -s K4Q6T16713001686 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+2018-04-09 09:49:55:022 - info: [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+2018-04-09 09:49:55:024 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+2018-04-09 09:49:56:082 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+2018-04-09 09:49:57:093 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+2018-04-09 09:49:58:101 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+2018-04-09 09:49:58:137 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+2018-04-09 09:49:58:138 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8201/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"deviceName":"K4Q6T16713001686","unicodeKeyboard":true,"automationName":"uiautomator2","resetKeyboard":true,"platformName":"Android","app":"../apk/wdfp.apk","udid":"K4Q6T16713001686","noReset":true},"deviceName":"K4Q6T16713001686","unicodeKeyboard":true,"automationName":"uiautomator2","resetKeyboard":true,"platformName":"Android","app":"../apk/wdfp.apk","udid":"K4Q6T16713001686","noReset":true,"deviceUDID":"K4Q6T16713001686","platformVersion":"7.0","deviceScreenSize":"1080x1920","deviceScreenDensity":480,"deviceModel":"NEM-AL10","deviceManufacturer":"HUAWEI","appPackage":"com.elephant.myinvoice"}}
+2018-04-09 09:49:58:173 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":"Created Session"}
+2018-04-09 09:49:58:177 - info: [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.elephant.myinvoice/com.elephant.myinvoice.MainActivity'. Starting it ourselves
+2018-04-09 09:49:58:178 - info: [debug] [ADB] Device API level: 24
+2018-04-09 09:49:58:179 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:49:58:365 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:49:58:365 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","am","start","-W","-n","com.elephant.myinvoice/com.elephant.myinvoice.MainActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2018-04-09 09:50:00:790 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.elephant.myinvoice' and activity: 'com.elephant.myinvoice.MainActivity' to be focused
+2018-04-09 09:50:00:790 - info: [debug] [ADB] Possible activities, to be checked: 'com.elephant.myinvoice.MainActivity'
+2018-04-09 09:50:00:792 - info: [debug] [ADB] Getting focused package and activity
+2018-04-09 09:50:00:792 - info: [debug] [ADB] Getting connected devices...
+2018-04-09 09:50:01:383 - info: [debug] [ADB] 1 device(s) connected
+2018-04-09 09:50:01:384 - info: [debug] [ADB] Running 'D:\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","K4Q6T16713001686","shell","dumpsys","window","windows"]
+2018-04-09 09:50:01:579 - info: [debug] [ADB] Found package: 'com.elephant.myinvoice' and fully qualified activity name : 'com.elephant.myinvoice.MainActivity'
+2018-04-09 09:50:01:581 - info: [Appium] New AndroidUiautomator2Driver session created successfully, session c81a6644-3565-41b6-9455-8d3e65a490c8 added to master session list
+2018-04-09 09:50:01:582 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1523267401582 (17:50:01 GMT+0800 (China Standard Time))
+2018-04-09 09:50:01:583 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"deviceName":"K4Q6T16713001686","unicodeKeyboard":true,"automationName":"uiautomator2","resetKeyboard":true,"platformName":"Android","app":"../apk/wdfp.apk","udid":"K4Q6T16713001686","noReset":true}
+2018-04-09 09:50:01:588 - info: [HTTP] <-- POST /wd/hub/session 200 40723 ms - 271 
+2018-04-09 09:50:03:602 - info: [HTTP] --> GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size {}
+2018-04-09 09:50:03:606 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-04-09 09:50:03:608 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size] to [GET http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/window/current/size] with body: {}
+2018-04-09 09:50:03:646 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"2bb86a88-1cbc-4f01-96fb-86620e0c5d39\",\"status\":0,\"value\":{\"height\":1812,\"width\":1080}}"
+2018-04-09 09:50:03:647 - info: [JSONWP Proxy] Replacing sessionId 2bb86a88-1cbc-4f01-96fb-86620e0c5d39 with c81a6644-3565-41b6-9455-8d3e65a490c8
+2018-04-09 09:50:03:650 - info: [HTTP] <-- GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size 200 46 ms - 100 
+2018-04-09 09:50:03:656 - info: [HTTP] --> GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size {}
+2018-04-09 09:50:03:657 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-04-09 09:50:03:658 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size] to [GET http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/window/current/size] with body: {}
+2018-04-09 09:50:03:679 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"2bb86a88-1cbc-4f01-96fb-86620e0c5d39\",\"status\":0,\"value\":{\"height\":1812,\"width\":1080}}"
+2018-04-09 09:50:03:680 - info: [JSONWP Proxy] Replacing sessionId 2bb86a88-1cbc-4f01-96fb-86620e0c5d39 with c81a6644-3565-41b6-9455-8d3e65a490c8
+2018-04-09 09:50:03:681 - info: [HTTP] <-- GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size 200 25 ms - 100 
+2018-04-09 09:50:03:690 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","actions":[{"action":"press","options":{"y":1629,"x":540}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"y":181,"x":540}},{"action":"release","options":{}}]}
+2018-04-09 09:50:03:694 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"y":1629,"x":540}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"y":181,"x":540}},{"action":"release","options":{}}],"c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:03:699 - info: [debug] [JSONWP Proxy] Proxying [POST /touch/perform] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/touch/perform] with body: {"startX":540,"startY":1629,"endX":540,"endY":181,"steps":56}
+2018-04-09 09:50:04:699 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:04:700 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: true
+2018-04-09 09:50:04:701 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform 200 1012 ms - 76 
+2018-04-09 09:50:05:703 - info: [HTTP] --> GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size {}
+2018-04-09 09:50:05:704 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-04-09 09:50:05:705 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size] to [GET http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/window/current/size] with body: {}
+2018-04-09 09:50:05:720 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"2bb86a88-1cbc-4f01-96fb-86620e0c5d39\",\"status\":0,\"value\":{\"height\":1812,\"width\":1080}}"
+2018-04-09 09:50:05:721 - info: [JSONWP Proxy] Replacing sessionId 2bb86a88-1cbc-4f01-96fb-86620e0c5d39 with c81a6644-3565-41b6-9455-8d3e65a490c8
+2018-04-09 09:50:05:722 - info: [HTTP] <-- GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size 200 18 ms - 100 
+2018-04-09 09:50:05:729 - info: [HTTP] --> GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size {}
+2018-04-09 09:50:05:730 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-04-09 09:50:05:730 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size] to [GET http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/window/current/size] with body: {}
+2018-04-09 09:50:05:754 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"2bb86a88-1cbc-4f01-96fb-86620e0c5d39\",\"status\":0,\"value\":{\"height\":1812,\"width\":1080}}"
+2018-04-09 09:50:05:754 - info: [JSONWP Proxy] Replacing sessionId 2bb86a88-1cbc-4f01-96fb-86620e0c5d39 with c81a6644-3565-41b6-9455-8d3e65a490c8
+2018-04-09 09:50:05:755 - info: [HTTP] <-- GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size 200 26 ms - 100 
+2018-04-09 09:50:05:758 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","actions":[{"action":"press","options":{"y":906,"x":972}},{"action":"wait","options":{"ms":1000}},{"action":"moveTo","options":{"y":906,"x":108}},{"action":"release","options":{}}]}
+2018-04-09 09:50:05:759 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"y":906,"x":972}},{"action":"wait","options":{"ms":1000}},{"action":"moveTo","options":{"y":906,"x":108}},{"action":"release","options":{}}],"c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:05:761 - info: [debug] [JSONWP Proxy] Proxying [POST /touch/perform] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/touch/perform] with body: {"startX":972,"startY":906,"endX":108,"endY":906,"steps":28}
+2018-04-09 09:50:06:284 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:06:285 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: true
+2018-04-09 09:50:06:285 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform 200 527 ms - 76 
+2018-04-09 09:50:07:300 - info: [HTTP] --> GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size {}
+2018-04-09 09:50:07:310 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-04-09 09:50:07:311 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size] to [GET http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/window/current/size] with body: {}
+2018-04-09 09:50:07:363 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"2bb86a88-1cbc-4f01-96fb-86620e0c5d39\",\"status\":0,\"value\":{\"height\":1812,\"width\":1080}}"
+2018-04-09 09:50:07:364 - info: [JSONWP Proxy] Replacing sessionId 2bb86a88-1cbc-4f01-96fb-86620e0c5d39 with c81a6644-3565-41b6-9455-8d3e65a490c8
+2018-04-09 09:50:07:365 - info: [HTTP] <-- GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size 200 66 ms - 100 
+2018-04-09 09:50:07:368 - info: [HTTP] --> GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size {}
+2018-04-09 09:50:07:368 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-04-09 09:50:07:369 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size] to [GET http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/window/current/size] with body: {}
+2018-04-09 09:50:07:391 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"2bb86a88-1cbc-4f01-96fb-86620e0c5d39\",\"status\":0,\"value\":{\"height\":1812,\"width\":1080}}"
+2018-04-09 09:50:07:391 - info: [JSONWP Proxy] Replacing sessionId 2bb86a88-1cbc-4f01-96fb-86620e0c5d39 with c81a6644-3565-41b6-9455-8d3e65a490c8
+2018-04-09 09:50:07:392 - info: [HTTP] <-- GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size 200 24 ms - 100 
+2018-04-09 09:50:07:397 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","actions":[{"action":"press","options":{"y":906,"x":972}},{"action":"wait","options":{"ms":1000}},{"action":"moveTo","options":{"y":906,"x":108}},{"action":"release","options":{}}]}
+2018-04-09 09:50:07:397 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"y":906,"x":972}},{"action":"wait","options":{"ms":1000}},{"action":"moveTo","options":{"y":906,"x":108}},{"action":"release","options":{}}],"c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:07:400 - info: [debug] [JSONWP Proxy] Proxying [POST /touch/perform] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/touch/perform] with body: {"startX":972,"startY":906,"endX":108,"endY":906,"steps":28}
+2018-04-09 09:50:07:882 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:07:883 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: true
+2018-04-09 09:50:07:884 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform 200 487 ms - 76 
+2018-04-09 09:50:08:888 - info: [HTTP] --> GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size {}
+2018-04-09 09:50:08:889 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-04-09 09:50:08:890 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size] to [GET http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/window/current/size] with body: {}
+2018-04-09 09:50:08:915 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"2bb86a88-1cbc-4f01-96fb-86620e0c5d39\",\"status\":0,\"value\":{\"height\":1812,\"width\":1080}}"
+2018-04-09 09:50:08:915 - info: [JSONWP Proxy] Replacing sessionId 2bb86a88-1cbc-4f01-96fb-86620e0c5d39 with c81a6644-3565-41b6-9455-8d3e65a490c8
+2018-04-09 09:50:08:916 - info: [HTTP] <-- GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size 200 28 ms - 100 
+2018-04-09 09:50:08:919 - info: [HTTP] --> GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size {}
+2018-04-09 09:50:08:920 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-04-09 09:50:08:921 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size] to [GET http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/window/current/size] with body: {}
+2018-04-09 09:50:08:941 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"2bb86a88-1cbc-4f01-96fb-86620e0c5d39\",\"status\":0,\"value\":{\"height\":1812,\"width\":1080}}"
+2018-04-09 09:50:08:942 - info: [JSONWP Proxy] Replacing sessionId 2bb86a88-1cbc-4f01-96fb-86620e0c5d39 with c81a6644-3565-41b6-9455-8d3e65a490c8
+2018-04-09 09:50:08:943 - info: [HTTP] <-- GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size 200 23 ms - 100 
+2018-04-09 09:50:08:946 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","actions":[{"action":"press","options":{"y":906,"x":972}},{"action":"wait","options":{"ms":1000}},{"action":"moveTo","options":{"y":906,"x":108}},{"action":"release","options":{}}]}
+2018-04-09 09:50:08:947 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"y":906,"x":972}},{"action":"wait","options":{"ms":1000}},{"action":"moveTo","options":{"y":906,"x":108}},{"action":"release","options":{}}],"c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:08:949 - info: [debug] [JSONWP Proxy] Proxying [POST /touch/perform] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/touch/perform] with body: {"startX":972,"startY":906,"endX":108,"endY":906,"steps":28}
+2018-04-09 09:50:09:449 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:09:450 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: true
+2018-04-09 09:50:09:451 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform 200 505 ms - 76 
+2018-04-09 09:50:10:456 - info: [HTTP] --> GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size {}
+2018-04-09 09:50:10:457 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-04-09 09:50:10:458 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size] to [GET http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/window/current/size] with body: {}
+2018-04-09 09:50:10:479 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"2bb86a88-1cbc-4f01-96fb-86620e0c5d39\",\"status\":0,\"value\":{\"height\":1812,\"width\":1080}}"
+2018-04-09 09:50:10:479 - info: [JSONWP Proxy] Replacing sessionId 2bb86a88-1cbc-4f01-96fb-86620e0c5d39 with c81a6644-3565-41b6-9455-8d3e65a490c8
+2018-04-09 09:50:10:480 - info: [HTTP] <-- GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size 200 24 ms - 100 
+2018-04-09 09:50:10:484 - info: [HTTP] --> GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size {}
+2018-04-09 09:50:10:485 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-04-09 09:50:10:486 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size] to [GET http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/window/current/size] with body: {}
+2018-04-09 09:50:10:501 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"2bb86a88-1cbc-4f01-96fb-86620e0c5d39\",\"status\":0,\"value\":{\"height\":1812,\"width\":1080}}"
+2018-04-09 09:50:10:501 - info: [JSONWP Proxy] Replacing sessionId 2bb86a88-1cbc-4f01-96fb-86620e0c5d39 with c81a6644-3565-41b6-9455-8d3e65a490c8
+2018-04-09 09:50:10:502 - info: [HTTP] <-- GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/window/current/size 200 18 ms - 100 
+2018-04-09 09:50:10:505 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","actions":[{"action":"press","options":{"y":906,"x":972}},{"action":"wait","options":{"ms":1000}},{"action":"moveTo","options":{"y":906,"x":108}},{"action":"release","options":{}}]}
+2018-04-09 09:50:10:506 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"y":906,"x":972}},{"action":"wait","options":{"ms":1000}},{"action":"moveTo","options":{"y":906,"x":108}},{"action":"release","options":{}}],"c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:10:509 - info: [debug] [JSONWP Proxy] Proxying [POST /touch/perform] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/touch/perform] with body: {"startX":972,"startY":906,"endX":108,"endY":906,"steps":28}
+2018-04-09 09:50:10:983 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:10:983 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: true
+2018-04-09 09:50:10:985 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform 200 479 ms - 76 
+2018-04-09 09:50:10:989 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element {"using":"class name","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","value":"android.widget.ImageView"}
+2018-04-09 09:50:10:990 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["class name","android.widget.ImageView","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:10:991 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:10:993 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:10:993 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-09 09:50:10:995 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element] with body: {"strategy":"class name","selector":"android.widget.ImageView","context":"","multiple":false}
+2018-04-09 09:50:11:811 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":{"ELEMENT":"9075ab6e-2d04-448a-9d82-03b580c1c1b9"}}
+2018-04-09 09:50:11:813 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"9075ab6e-2d04-448a-9d82-03b580c1c1b9"}
+2018-04-09 09:50:11:814 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element 200 824 ms - 122 
+2018-04-09 09:50:11:817 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/9075ab6e-2d04-448a-9d82-03b580c1c1b9/click {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","id":"9075ab6e-2d04-448a-9d82-03b580c1c1b9"}
+2018-04-09 09:50:11:818 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["9075ab6e-2d04-448a-9d82-03b580c1c1b9","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:11:820 - info: [debug] [JSONWP Proxy] Proxying [POST /element/9075ab6e-2d04-448a-9d82-03b580c1c1b9/click] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element/9075ab6e-2d04-448a-9d82-03b580c1c1b9/click] with body: {"element":"9075ab6e-2d04-448a-9d82-03b580c1c1b9"}
+2018-04-09 09:50:11:855 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:11:856 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-04-09 09:50:11:857 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/9075ab6e-2d04-448a-9d82-03b580c1c1b9/click 200 40 ms - 76 
+2018-04-09 09:50:14:865 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/elements {"using":"class name","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","value":"android.widget.EditText"}
+2018-04-09 09:50:14:866 - info: [debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["class name","android.widget.EditText","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:14:867 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:14:867 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:14:867 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-09 09:50:14:868 - info: [debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/elements] with body: {"strategy":"class name","selector":"android.widget.EditText","context":"","multiple":true}
+2018-04-09 09:50:14:908 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":[{"ELEMENT":"311b9b0f-4f70-41aa-bc3b-99cb6829f607"},{"ELEMENT":"c69f66dd-aa41-4b5f-bcba-c4a4c14f413b"}]}
+2018-04-09 09:50:14:909 - info: [debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"311b9b0f-4f70-41aa-bc3b-99cb6829f607"},{"ELEMENT":"c69f66dd-aa41-4b5f-bcba-c4a4c14f413b"}]
+2018-04-09 09:50:14:910 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/elements 200 44 ms - 175 
+2018-04-09 09:50:14:913 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/311b9b0f-4f70-41aa-bc3b-99cb6829f607/value {"text":"18550903915","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","id":"311b9b0f-4f70-41aa-bc3b-99cb6829f607","value":["1","8","5","5","0","9","0","3","9","1","5"]}
+2018-04-09 09:50:14:916 - info: [debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["1","8","5","5","0","9","0","3","9","1","5"],"311b9b0f-4f70-41aa-bc3b-99cb6829f607","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:14:917 - info: [debug] [JSONWP Proxy] Proxying [POST /element/311b9b0f-4f70-41aa-bc3b-99cb6829f607/value] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element/311b9b0f-4f70-41aa-bc3b-99cb6829f607/value] with body: {"elementId":"311b9b0f-4f70-41aa-bc3b-99cb6829f607","text":"18550903915","replace":false,"unicodeKeyboard":true}
+2018-04-09 09:50:15:527 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":""}
+2018-04-09 09:50:15:528 - info: [debug] [MJSONWP] Responding to client with driver.setValue() result: ""
+2018-04-09 09:50:15:529 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/311b9b0f-4f70-41aa-bc3b-99cb6829f607/value 200 615 ms - 74 
+2018-04-09 09:50:15:534 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/elements {"using":"class name","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","value":"android.widget.EditText"}
+2018-04-09 09:50:15:534 - info: [debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["class name","android.widget.EditText","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:15:535 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:15:535 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:15:535 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-09 09:50:15:536 - info: [debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/elements] with body: {"strategy":"class name","selector":"android.widget.EditText","context":"","multiple":true}
+2018-04-09 09:50:16:015 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":[{"ELEMENT":"288e9b65-c734-4b91-a24e-6d1b958897f0"},{"ELEMENT":"02f176be-686f-43f2-9181-c8d93ab413bc"}]}
+2018-04-09 09:50:16:016 - info: [debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"288e9b65-c734-4b91-a24e-6d1b958897f0"},{"ELEMENT":"02f176be-686f-43f2-9181-c8d93ab413bc"}]
+2018-04-09 09:50:16:017 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/elements 200 483 ms - 175 
+2018-04-09 09:50:16:022 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/02f176be-686f-43f2-9181-c8d93ab413bc/value {"text":"qwe123","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","id":"02f176be-686f-43f2-9181-c8d93ab413bc","value":["q","w","e","1","2","3"]}
+2018-04-09 09:50:16:023 - info: [debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["q","w","e","1","2","3"],"02f176be-686f-43f2-9181-c8d93ab413bc","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:16:024 - info: [debug] [JSONWP Proxy] Proxying [POST /element/02f176be-686f-43f2-9181-c8d93ab413bc/value] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element/02f176be-686f-43f2-9181-c8d93ab413bc/value] with body: {"elementId":"02f176be-686f-43f2-9181-c8d93ab413bc","text":"qwe123","replace":false,"unicodeKeyboard":true}
+2018-04-09 09:50:16:924 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":""}
+2018-04-09 09:50:16:924 - info: [debug] [MJSONWP] Responding to client with driver.setValue() result: ""
+2018-04-09 09:50:16:925 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/02f176be-686f-43f2-9181-c8d93ab413bc/value 200 902 ms - 74 
+2018-04-09 09:50:16:930 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element {"using":"-android uiautomator","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","value":"new UiSelector().text(\"登录\")"}
+2018-04-09 09:50:16:931 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().text(\"登录\")","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:16:931 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:16:931 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:16:932 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-09 09:50:16:932 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"登录\")","context":"","multiple":false}
+2018-04-09 09:50:17:935 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":{"ELEMENT":"95c790be-7952-4503-8ce3-e3cf5d2fbde8"}}
+2018-04-09 09:50:17:937 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"95c790be-7952-4503-8ce3-e3cf5d2fbde8"}
+2018-04-09 09:50:17:940 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element 200 1008 ms - 122 
+2018-04-09 09:50:17:943 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/95c790be-7952-4503-8ce3-e3cf5d2fbde8/click {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","id":"95c790be-7952-4503-8ce3-e3cf5d2fbde8"}
+2018-04-09 09:50:17:944 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["95c790be-7952-4503-8ce3-e3cf5d2fbde8","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:17:945 - info: [debug] [JSONWP Proxy] Proxying [POST /element/95c790be-7952-4503-8ce3-e3cf5d2fbde8/click] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element/95c790be-7952-4503-8ce3-e3cf5d2fbde8/click] with body: {"element":"95c790be-7952-4503-8ce3-e3cf5d2fbde8"}
+2018-04-09 09:50:19:691 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:19:691 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-04-09 09:50:19:693 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/95c790be-7952-4503-8ce3-e3cf5d2fbde8/click 200 1749 ms - 76 
+2018-04-09 09:50:19:697 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element {"using":"-android uiautomator","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","value":"new UiSelector().description(\"plusIcon\")"}
+2018-04-09 09:50:19:698 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().description(\"plusIcon\")","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:19:698 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:19:699 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:19:699 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-09 09:50:19:699 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().description(\"plusIcon\")","context":"","multiple":false}
+2018-04-09 09:50:19:932 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":{"ELEMENT":"c2862de1-adac-44bf-b523-1759dbc762dc"}}
+2018-04-09 09:50:19:933 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"c2862de1-adac-44bf-b523-1759dbc762dc"}
+2018-04-09 09:50:19:934 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element 200 237 ms - 122 
+2018-04-09 09:50:19:939 - info: [HTTP] --> GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/c2862de1-adac-44bf-b523-1759dbc762dc/displayed {}
+2018-04-09 09:50:19:940 - info: [debug] [MJSONWP] Calling AppiumDriver.elementDisplayed() with args: ["c2862de1-adac-44bf-b523-1759dbc762dc","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:19:941 - info: [debug] [JSONWP Proxy] Proxying [GET /element/c2862de1-adac-44bf-b523-1759dbc762dc/attribute/displayed] to [GET http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element/c2862de1-adac-44bf-b523-1759dbc762dc/attribute/displayed] with body: {}
+2018-04-09 09:50:19:980 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"2bb86a88-1cbc-4f01-96fb-86620e0c5d39\",\"status\":0,\"value\":\"true\"}"
+2018-04-09 09:50:19:981 - info: [debug] [MJSONWP] Responding to client with driver.elementDisplayed() result: true
+2018-04-09 09:50:19:985 - info: [HTTP] <-- GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/c2862de1-adac-44bf-b523-1759dbc762dc/displayed 200 43 ms - 76 
+2018-04-09 09:50:29:988 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/elements {"using":"-android uiautomator","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","value":"new UiSelector().text(\"销售方:\")"}
+2018-04-09 09:50:29:989 - info: [debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().text(\"销售方:\")","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:29:991 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:29:992 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:29:992 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-09 09:50:29:992 - info: [debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"销售方:\")","context":"","multiple":true}
+2018-04-09 09:50:30:190 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":[{"ELEMENT":"bc673e49-ebf1-4723-afe6-abe1c7f239fe"},{"ELEMENT":"cc385ebf-474d-4e59-b7a0-f99eecb731cb"},{"ELEMENT":"1d653db2-3176-4a56-85d2-e51790d735ee"}]}
+2018-04-09 09:50:30:191 - info: [debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"bc673e49-ebf1-4723-afe6-abe1c7f239fe"},{"ELEMENT":"cc385ebf-474d-4e59-b7a0-f99eecb731cb"},{"ELEMENT":"1d653db2-3176-4a56-85d2-e51790d735ee"}]
+2018-04-09 09:50:30:192 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/elements 200 203 ms - 226 
+2018-04-09 09:50:30:198 - info: [HTTP] --> GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/bc673e49-ebf1-4723-afe6-abe1c7f239fe/location {}
+2018-04-09 09:50:30:199 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-04-09 09:50:30:200 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/bc673e49-ebf1-4723-afe6-abe1c7f239fe/location] to [GET http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element/bc673e49-ebf1-4723-afe6-abe1c7f239fe/location] with body: {}
+2018-04-09 09:50:30:239 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"2bb86a88-1cbc-4f01-96fb-86620e0c5d39\",\"status\":0,\"value\":{\"x\":60,\"y\":661}}"
+2018-04-09 09:50:30:239 - info: [JSONWP Proxy] Replacing sessionId 2bb86a88-1cbc-4f01-96fb-86620e0c5d39 with c81a6644-3565-41b6-9455-8d3e65a490c8
+2018-04-09 09:50:30:240 - info: [HTTP] <-- GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/bc673e49-ebf1-4723-afe6-abe1c7f239fe/location 200 42 ms - 88 
+2018-04-09 09:50:30:244 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","actions":[{"action":"press","options":{"y":661,"x":900}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"y":661,"x":0}},{"action":"release","options":{}}]}
+2018-04-09 09:50:30:245 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"y":661,"x":900}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"y":661,"x":0}},{"action":"release","options":{}}],"c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:30:247 - info: [debug] [JSONWP Proxy] Proxying [POST /touch/perform] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/touch/perform] with body: {"startX":900,"startY":661,"endX":0,"endY":661,"steps":56}
+2018-04-09 09:50:31:193 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:31:194 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: true
+2018-04-09 09:50:31:195 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform 200 951 ms - 76 
+2018-04-09 09:50:32:199 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element {"using":"-android uiautomator","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","value":"new UiSelector().description(\"rowDeleteIcon\")"}
+2018-04-09 09:50:32:199 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().description(\"rowDeleteIcon\")","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:32:200 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:32:200 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:32:200 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-09 09:50:32:201 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().description(\"rowDeleteIcon\")","context":"","multiple":false}
+2018-04-09 09:50:32:941 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":{"ELEMENT":"e3e40b39-9206-4bf4-88ee-b0799bb9b8ec"}}
+2018-04-09 09:50:32:944 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"e3e40b39-9206-4bf4-88ee-b0799bb9b8ec"}
+2018-04-09 09:50:32:945 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element 200 746 ms - 122 
+2018-04-09 09:50:32:949 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/e3e40b39-9206-4bf4-88ee-b0799bb9b8ec/click {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","id":"e3e40b39-9206-4bf4-88ee-b0799bb9b8ec"}
+2018-04-09 09:50:32:950 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["e3e40b39-9206-4bf4-88ee-b0799bb9b8ec","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:32:950 - info: [debug] [JSONWP Proxy] Proxying [POST /element/e3e40b39-9206-4bf4-88ee-b0799bb9b8ec/click] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element/e3e40b39-9206-4bf4-88ee-b0799bb9b8ec/click] with body: {"element":"e3e40b39-9206-4bf4-88ee-b0799bb9b8ec"}
+2018-04-09 09:50:33:936 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:33:937 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-04-09 09:50:33:939 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/e3e40b39-9206-4bf4-88ee-b0799bb9b8ec/click 200 989 ms - 76 
+2018-04-09 09:50:33:944 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element {"using":"-android uiautomator","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","value":"new UiSelector().text(\"确定\")"}
+2018-04-09 09:50:33:944 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().text(\"确定\")","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:33:945 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:33:946 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:33:946 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-09 09:50:33:947 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"确定\")","context":"","multiple":false}
+2018-04-09 09:50:33:979 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":{"ELEMENT":"bf093326-66cc-40c4-be0a-377e7278e578"}}
+2018-04-09 09:50:33:979 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"bf093326-66cc-40c4-be0a-377e7278e578"}
+2018-04-09 09:50:33:980 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element 200 36 ms - 122 
+2018-04-09 09:50:33:984 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/bf093326-66cc-40c4-be0a-377e7278e578/click {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","id":"bf093326-66cc-40c4-be0a-377e7278e578"}
+2018-04-09 09:50:33:984 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["bf093326-66cc-40c4-be0a-377e7278e578","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:33:985 - info: [debug] [JSONWP Proxy] Proxying [POST /element/bf093326-66cc-40c4-be0a-377e7278e578/click] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element/bf093326-66cc-40c4-be0a-377e7278e578/click] with body: {"element":"bf093326-66cc-40c4-be0a-377e7278e578"}
+2018-04-09 09:50:36:073 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:36:074 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-04-09 09:50:36:076 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/bf093326-66cc-40c4-be0a-377e7278e578/click 200 2091 ms - 76 
+2018-04-09 09:50:39:080 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/elements {"using":"-android uiautomator","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","value":"new UiSelector().text(\"销售方:\")"}
+2018-04-09 09:50:39:081 - info: [debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().text(\"销售方:\")","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:39:082 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:39:082 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:39:082 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-09 09:50:39:083 - info: [debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"销售方:\")","context":"","multiple":true}
+2018-04-09 09:50:39:702 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":[{"ELEMENT":"d6c38c1d-0f5a-44cc-b9db-b7719b7524e2"},{"ELEMENT":"c25a6973-c3e5-4c3f-ba99-d51990730f33"}]}
+2018-04-09 09:50:39:703 - info: [debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"d6c38c1d-0f5a-44cc-b9db-b7719b7524e2"},{"ELEMENT":"c25a6973-c3e5-4c3f-ba99-d51990730f33"}]
+2018-04-09 09:50:39:704 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/elements 200 624 ms - 175 
+2018-04-09 09:50:39:707 - info: [HTTP] --> GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/d6c38c1d-0f5a-44cc-b9db-b7719b7524e2/location {}
+2018-04-09 09:50:39:708 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-04-09 09:50:39:709 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/d6c38c1d-0f5a-44cc-b9db-b7719b7524e2/location] to [GET http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element/d6c38c1d-0f5a-44cc-b9db-b7719b7524e2/location] with body: {}
+2018-04-09 09:50:39:767 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"2bb86a88-1cbc-4f01-96fb-86620e0c5d39\",\"status\":0,\"value\":{\"x\":60,\"y\":661}}"
+2018-04-09 09:50:39:768 - info: [JSONWP Proxy] Replacing sessionId 2bb86a88-1cbc-4f01-96fb-86620e0c5d39 with c81a6644-3565-41b6-9455-8d3e65a490c8
+2018-04-09 09:50:39:769 - info: [HTTP] <-- GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/d6c38c1d-0f5a-44cc-b9db-b7719b7524e2/location 200 61 ms - 88 
+2018-04-09 09:50:39:777 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","actions":[{"action":"press","options":{"y":661,"x":900}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"y":661,"x":0}},{"action":"release","options":{}}]}
+2018-04-09 09:50:39:778 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"y":661,"x":900}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"y":661,"x":0}},{"action":"release","options":{}}],"c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:39:781 - info: [debug] [JSONWP Proxy] Proxying [POST /touch/perform] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/touch/perform] with body: {"startX":900,"startY":661,"endX":0,"endY":661,"steps":56}
+2018-04-09 09:50:40:786 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:40:787 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: true
+2018-04-09 09:50:40:788 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform 200 1010 ms - 76 
+2018-04-09 09:50:41:796 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element {"using":"-android uiautomator","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","value":"new UiSelector().description(\"rowDeleteIcon\")"}
+2018-04-09 09:50:41:797 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().description(\"rowDeleteIcon\")","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:41:798 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:41:798 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:41:798 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-09 09:50:41:798 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().description(\"rowDeleteIcon\")","context":"","multiple":false}
+2018-04-09 09:50:42:512 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":{"ELEMENT":"f5bd69b5-79f3-4509-ab00-ce1a4f8e32c4"}}
+2018-04-09 09:50:42:513 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"f5bd69b5-79f3-4509-ab00-ce1a4f8e32c4"}
+2018-04-09 09:50:42:514 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element 200 717 ms - 122 
+2018-04-09 09:50:42:517 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/f5bd69b5-79f3-4509-ab00-ce1a4f8e32c4/click {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","id":"f5bd69b5-79f3-4509-ab00-ce1a4f8e32c4"}
+2018-04-09 09:50:42:518 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["f5bd69b5-79f3-4509-ab00-ce1a4f8e32c4","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:42:520 - info: [debug] [JSONWP Proxy] Proxying [POST /element/f5bd69b5-79f3-4509-ab00-ce1a4f8e32c4/click] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element/f5bd69b5-79f3-4509-ab00-ce1a4f8e32c4/click] with body: {"element":"f5bd69b5-79f3-4509-ab00-ce1a4f8e32c4"}
+2018-04-09 09:50:43:949 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:43:950 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-04-09 09:50:43:951 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/f5bd69b5-79f3-4509-ab00-ce1a4f8e32c4/click 200 1434 ms - 76 
+2018-04-09 09:50:43:956 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element {"using":"-android uiautomator","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","value":"new UiSelector().text(\"确定\")"}
+2018-04-09 09:50:43:956 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().text(\"确定\")","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:43:957 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:43:957 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:43:957 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-09 09:50:43:958 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"确定\")","context":"","multiple":false}
+2018-04-09 09:50:43:988 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":{"ELEMENT":"39794c89-f7a3-423c-a121-814d8c3773f1"}}
+2018-04-09 09:50:43:989 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"39794c89-f7a3-423c-a121-814d8c3773f1"}
+2018-04-09 09:50:43:990 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element 200 34 ms - 122 
+2018-04-09 09:50:43:995 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/39794c89-f7a3-423c-a121-814d8c3773f1/click {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","id":"39794c89-f7a3-423c-a121-814d8c3773f1"}
+2018-04-09 09:50:43:995 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["39794c89-f7a3-423c-a121-814d8c3773f1","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:43:997 - info: [debug] [JSONWP Proxy] Proxying [POST /element/39794c89-f7a3-423c-a121-814d8c3773f1/click] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element/39794c89-f7a3-423c-a121-814d8c3773f1/click] with body: {"element":"39794c89-f7a3-423c-a121-814d8c3773f1"}
+2018-04-09 09:50:46:068 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:46:069 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-04-09 09:50:46:070 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/39794c89-f7a3-423c-a121-814d8c3773f1/click 200 2074 ms - 76 
+2018-04-09 09:50:49:076 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/elements {"using":"-android uiautomator","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","value":"new UiSelector().text(\"销售方:\")"}
+2018-04-09 09:50:49:076 - info: [debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().text(\"销售方:\")","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:49:077 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:49:077 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:49:077 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-09 09:50:49:077 - info: [debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"销售方:\")","context":"","multiple":true}
+2018-04-09 09:50:50:222 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":[{"ELEMENT":"61667192-d31e-4637-be07-2855ebf854b8"}]}
+2018-04-09 09:50:50:224 - info: [debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"61667192-d31e-4637-be07-2855ebf854b8"}]
+2018-04-09 09:50:50:225 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/elements 200 1149 ms - 124 
+2018-04-09 09:50:50:229 - info: [HTTP] --> GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/61667192-d31e-4637-be07-2855ebf854b8/location {}
+2018-04-09 09:50:50:230 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-04-09 09:50:50:231 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/61667192-d31e-4637-be07-2855ebf854b8/location] to [GET http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element/61667192-d31e-4637-be07-2855ebf854b8/location] with body: {}
+2018-04-09 09:50:50:261 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"2bb86a88-1cbc-4f01-96fb-86620e0c5d39\",\"status\":0,\"value\":{\"x\":60,\"y\":661}}"
+2018-04-09 09:50:50:261 - info: [JSONWP Proxy] Replacing sessionId 2bb86a88-1cbc-4f01-96fb-86620e0c5d39 with c81a6644-3565-41b6-9455-8d3e65a490c8
+2018-04-09 09:50:50:262 - info: [HTTP] <-- GET /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/61667192-d31e-4637-be07-2855ebf854b8/location 200 32 ms - 88 
+2018-04-09 09:50:50:265 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","actions":[{"action":"press","options":{"y":661,"x":900}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"y":661,"x":0}},{"action":"release","options":{}}]}
+2018-04-09 09:50:50:266 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"y":661,"x":900}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"y":661,"x":0}},{"action":"release","options":{}}],"c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:50:268 - info: [debug] [JSONWP Proxy] Proxying [POST /touch/perform] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/touch/perform] with body: {"startX":900,"startY":661,"endX":0,"endY":661,"steps":56}
+2018-04-09 09:50:51:206 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:51:208 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: true
+2018-04-09 09:50:51:209 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/touch/perform 200 943 ms - 76 
+2018-04-09 09:50:52:215 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element {"using":"-android uiautomator","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","value":"new UiSelector().description(\"rowDeleteIcon\")"}
+2018-04-09 09:50:52:216 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().description(\"rowDeleteIcon\")","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:52:217 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:52:217 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:52:217 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-09 09:50:52:217 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().description(\"rowDeleteIcon\")","context":"","multiple":false}
+2018-04-09 09:50:52:979 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":{"ELEMENT":"ab0bc746-2637-4195-bad3-510319dcbc8d"}}
+2018-04-09 09:50:52:979 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"ab0bc746-2637-4195-bad3-510319dcbc8d"}
+2018-04-09 09:50:52:981 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element 200 765 ms - 122 
+2018-04-09 09:50:52:984 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/ab0bc746-2637-4195-bad3-510319dcbc8d/click {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","id":"ab0bc746-2637-4195-bad3-510319dcbc8d"}
+2018-04-09 09:50:52:985 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["ab0bc746-2637-4195-bad3-510319dcbc8d","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:52:985 - info: [debug] [JSONWP Proxy] Proxying [POST /element/ab0bc746-2637-4195-bad3-510319dcbc8d/click] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element/ab0bc746-2637-4195-bad3-510319dcbc8d/click] with body: {"element":"ab0bc746-2637-4195-bad3-510319dcbc8d"}
+2018-04-09 09:50:54:826 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:54:827 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-04-09 09:50:54:828 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/ab0bc746-2637-4195-bad3-510319dcbc8d/click 200 1843 ms - 76 
+2018-04-09 09:50:54:832 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element {"using":"-android uiautomator","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","value":"new UiSelector().text(\"确定\")"}
+2018-04-09 09:50:54:833 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().text(\"确定\")","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:54:834 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:54:834 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:54:835 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-09 09:50:54:835 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"确定\")","context":"","multiple":false}
+2018-04-09 09:50:54:857 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":{"ELEMENT":"be3b52b6-5cc9-4853-9525-bba4cd325ea4"}}
+2018-04-09 09:50:54:859 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"be3b52b6-5cc9-4853-9525-bba4cd325ea4"}
+2018-04-09 09:50:54:860 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element 200 27 ms - 122 
+2018-04-09 09:50:54:867 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/be3b52b6-5cc9-4853-9525-bba4cd325ea4/click {"sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","id":"be3b52b6-5cc9-4853-9525-bba4cd325ea4"}
+2018-04-09 09:50:54:867 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["be3b52b6-5cc9-4853-9525-bba4cd325ea4","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:54:868 - info: [debug] [JSONWP Proxy] Proxying [POST /element/be3b52b6-5cc9-4853-9525-bba4cd325ea4/click] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/element/be3b52b6-5cc9-4853-9525-bba4cd325ea4/click] with body: {"element":"be3b52b6-5cc9-4853-9525-bba4cd325ea4"}
+2018-04-09 09:50:56:032 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":true}
+2018-04-09 09:50:56:033 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-04-09 09:50:56:034 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/element/be3b52b6-5cc9-4853-9525-bba4cd325ea4/click 200 1167 ms - 76 
+2018-04-09 09:50:59:039 - info: [HTTP] --> POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/elements {"using":"-android uiautomator","sessionId":"c81a6644-3565-41b6-9455-8d3e65a490c8","value":"new UiSelector().text(\"销售方:\")"}
+2018-04-09 09:50:59:040 - info: [debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().text(\"销售方:\")","c81a6644-3565-41b6-9455-8d3e65a490c8"]
+2018-04-09 09:50:59:041 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:59:041 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-09 09:50:59:041 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-09 09:50:59:041 - info: [debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8201/wd/hub/session/2bb86a88-1cbc-4f01-96fb-86620e0c5d39/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"销售方:\")","context":"","multiple":true}
+2018-04-09 09:50:59:124 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"2bb86a88-1cbc-4f01-96fb-86620e0c5d39","status":0,"value":[]}
+2018-04-09 09:50:59:125 - info: [debug] [MJSONWP] Responding to client with driver.findElements() result: []
+2018-04-09 09:50:59:126 - info: [HTTP] <-- POST /wd/hub/session/c81a6644-3565-41b6-9455-8d3e65a490c8/elements 200 86 ms - 74 
