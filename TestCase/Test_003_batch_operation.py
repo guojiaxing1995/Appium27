@@ -27,7 +27,7 @@ class BatchOperation(ParameTestCase):
         cls.wallet_business = WalletBusiness(cls.driver)
 
     def setUp(self):
-        pass
+        self.imgs = []
 
     def test_001_batchIcon_open_close(self):
         """批量操作按钮弹出收起成功"""
@@ -53,3 +53,10 @@ class BatchOperation(ParameTestCase):
         """批量打印页面打印发票"""
         self.wallet_business.send_email()
         self.driver.back()
+
+    def tearDown(self):
+        if sys.exc_info()[0]:
+            now = time.strftime('%Y-%m-%d-%H_%M_%S')
+            self.driver.save_screenshot('../img/'+now+'.jpg')
+            # 将截图加入报告
+            self.imgs.append(self.driver.get_screenshot_as_base64())

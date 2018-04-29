@@ -81,6 +81,10 @@ class HomeHandle:
         """点击服务按钮"""
         self.home_page.get_service_element().click()
 
+    def click_discover(self):
+        """点击服务按钮"""
+        self.home_page.get_discover_element().click()
+
     def click_home(self):
         """点击首页按钮"""
         self.home_page.get_home_element().click()

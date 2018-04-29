@@ -48,3 +48,8 @@ class PublicMethod:
         '''获取toast提示'''
         tost_element = ("xpath", "//*[contains(@text," + message + ")]")
         return WebDriverWait(driver, 10, 0.1).until(EC.presence_of_element_located(tost_element))
+
+    def get_webview(self,driver):
+        """获取webview"""
+        webviews = driver.contexts
+        return webviews

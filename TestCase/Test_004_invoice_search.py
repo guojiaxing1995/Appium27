@@ -58,3 +58,7 @@ class InvoiceSearch(ParameTestCase):
         """模糊搜索"""
         self.search_business.vague_serach()
 
+    def tearDown(self):
+        if sys.exc_info()[0]:
+            now = time.strftime('%Y-%m-%d-%H_%M_%S')
+            self.driver.save_screenshot('../img/'+now+'.jpg')

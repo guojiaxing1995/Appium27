@@ -63,6 +63,7 @@ sleep(5)
 element = driver.find_element_by_android_uiautomator('new UiSelector().text("发现")')
 driver.find_elements_by_xpath()
 n = element.size
+driver.contexts
 
 
 #webview = driver.contexts

@@ -24,7 +24,7 @@ class Login(ParameTestCase):
         cls.home_business = HomeBusiness(cls.driver)
 
     def setUp(self):
-        pass
+        self.imgs = []
 
     def runTest(self):
         pass
@@ -43,3 +43,5 @@ class Login(ParameTestCase):
         if sys.exc_info()[0]:
             now = time.strftime('%Y-%m-%d-%H_%M_%S')
             self.driver.save_screenshot('../img/'+now+'.jpg')
+            #将截图加入报告
+            self.imgs.append(self.driver.get_screenshot_as_base64())

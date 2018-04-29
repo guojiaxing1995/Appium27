@@ -112,3 +112,9 @@ class InvoiceDetail(ParameTestCase):
     def test_019_delete_taxi(self):
         """详情页删除打车票"""
         self.detail_business.delete_invoice()
+
+
+    def tearDown(self):
+        if sys.exc_info()[0]:
+            now = time.strftime('%Y-%m-%d-%H_%M_%S')
+            self.driver.save_screenshot('../img/'+now+'.jpg')

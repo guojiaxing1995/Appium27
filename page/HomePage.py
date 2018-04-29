@@ -68,6 +68,10 @@ class HomePage:
         """获取服务按钮"""
         return self.getByLocal.get_element('home_element','service')
 
+    def get_discover_element(self):
+        """获取发现按钮"""
+        return self.getByLocal.get_element('home_element','discover')
+
     def get_home_element(self):
         """获取首页按钮"""
         return self.getByLocal.get_element('home_element','home')

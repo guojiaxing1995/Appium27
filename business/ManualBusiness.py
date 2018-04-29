@@ -83,6 +83,7 @@ class ManualBusiness:
 
     def enter_manualCheck(self):
         """进入手动查验页面"""
+        self.home_handle.click_service()
         self.home_handle.click_plusIcon()
         time.sleep(1)
         self.manual_handle.click_manualCheck()
@@ -106,6 +107,6 @@ class ManualBusiness:
             self.manual_handle.click_determine()
             time.sleep(1)
             self.manual_handle.click_CheckButton()
-            time.sleep(8)
+            time.sleep(30)
             #assert self.detail_handle.isDisplay_invoiceDetail() == True,"手动查验发票未进入发票查验页"
             self.manual_handle.back()
