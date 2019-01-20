@@ -33,7 +33,7 @@ class Server:
         bootstrap_port_list = port.create_port_list(4900,device_list)
         for i in range(len(device_list)):
             now = time.strftime('%Y-%m-%d-%H_%M_%S')
-            command = "appium -p "+str(appium_port_list[i])+" -bp "+str(bootstrap_port_list[i])+" -U "+device_list[i]+" --no-reset --session-override --log D:/PycharmProjects/Appium27/log/"+device_list[i]+str(now)+".log"
+            command = "appium -p "+str(appium_port_list[i])+" -bp "+str(bootstrap_port_list[i])+" -U "+device_list[i]+" --no-reset --session-override --log D:/pythonProgram/Appium27/log/"+device_list[i]+str(now)+".log"
             command_list.append(command)
             self.operateYaml.clear_data()
             self.operateYaml.write_yaml(self.operateYaml.join_devices_data(i,device_list[i],str(bootstrap_port_list[i]),str(appium_port_list[i])))

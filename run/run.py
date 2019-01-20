@@ -1,4 +1,11 @@
 #coding=utf-8
+import os
+import sys
+# 获取当前目录
+current_dir = os.path.dirname(__file__)
+# 获取当前目录的父级目录
+parent_dir = os.path.dirname(current_dir)
+sys.path.append(parent_dir)
 import unittest,time,HTMLTestRunner_cn
 from util.server import Server
 from util.OperateYaml import OperateYaml
@@ -29,12 +36,12 @@ class Run:
         test_suite.addTest(Login("test_001_slide_carouselfigure",parames=i))
         test_suite.addTest(Login("test_002_phone_num_login", parames=i))
         #test_suite.addTest(InvoiceCollection("test_001_enter_add_scan", parames=i))
-        test_suite.addTest(InvoiceCollection("test_002_enter_manualInput", parames=i))
-        test_suite.addTest(InvoiceCollection("test_003_manual_add_invoice", parames=i))
-        test_suite.addTest(InvoiceCollection("test_004_enter_addTrain", parames=i))
-        test_suite.addTest(InvoiceCollection("test_005_manual_add_train", parames=i))
-        test_suite.addTest(InvoiceCollection("test_006_enter_addTiax", parames=i))
-        test_suite.addTest(InvoiceCollection("test_007_manual_add_taxi", parames=i))
+        #test_suite.addTest(InvoiceCollection("test_002_enter_manualInput", parames=i))
+        #test_suite.addTest(InvoiceCollection("test_003_manual_add_invoice", parames=i))
+        #test_suite.addTest(InvoiceCollection("test_004_enter_addTrain", parames=i))
+        #test_suite.addTest(InvoiceCollection("test_005_manual_add_train", parames=i))
+        #test_suite.addTest(InvoiceCollection("test_006_enter_addTiax", parames=i))
+        #test_suite.addTest(InvoiceCollection("test_007_manual_add_taxi", parames=i))
         # test_suite.addTest(InvoiceCollection("test_008_wallet_delete_invoice", parames=i))
         # test_suite.addTest(InvoiceCollection("test_009_enter_manaualCheck", parames=i))
         # test_suite.addTest(InvoiceCollection("test_010_manaualCheck", parames=i))

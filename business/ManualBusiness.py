@@ -1,4 +1,6 @@
 #coding=utf-8
+import os
+
 from handle.ManualHandle import ManualHandle
 from handle.HomeHandle import HomeHandle
 from handle.DetailHandle import DetailHandle
@@ -12,7 +14,12 @@ class ManualBusiness:
         self.home_handle = HomeHandle(driver)
         self.detail_handle = DetailHandle(driver)
         self.wallet_handle = WalletPagePage
-        self.readIni = ReadIni('D:\PycharmProjects\Appium27\config\dataConfig.ini')
+        # 获取当前目录
+        current_dir = os.path.dirname(__file__)
+        # 获取当前目录的父级目录
+        parent_dir = os.path.dirname(current_dir)
+        path = parent_dir + '\config\dataConfig.ini'
+        self.readIni = ReadIni(path)
 
     def enter_manualAdd(self):
         """进入手动新增页面"""

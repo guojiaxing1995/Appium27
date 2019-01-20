@@ -1,4 +1,6 @@
 #coding=utf-8
+import os
+
 from handle.WalletHandle import WalletHandle
 from handle.ManualHandle import ManualHandle
 from handle.DetailHandle import DetailHandle
@@ -13,7 +15,12 @@ class SearchBusiness:
         self.wallet_handle = WalletHandle(driver)
         self.detail_handle = DetailHandle(driver)
         self.home_handle = HomeHandle(driver)
-        self.readIni = ReadIni('D:\PycharmProjects\Appium27\config\dataConfig.ini')
+        # 获取当前目录
+        current_dir = os.path.dirname(__file__)
+        # 获取当前目录的父级目录
+        parent_dir = os.path.dirname(current_dir)
+        path = parent_dir + '\config\dataConfig.ini'
+        self.readIni = ReadIni(path)
 
     def serch_all_invoice(self):
         """搜索所有发票"""

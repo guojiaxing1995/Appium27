@@ -3,6 +3,7 @@ import os
 
 class DosCmd:
     def excute_cmd_result(self,command):
+        a = os.popen(command)
         result = os.popen(command).readlines()
         return result
 

@@ -1,4 +1,5 @@
 #coding=utf-8
+import os
 import time
 from appium import webdriver
 from util.OperateYaml import OperateYaml
@@ -7,12 +8,17 @@ class BaseDriver:
         self.operateYaml = OperateYaml()
 
     def get_android_driver(self,i):
+        # 获取当前目录
+        current_dir = os.path.dirname(__file__)
+        # 获取当前目录的父级目录
+        parent_dir = os.path.dirname(current_dir)
+        app_path = parent_dir + '/apk/wdfp.apk'
         device_info = self.operateYaml.get_devices('device_info_' + str(i))
         capabilities = {
             "platformName": "Android",
             "deviceName": device_info['deviceName'],
             "automationName": "uiautomator2",
-            "app": "../apk/wdfp.apk",
+            "app": app_path,
             "unicodeKeyboard":True,
             "resetKeyboard":True
             # "noReset":"True"
