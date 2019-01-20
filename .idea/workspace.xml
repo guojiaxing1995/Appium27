@@ -54,18 +54,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchBusiness.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/business/SearchBusiness.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
-              <folding>
-                <element signature="e#14#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HomeHandle.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handle/HomeHandle.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,7 +96,7 @@
       <file leaf-file-name="WalletHandle.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/handle/WalletHandle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
+            <state relative-caret-position="421">
               <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
             </state>
           </provider>
@@ -208,7 +196,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="295" />
     <option name="y" value="120" />
     <option name="width" value="1120" />
@@ -479,7 +467,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/2018-04-06-17_24_26.jpg" />
     <entry file="file://C:/Users/Public/Nwt/cache/recv/vic/MyinvoiceInterfaceTest(1)/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py" />
     <entry file="file://$PROJECT_DIR$/page/WalletPage.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -787,9 +774,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log/2116ca982019-01-20-10_51_11.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-690" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/handle/WalletHandle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
+        <state relative-caret-position="421">
           <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
         </state>
       </provider>
