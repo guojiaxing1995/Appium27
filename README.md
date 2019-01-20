@@ -14,3 +14,10 @@ appium的log方便快速定位问题。
 
 ![项目目录结构](https://github.com/guojiaxing1995/Appium27/blob/master/img/项目目录结构1.png)
 
+
+
+
+
+
+_项目删除了apk安装包和部分代码_
+
