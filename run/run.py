@@ -2,6 +2,8 @@
 import os
 import sys
 # 获取当前目录
+from TestCase import ParameTestCase
+
 current_dir = os.path.dirname(__file__)
 # 获取当前目录的父级目录
 parent_dir = os.path.dirname(current_dir)
@@ -24,6 +26,7 @@ class Run:
 
     def creatsuit(self,i):
         test_suite = unittest.TestSuite()
+        test_suite.addTest(ParameTestCase("get_driver", parames=i))
         # # 测试文件查找的目录
         # test_dir = '../TestCase'
         # # discover方法筛选Test开头的文件

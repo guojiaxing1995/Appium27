@@ -1,20 +1,10 @@
 #coding=utf-8
-import unittest
+from TestCase import ParameTestCase
 from business.ManualBusiness import ManualBusiness
 from business.HomeBusiness import HomeBusiness
 from business.DetailBusiness import DetailBusiness
 from business.WalletBusiness import WalletBusiness
-from TestCase.Test_001_login import Login
 import sys,time
-
-class ParameTestCase(unittest.TestCase):
-    """
-    该类继承unittest  该类的子类可以传参数
-    """
-    def __init__(self,methodName='runTest',parames=None):
-        super(ParameTestCase,self).__init__(methodName)
-        global parame
-        parame = parames
 
 class InvoiceDetail(ParameTestCase):
     """
@@ -22,7 +12,6 @@ class InvoiceDetail(ParameTestCase):
     """
     @classmethod
     def setUpClass(cls):
-        cls.driver = Login().driver
         cls.home_business = HomeBusiness(cls.driver)
         cls.manual_business = ManualBusiness(cls.driver)
         cls.wallet_business = WalletBusiness(cls.driver)

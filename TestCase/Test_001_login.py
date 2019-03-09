@@ -1,25 +1,13 @@
 #coding=utf-8
-import unittest
+from TestCase import ParameTestCase
 from business.LoginBusiness import LoginBusiness
 from business.HomeBusiness import HomeBusiness
-from base.BaseDriver import BaseDriver
 import sys,time
 
-
-class ParameTestCase(unittest.TestCase):
-    """
-    该类继承unittest  该类的子类可以传参数
-    """
-    def __init__(self,methodName='runTest',parames=None):
-        super(ParameTestCase,self).__init__(methodName)
-        global parame
-        parame = parames
 
 class Login(ParameTestCase):
     @classmethod
     def setUpClass(cls):
-        baseDriver = BaseDriver()
-        cls.driver = baseDriver.get_android_driver(parame)
         cls.login_business = LoginBusiness(cls.driver)
         cls.home_business = HomeBusiness(cls.driver)
 
