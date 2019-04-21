@@ -1,8 +1,9 @@
 #coding=utf-8
+from page.BasePage import BasePage
 from util.get_by_local import GetByLocal
 from base.PublicMethod import PublicMethod
 
-class HomePage:
+class HomePage(BasePage):
     '''获取首页元素'''
     def __init__(self,driver):
         self.driver = driver

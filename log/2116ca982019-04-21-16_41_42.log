@@ -1,0 +1,16 @@
+2019-04-21 08:41:45:114 - warn: [Appium] Appium support for versions of node < 8 has been deprecated and will be removed in a future version. Please upgrade!
+2019-04-21 08:41:45:128 - info: [Appium] Welcome to Appium v1.8.1
+2019-04-21 08:41:45:129 - info: [Appium] Non-default server args:
+2019-04-21 08:41:45:129 - info: [Appium]   port: 4701
+2019-04-21 08:41:45:129 - info: [Appium]   bootstrapPort: 4900
+2019-04-21 08:41:45:129 - info: [Appium]   sessionOverride: true
+2019-04-21 08:41:45:130 - info: [Appium]   log: D:/pythonProgram/Appium27/log/2116ca982019-04-21-16_41_42.log
+2019-04-21 08:41:45:130 - info: [Appium]   udid: 2116ca98
+2019-04-21 08:41:45:130 - info: [Appium]   noReset: true
+2019-04-21 08:41:45:130 - warn: [Appium] Deprecated server args:
+2019-04-21 08:41:45:131 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"2116ca98"}'
+2019-04-21 08:41:45:131 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2019-04-21 08:41:45:131 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-04-21 08:41:45:131 - info: [Appium]   udid: 2116ca98
+2019-04-21 08:41:45:131 - info: [Appium]   noReset: true
+2019-04-21 08:41:45:167 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4701

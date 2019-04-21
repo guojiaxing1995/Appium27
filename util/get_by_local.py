@@ -10,7 +10,7 @@ class GetByLocal:
         local_by = local.split('>')[0]
         local_value = local.split('>')[1]
         if local_by == 'id':
-            return self.driver.find_element_by_class_id(local_value)
+            return self.driver.find_element_by_id(local_value)
         elif local_by == 'className':
             return self.driver.find_element_by_class_name(local_value)
         elif local_by == 'xpath':

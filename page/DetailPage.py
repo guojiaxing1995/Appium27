@@ -1,7 +1,8 @@
 #coding=utf-8
+from page.BasePage import BasePage
 from util.get_by_local import GetByLocal
 
-class DetailPage:
+class DetailPage(BasePage):
     '''获取发票详情页元素'''
     def __init__(self,driver):
         self.driver = driver

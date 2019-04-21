@@ -1,10 +1,11 @@
 #coding=utf-8
+from page.BasePage import BasePage
 from util.get_by_local import GetByLocal
 from base.PublicMethod import PublicMethod
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-class LoginPage:
+class LoginPage(BasePage):
     '''获取登录页面的element'''
 
     def __init__(self,driver):

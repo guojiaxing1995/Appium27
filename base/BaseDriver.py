@@ -1,18 +1,14 @@
 #coding=utf-8
-import os
-import time
 from appium import webdriver
+
+from util import apk_path
 from util.OperateYaml import OperateYaml
 class BaseDriver:
     def __init__(self):
         self.operateYaml = OperateYaml()
 
     def get_android_driver(self,i):
-        # 获取当前目录
-        current_dir = os.path.dirname(__file__)
-        # 获取当前目录的父级目录
-        parent_dir = os.path.dirname(current_dir)
-        app_path = parent_dir + '/apk/wdfp.apk'
+        app_path = apk_path.apk_path()
         device_info = self.operateYaml.get_devices('device_info_' + str(i))
         capabilities = {
             "platformName": "Android",

@@ -1,9 +1,10 @@
 #coding=utf-8
+from page.BasePage import BasePage
 from util.get_by_local import GetByLocal
 
 
 
-class ManualPage:
+class ManualPage(BasePage):
     '''获取手动归集页面元素'''
     def __init__(self,driver):
         self.driver = driver

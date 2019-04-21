@@ -1,7 +1,8 @@
 #coding=utf-8
+from page.BasePage import BasePage
 from util.get_by_local import GetByLocal
 
-class WalletPagePage:
+class WalletPagePage(BasePage):
     '''获取票夹页元素'''
     def __init__(self,driver):
         self.driver = driver
