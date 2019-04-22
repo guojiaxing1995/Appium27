@@ -1,12 +1,14 @@
 #coding=utf-8
+from selenium.webdriver.common.by import By
+
 from read_ini import ReadIni
 class GetByLocal:
     def __init__(self,driver):
         self.driver = driver
+        self.readini = ReadIni()
 
     def get_element(self,section,key):
-        readini = ReadIni()
-        local = readini.get_value(section,key)
+        local = self.readini.get_value(section,key)
         local_by = local.split('>')[0]
         local_value = local.split('>')[1]
         if local_by == 'id':
@@ -33,3 +35,25 @@ class GetByLocal:
                 return self.driver.find_elements_by_id(local_value)
         else:
             return None
+    def get_locator(self,section,key):
+        local = self.readini.get_value(section,key)
+        local_by = local.split('>')[0]
+        local_value = local.split('>')[1]
+        if local_by == 'id':
+            locator = (By.ID,local_value)
+        elif local_by == 'className':
+            locator = (By.CLASS_NAME, local_value)
+        elif local_by == 'xpath':
+            locator = (By.XPATH, local_value)
+        elif local_by == 'cssSelector':
+            locator = (By.CSS_SELECTOR, local_value)
+        elif local_by == 'linkText':
+            locator = (By.LINK_TEXT, local_value)
+        elif local_by == 'partialLinkText':
+            locator = (By.PARTIAL_LINK_TEXT, local_value)
+        elif local_by == 'tagName':
+            locator = (By.TAG_NAME, local_value)
+        else:
+            locator =  None
+
+        return locator

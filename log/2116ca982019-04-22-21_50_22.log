@@ -1,0 +1,1001 @@
+2019-04-22 13:50:26:529 - warn: [Appium] Appium support for versions of node < 8 has been deprecated and will be removed in a future version. Please upgrade!
+2019-04-22 13:50:26:548 - info: [Appium] Welcome to Appium v1.8.1
+2019-04-22 13:50:26:549 - info: [Appium] Non-default server args:
+2019-04-22 13:50:26:549 - info: [Appium]   port: 4701
+2019-04-22 13:50:26:549 - info: [Appium]   bootstrapPort: 4900
+2019-04-22 13:50:26:550 - info: [Appium]   sessionOverride: true
+2019-04-22 13:50:26:551 - info: [Appium]   log: D:/pythonProgram/Appium27/log/2116ca982019-04-22-21_50_22.log
+2019-04-22 13:50:26:551 - info: [Appium]   udid: 2116ca98
+2019-04-22 13:50:26:551 - info: [Appium]   noReset: true
+2019-04-22 13:50:26:551 - warn: [Appium] Deprecated server args:
+2019-04-22 13:50:26:551 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"2116ca98"}'
+2019-04-22 13:50:26:551 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2019-04-22 13:50:26:551 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-04-22 13:50:26:552 - info: [Appium]   udid: 2116ca98
+2019-04-22 13:50:26:552 - info: [Appium]   noReset: true
+2019-04-22 13:50:26:592 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4701
+2019-04-22 13:50:46:077 - info: [HTTP] --> POST /wd/hub/session
+2019-04-22 13:50:46:077 - info: [HTTP] {"capabilities":{"firstMatch":[{"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:appWaitActivity":"com.cy.patrol.act.LoginAct","appium:automationName":"uiautomator2","appium:app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","appium:deviceName":"2116ca98","platformName":"Android"}]},"desiredCapabilities":{"deviceName":"2116ca98","unicodeKeyboard":true,"app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","appWaitActivity":"com.cy.patrol.act.LoginAct","resetKeyboard":true,"platformName":"Android","automationName":"uiautomator2"}}
+2019-04-22 13:50:46:082 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"2116ca98","unicodeKeyboard":true,"app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","appWaitActivity":"com.cy.patrol.act.LoginAct","resetKeyboard":true,"platformName":"Android","automationName":"uiautomator2"},null,{"firstMatch":[{"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:appWaitActivity":"com.cy.patrol.act.LoginAct","appium:automationName":"uiautomator2","appium:app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","appium:deviceName":"2116ca98","platformName":"Android"}]}]
+2019-04-22 13:50:46:085 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1555941046085 (21:50:46 GMT+0800 (中国标准时间))
+2019-04-22 13:50:46:093 - warn: [BaseDriver] The capabilities ["udid","noReset"] are not standard capabilities and should have an extension prefix
+2019-04-22 13:50:46:100 - info: [Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
+2019-04-22 13:50:46:100 - info: [Appium] Capabilities:
+2019-04-22 13:50:46:100 - info: [Appium]   udid: 2116ca98
+2019-04-22 13:50:46:101 - info: [Appium]   noReset: true
+2019-04-22 13:50:46:101 - info: [Appium]   platformName: Android
+2019-04-22 13:50:46:101 - info: [Appium]   unicodeKeyboard: true
+2019-04-22 13:50:46:101 - info: [Appium]   resetKeyboard: true
+2019-04-22 13:50:46:101 - info: [Appium]   appWaitActivity: com.cy.patrol.act.LoginAct
+2019-04-22 13:50:46:101 - info: [Appium]   automationName: uiautomator2
+2019-04-22 13:50:46:101 - info: [Appium]   app: E:\work\appium\xcry_appium/apk/0421.apk
+2019-04-22 13:50:46:102 - info: [Appium]   deviceName: 2116ca98
+2019-04-22 13:50:46:107 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"appium:udi... and MJSONWP desired capabilities [object Object] were provided
+2019-04-22 13:50:46:107 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"appium:udi...
+2019-04-22 13:50:46:124 - info: [BaseDriver] Session created with session id: 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:50:46:127 - info: [BaseDriver] Using local app 'E:\work\appium\xcry_appium/apk/0421.apk'
+2019-04-22 13:50:46:128 - info: [debug] [UiAutomator2] Checking whether app is actually present
+2019-04-22 13:50:46:537 - info: [debug] [AndroidDriver] Getting Java version
+2019-04-22 13:50:46:779 - info: [AndroidDriver] Java version is: 1.8.0_151
+2019-04-22 13:50:46:782 - info: [ADB] Checking whether adb is present
+2019-04-22 13:50:46:788 - info: [ADB] Found 1 'build-tools' folders under 'E:\sdk' (newest first):
+2019-04-22 13:50:46:788 - info: [ADB]     E:/sdk/build-tools/android-4.3
+2019-04-22 13:50:46:789 - info: [ADB] Using adb.exe from E:\sdk\platform-tools\adb.exe
+2019-04-22 13:50:46:789 - info: [AndroidDriver] Retrieving device list
+2019-04-22 13:50:46:790 - info: [debug] [ADB] Trying to find a connected android device
+2019-04-22 13:50:46:790 - info: [debug] [ADB] Getting connected devices...
+2019-04-22 13:50:46:839 - info: [debug] [ADB] 1 device(s) connected
+2019-04-22 13:50:46:841 - info: [AndroidDriver] Using device: 2116ca98
+2019-04-22 13:50:46:846 - info: [debug] [ADB] Setting device id to 2116ca98
+2019-04-22 13:50:46:850 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell getprop ro.build.version.sdk'
+2019-04-22 13:50:46:949 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 25
+2019-04-22 13:50:46:949 - info: [debug] [ADB] Device API level: 25
+2019-04-22 13:50:46:951 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2019-04-22 13:50:46:958 - info: [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in E:\sdk\platform-tools\apkanalyzer.bat,E:\sdk\emulator\apkanalyzer.bat,E:\sdk\tools\apkanalyzer.bat,E:\sdk\tools\bin\apkanalyzer.bat,E:\sdk\build-tools\android-4.3\apkanalyzer.bat. Do you have the Android SDK installed at 'E:\sdk'?
+2019-04-22 13:50:46:960 - info: [ADB] Checking whether aapt is present
+2019-04-22 13:50:46:964 - info: [ADB] Using aapt.exe from E:\sdk\tools\aapt.exe
+2019-04-22 13:50:46:966 - info: [ADB] Extracting package and launch activity from manifest
+2019-04-22 13:50:47:051 - info: [ADB] Package name: 'com.cy.patrol'
+2019-04-22 13:50:47:052 - info: [ADB] Main activity name: 'com.cy.patrol.act.LoadingAct'
+2019-04-22 13:50:47:052 - info: [debug] [AndroidDriver] Parsed package and activity are: com.cy.patrol/com.cy.patrol.act.LoadingAct
+2019-04-22 13:50:47:053 - info: [ADB] Getting device platform version
+2019-04-22 13:50:47:054 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell getprop ro.build.version.release'
+2019-04-22 13:50:47:129 - info: [debug] [ADB] Current device property 'ro.build.version.release': 7.1.1
+2019-04-22 13:50:47:130 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell wm size'
+2019-04-22 13:50:47:700 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell wm density'
+2019-04-22 13:50:48:275 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell getprop ro.product.model'
+2019-04-22 13:50:48:400 - info: [debug] [ADB] Current device property 'ro.product.model': OS103
+2019-04-22 13:50:48:428 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell getprop ro.product.manufacturer'
+2019-04-22 13:50:48:515 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': smartisan
+2019-04-22 13:50:48:517 - info: [debug] [ADB] Device API level: 25
+2019-04-22 13:50:48:525 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell am force-stop io.appium.uiautomator2.server'
+2019-04-22 13:50:49:133 - info: [debug] [ADB] Checking app cert for C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk
+2019-04-22 13:50:49:142 - warn: [ADB] Cannot use apksigner tool for signature verification. Defaulting to verify.jar. Original error: Could not find apksigner.bat in E:\sdk\platform-tools\apksigner.bat,E:\sdk\emulator\apksigner.bat,E:\sdk\tools\apksigner.bat,E:\sdk\tools\bin\apksigner.bat,E:\sdk\build-tools\android-4.3\apksigner.bat. Do you have the Android SDK installed at 'E:\sdk'?
+2019-04-22 13:50:49:527 - info: [debug] [ADB] 'C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' is already signed.
+2019-04-22 13:50:49:527 - info: [debug] [ADB] Checking app cert for C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2019-04-22 13:50:49:528 - warn: [ADB] Cannot use apksigner tool for signature verification. Defaulting to verify.jar. Original error: Could not find apksigner.bat in E:\sdk\platform-tools\apksigner.bat,E:\sdk\emulator\apksigner.bat,E:\sdk\tools\apksigner.bat,E:\sdk\tools\bin\apksigner.bat,E:\sdk\build-tools\android-4.3\apksigner.bat. Do you have the Android SDK installed at 'E:\sdk'?
+2019-04-22 13:50:49:936 - info: [debug] [ADB] 'C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2019-04-22 13:50:49:938 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server
+2019-04-22 13:50:49:938 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell pm list packages io.appium.uiautomator2.server'
+2019-04-22 13:50:50:510 - info: [debug] [ADB] App is installed
+2019-04-22 13:50:50:512 - info: [debug] [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2019-04-22 13:50:50:513 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell dumpsys package io.appium.uiautomator2.server'
+2019-04-22 13:50:50:683 - info: [debug] [ADB] The installed 'io.appium.uiautomator2.server' package does not require upgrade ('1.12.0' >= '1.12.0')
+2019-04-22 13:50:50:689 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+2019-04-22 13:50:50:691 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell pm list packages io.appium.uiautomator2.server.test'
+2019-04-22 13:50:51:262 - info: [debug] [ADB] App is installed
+2019-04-22 13:50:51:265 - info: [debug] [ADB] Getting package info for 'io.appium.uiautomator2.server.test'
+2019-04-22 13:50:51:266 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell dumpsys package io.appium.uiautomator2.server.test'
+2019-04-22 13:50:51:451 - warn: [ADB] Cannot read version codes of 'C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+2019-04-22 13:50:51:452 - warn: [ADB] Cannot read version names of 'C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+2019-04-22 13:50:51:453 - info: [debug] [UiAutomator2] Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+2019-04-22 13:50:51:458 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell pm list instrumentation'
+2019-04-22 13:50:52:044 - info: [debug] [UiAutomator2] Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+2019-04-22 13:50:52:050 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 wait-for-device'
+2019-04-22 13:50:52:156 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell echo ping'
+2019-04-22 13:50:52:277 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2019-04-22 13:50:52:278 - info: [debug] [ADB] Getting install status for io.appium.settings
+2019-04-22 13:50:52:279 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell pm list packages io.appium.settings'
+2019-04-22 13:50:52:849 - info: [debug] [ADB] App is installed
+2019-04-22 13:50:52:850 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2019-04-22 13:50:52:851 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell dumpsys package io.appium.settings'
+2019-04-22 13:50:53:041 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade (13 > 5)
+2019-04-22 13:50:53:043 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell ps'
+2019-04-22 13:50:53:233 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-04-22 13:50:53:236 - info: [debug] [ADB] Device API level: 25
+2019-04-22 13:50:53:238 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell appops set io.appium.settings android\:mock_location allow'
+2019-04-22 13:50:53:387 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2019-04-22 13:50:53:388 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2019-04-22 13:50:53:393 - info: [debug] [Logcat] Starting logcat capture
+2019-04-22 13:50:53:501 - info: [debug] [AndroidDriver] Enabling Unicode keyboard support
+2019-04-22 13:50:53:502 - info: [debug] [AndroidDriver] Pushing unicode ime to device...
+2019-04-22 13:50:53:506 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 install C\:\\Users\\30280\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-ime\\bin\\UnicodeIME-debug.apk'
+2019-04-22 13:50:54:431 - info: [debug] [ADB] Install command stdout: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.android.ime without first uninstalling.]
+2019-04-22 13:50:54:432 - info: [debug] [ADB] Application 'C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-ime\bin\UnicodeIME-debug.apk' already installed. Continuing.
+2019-04-22 13:50:54:434 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell settings get secure default_input_method'
+2019-04-22 13:50:55:038 - info: [debug] [AndroidDriver] Unsetting previous IME com.iflytek.inputmethod.smartisan/com.iflytek.inputmethod.FlyIME
+2019-04-22 13:50:55:039 - info: [debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+2019-04-22 13:50:55:040 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell ime enable io.appium.android.ime/.UnicodeIME'
+2019-04-22 13:50:55:615 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell ime set io.appium.android.ime/.UnicodeIME'
+2019-04-22 13:50:56:202 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2019-04-22 13:50:56:203 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2019-04-22 13:50:56:205 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell pm list packages io.appium.unlock'
+2019-04-22 13:50:56:807 - info: [debug] [ADB] App is installed
+2019-04-22 13:50:56:809 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2019-04-22 13:50:56:810 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell dumpsys package io.appium.unlock'
+2019-04-22 13:50:57:002 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2019-04-22 13:50:57:003 - info: [debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2019-04-22 13:50:57:004 - info: [debug] [ADB] Forwarding system: 8200 to device: 6790
+2019-04-22 13:50:57:005 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 forward tcp\:8200 tcp\:6790'
+2019-04-22 13:50:57:082 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell rm -rf /data/local/tmp/strings.json'
+2019-04-22 13:50:57:170 - info: [debug] [AndroidDriver] Extracting strings from apk
+2019-04-22 13:50:57:172 - info: [debug] [AndroidDriver] E:\work\appium\xcry_appium/apk/0421.apk
+2019-04-22 13:50:57:173 - info: [debug] [AndroidDriver] null
+2019-04-22 13:50:57:173 - info: [debug] [AndroidDriver] C:\Users\30280\AppData\Local\Temp\com.cy.patrol
+2019-04-22 13:50:57:176 - info: [debug] [ADB] Extracting strings for language: default
+2019-04-22 13:50:57:509 - info: [ADB] Successfully extracted 498 strings from 'E:\work\appium\xcry_appium/apk/0421.apk' resources for '(default)' configuration
+2019-04-22 13:50:57:530 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 push C\:\\Users\\30280\\AppData\\Local\\Temp\\com.cy.patrol\\strings.json /data/local/tmp'
+2019-04-22 13:50:57:652 - info: [debug] [ADB] Checking app cert for E:\work\appium\xcry_appium/apk/0421.apk
+2019-04-22 13:50:57:653 - warn: [ADB] Cannot use apksigner tool for signature verification. Defaulting to verify.jar. Original error: Could not find apksigner.bat in E:\sdk\platform-tools\apksigner.bat,E:\sdk\emulator\apksigner.bat,E:\sdk\tools\apksigner.bat,E:\sdk\tools\bin\apksigner.bat,E:\sdk\build-tools\android-4.3\apksigner.bat. Do you have the Android SDK installed at 'E:\sdk'?
+2019-04-22 13:50:59:015 - info: [debug] [ADB] 'E:\work\appium\xcry_appium/apk/0421.apk' is already signed.
+2019-04-22 13:50:59:016 - info: [debug] [ADB] Getting install status for com.cy.patrol
+2019-04-22 13:50:59:016 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell pm list packages com.cy.patrol'
+2019-04-22 13:50:59:597 - info: [debug] [ADB] App is installed
+2019-04-22 13:50:59:598 - info: [debug] [ADB] Getting package info for 'com.cy.patrol'
+2019-04-22 13:50:59:599 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell dumpsys package com.cy.patrol'
+2019-04-22 13:50:59:869 - info: [debug] [ADB] The installed 'com.cy.patrol' package does not require upgrade ('1.0.0' >= '1.0.0')
+2019-04-22 13:50:59:871 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell am force-stop io.appium.uiautomator2.server'
+2019-04-22 13:51:00:432 - info: [UiAutomator2] Starting uiautomator2 server 1.12.0
+2019-04-22 13:51:00:433 - info: [UiAutomator2] Using UIAutomator2 server from 'C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' and test from 'C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2019-04-22 13:51:00:435 - info: [UiAutomator2] Running command: 'adb -s 2116ca98 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+2019-04-22 13:51:00:442 - info: [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+2019-04-22 13:51:00:447 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-04-22 13:51:01:491 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-04-22 13:51:02:509 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-04-22 13:51:03:522 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-04-22 13:51:03:571 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+2019-04-22 13:51:03:573 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","udid":"2116ca98","noReset":true,"unicodeKeyboard":true,"resetKeyboard":true,"appWaitActivity":"com.cy.patrol.act.LoginAct","automationName":"uiautomator2","app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","deviceName":"2116ca98"},"platformName":"Android","udid":"2116ca98","noReset":true,"unicodeKeyboard":true,"resetKeyboard":true,"appWaitActivity":"com.cy.patrol.act.LoginAct","automationName":"uiautomator2","app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","deviceName":"2116ca98","deviceUDID":"2116ca98","platformVersion":"7.1.1","deviceScreenSize":"1080x2160","deviceScreenDensity":400,"deviceModel":"OS103","deviceManufacturer":"smartisan","deviceApiLevel":25,"appPackage":"com.cy.patrol"}}
+2019-04-22 13:51:03:607 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":"Created Session"}
+2019-04-22 13:51:03:611 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell dumpsys window'
+2019-04-22 13:51:03:775 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2019-04-22 13:51:03:777 - info: [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.cy.patrol/com.cy.patrol.act.LoginAct'. Starting it ourselves
+2019-04-22 13:51:03:780 - info: [debug] [ADB] Device API level: 25
+2019-04-22 13:51:03:781 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell am start -W -n com.cy.patrol/com.cy.patrol.act.LoadingAct -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-04-22 13:51:05:638 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.cy.patrol' and activity: 'com.cy.patrol.act.LoginAct' to be focused
+2019-04-22 13:51:05:639 - info: [debug] [ADB] Possible activities, to be checked: 'com.cy.patrol.act.LoginAct', 'com.cy.patrol.com.cy.patrol.act.LoginAct'
+2019-04-22 13:51:05:643 - info: [debug] [ADB] Getting focused package and activity
+2019-04-22 13:51:05:644 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell dumpsys window windows'
+2019-04-22 13:51:05:809 - info: [debug] [ADB] Found package: 'com.cy.patrol' and fully qualified activity name : 'com.cy.patrol.act.LoginAct'
+2019-04-22 13:51:05:813 - info: [debug] [JSONWP Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/appium/device/pixel_ratio] with body: {}
+2019-04-22 13:51:05:834 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":2.5}"
+2019-04-22 13:51:05:836 - info: [debug] [JSONWP Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/appium/device/system_bars] with body: {}
+2019-04-22 13:51:05:855 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":{\"statusBar\":60}}"
+2019-04-22 13:51:05:858 - info: [debug] [JSONWP Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/window/current/size] with body: {}
+2019-04-22 13:51:05:876 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":{\"height\":2070,\"width\":1080}}"
+2019-04-22 13:51:05:880 - info: [Appium] New AndroidUiautomator2Driver session created successfully, session 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737 added to master session list
+2019-04-22 13:51:05:884 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1555941065883 (21:51:05 GMT+0800 (中国标准时间))
+2019-04-22 13:51:05:889 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","udid":"2116ca98","noReset":true,"unicodeKeyboard":true,"resetKeyboard":true,"appWaitActivity":"com.cy.patrol.act.LoginAct","automationName":"uiautomator2","app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","deviceName":"2116ca98"},"platformName":"Android","udid":"2116ca98","noReset":true,"unicodeKeyboard":true,"resetKeyboard":true,"appWaitActivity":"com.cy.patrol.act.LoginAct","automationName":"uiautomator2","app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","deviceName":"2116ca98","deviceUDID":"2116ca98","platformVersion":"7.1.1","deviceScreenSize":"1080x2160","deviceScreenDensity":400,"deviceModel":"OS103","deviceManufacturer":"smartisan","deviceApiLevel":25,"appPackage":"com.cy.patrol","pixelRatio":2.5,"statBarHeight":60,"viewportRect":{"left":0,"top":60,"widt...
+2019-04-22 13:51:05:908 - info: [HTTP] <-- POST /wd/hub/session 200 19823 ms - 1106
+2019-04-22 13:51:05:910 - info: [HTTP] 
+2019-04-22 13:51:05:928 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:05:929 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_mobile"}
+2019-04-22 13:51:05:938 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_mobile","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:05:946 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:05:949 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:05:953 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_mobile","context":"","multiple":false}
+2019-04-22 13:51:06:315 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"6af94e0a-9398-45ec-99d3-61cafeb6c2b8"}}
+2019-04-22 13:51:06:318 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6af94e0a-9398-45ec-99d3-61cafeb6c2b8"}
+2019-04-22 13:51:06:323 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 392 ms - 88
+2019-04-22 13:51:06:323 - info: [HTTP] 
+2019-04-22 13:51:06:329 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/6af94e0a-9398-45ec-99d3-61cafeb6c2b8/value
+2019-04-22 13:51:06:330 - info: [HTTP] {"text":"15234093915","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","id":"6af94e0a-9398-45ec-99d3-61cafeb6c2b8","value":["1","5","2","3","4","0","9","3","9","1","5"]}
+2019-04-22 13:51:06:333 - info: [debug] [W3C] Calling AppiumDriver.setValue() with args: [["1","5","2","3","4","0","9","3","9","1","5"],"6af94e0a-9398-45ec-99d3-61cafeb6c2b8","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:06:337 - info: [debug] [JSONWP Proxy] Proxying [POST /element/6af94e0a-9398-45ec-99d3-61cafeb6c2b8/value] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/6af94e0a-9398-45ec-99d3-61cafeb6c2b8/value] with body: {"elementId":"6af94e0a-9398-45ec-99d3-61cafeb6c2b8","text":"15234093915","replace":false,"unicodeKeyboard":true}
+2019-04-22 13:51:07:525 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":""}
+2019-04-22 13:51:07:528 - info: [debug] [W3C] Responding to client with driver.setValue() result: ""
+2019-04-22 13:51:07:534 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/6af94e0a-9398-45ec-99d3-61cafeb6c2b8/value 200 1201 ms - 12
+2019-04-22 13:51:07:539 - info: [HTTP] 
+2019-04-22 13:51:07:545 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:07:545 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_pwd"}
+2019-04-22 13:51:07:548 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_pwd","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:07:552 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:07:553 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:07:555 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_pwd","context":"","multiple":false}
+2019-04-22 13:51:08:042 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"8d580ca0-d79f-485d-97d0-74d9e503640f"}}
+2019-04-22 13:51:08:045 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8d580ca0-d79f-485d-97d0-74d9e503640f"}
+2019-04-22 13:51:08:047 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 502 ms - 88
+2019-04-22 13:51:08:047 - info: [HTTP] 
+2019-04-22 13:51:08:056 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/8d580ca0-d79f-485d-97d0-74d9e503640f/value
+2019-04-22 13:51:08:058 - info: [HTTP] {"text":"@@@@@@","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","id":"8d580ca0-d79f-485d-97d0-74d9e503640f","value":["@","@","@","@","@","@"]}
+2019-04-22 13:51:08:062 - info: [debug] [W3C] Calling AppiumDriver.setValue() with args: [["@","@","@","@","@","@"],"8d580ca0-d79f-485d-97d0-74d9e503640f","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:08:066 - info: [debug] [JSONWP Proxy] Proxying [POST /element/8d580ca0-d79f-485d-97d0-74d9e503640f/value] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/8d580ca0-d79f-485d-97d0-74d9e503640f/value] with body: {"elementId":"8d580ca0-d79f-485d-97d0-74d9e503640f","text":"@@@@@@","replace":false,"unicodeKeyboard":true}
+2019-04-22 13:51:08:625 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":""}
+2019-04-22 13:51:08:629 - info: [debug] [W3C] Responding to client with driver.setValue() result: ""
+2019-04-22 13:51:08:632 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/8d580ca0-d79f-485d-97d0-74d9e503640f/value 200 574 ms - 12
+2019-04-22 13:51:08:633 - info: [HTTP] 
+2019-04-22 13:51:08:638 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:08:638 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/l_login"}
+2019-04-22 13:51:08:641 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/l_login","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:08:644 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:08:645 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:08:647 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/l_login","context":"","multiple":false}
+2019-04-22 13:51:09:522 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"f8df128b-4ed1-4dce-ad5b-1b7b2999f2a9"}}
+2019-04-22 13:51:09:524 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"f8df128b-4ed1-4dce-ad5b-1b7b2999f2a9"}
+2019-04-22 13:51:09:531 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 888 ms - 88
+2019-04-22 13:51:09:531 - info: [HTTP] 
+2019-04-22 13:51:09:538 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/f8df128b-4ed1-4dce-ad5b-1b7b2999f2a9/click
+2019-04-22 13:51:09:539 - info: [HTTP] {"sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","id":"f8df128b-4ed1-4dce-ad5b-1b7b2999f2a9"}
+2019-04-22 13:51:09:542 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["f8df128b-4ed1-4dce-ad5b-1b7b2999f2a9","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:09:544 - info: [debug] [JSONWP Proxy] Proxying [POST /element/f8df128b-4ed1-4dce-ad5b-1b7b2999f2a9/click] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/f8df128b-4ed1-4dce-ad5b-1b7b2999f2a9/click] with body: {"element":"f8df128b-4ed1-4dce-ad5b-1b7b2999f2a9"}
+2019-04-22 13:51:11:399 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":true}
+2019-04-22 13:51:11:402 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2019-04-22 13:51:11:403 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/f8df128b-4ed1-4dce-ad5b-1b7b2999f2a9/click 200 1865 ms - 14
+2019-04-22 13:51:11:404 - info: [HTTP] 
+2019-04-22 13:51:11:412 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:11:414 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:11:417 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:11:418 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:11:419 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:11:419 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:12:065 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"57586aba-baba-42aa-98f0-be68ca3c9c24"}}
+2019-04-22 13:51:12:067 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"57586aba-baba-42aa-98f0-be68ca3c9c24"}
+2019-04-22 13:51:12:070 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 657 ms - 88
+2019-04-22 13:51:12:070 - info: [HTTP] 
+2019-04-22 13:51:12:082 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/57586aba-baba-42aa-98f0-be68ca3c9c24/text
+2019-04-22 13:51:12:083 - info: [HTTP] {}
+2019-04-22 13:51:12:088 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:12:094 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/57586aba-baba-42aa-98f0-be68ca3c9c24/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/57586aba-baba-42aa-98f0-be68ca3c9c24/text] with body: {}
+2019-04-22 13:51:12:132 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:12:134 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:12:139 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/57586aba-baba-42aa-98f0-be68ca3c9c24/text 200 56 ms - 92
+2019-04-22 13:51:12:139 - info: [HTTP] 
+2019-04-22 13:51:12:247 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:12:247 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:12:249 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:12:250 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:12:251 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:12:252 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:12:300 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"27ffe7c4-01f3-4395-89f4-f9fb711eff87"}}
+2019-04-22 13:51:12:303 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"27ffe7c4-01f3-4395-89f4-f9fb711eff87"}
+2019-04-22 13:51:12:304 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 57 ms - 88
+2019-04-22 13:51:12:305 - info: [HTTP] 
+2019-04-22 13:51:12:312 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/27ffe7c4-01f3-4395-89f4-f9fb711eff87/text
+2019-04-22 13:51:12:312 - info: [HTTP] {}
+2019-04-22 13:51:12:316 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:12:317 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/27ffe7c4-01f3-4395-89f4-f9fb711eff87/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/27ffe7c4-01f3-4395-89f4-f9fb711eff87/text] with body: {}
+2019-04-22 13:51:12:343 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:12:344 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:12:346 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/27ffe7c4-01f3-4395-89f4-f9fb711eff87/text 200 33 ms - 92
+2019-04-22 13:51:12:346 - info: [HTTP] 
+2019-04-22 13:51:12:451 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:12:452 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:12:453 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:12:454 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:12:455 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:12:456 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:12:505 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"567b9867-78c3-4c82-b120-8f7d3db995dc"}}
+2019-04-22 13:51:12:508 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"567b9867-78c3-4c82-b120-8f7d3db995dc"}
+2019-04-22 13:51:12:526 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 75 ms - 88
+2019-04-22 13:51:12:526 - info: [HTTP] 
+2019-04-22 13:51:12:533 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/567b9867-78c3-4c82-b120-8f7d3db995dc/text
+2019-04-22 13:51:12:533 - info: [HTTP] {}
+2019-04-22 13:51:12:535 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:12:539 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/567b9867-78c3-4c82-b120-8f7d3db995dc/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/567b9867-78c3-4c82-b120-8f7d3db995dc/text] with body: {}
+2019-04-22 13:51:12:564 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:12:565 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:12:566 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/567b9867-78c3-4c82-b120-8f7d3db995dc/text 200 33 ms - 92
+2019-04-22 13:51:12:566 - info: [HTTP] 
+2019-04-22 13:51:12:672 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:12:673 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:12:676 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:12:678 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:12:679 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:12:680 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:12:731 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"ec28a67e-77b1-4f96-8d88-5a18df348ff9"}}
+2019-04-22 13:51:12:735 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"ec28a67e-77b1-4f96-8d88-5a18df348ff9"}
+2019-04-22 13:51:12:738 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 65 ms - 88
+2019-04-22 13:51:12:739 - info: [HTTP] 
+2019-04-22 13:51:12:753 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/ec28a67e-77b1-4f96-8d88-5a18df348ff9/text
+2019-04-22 13:51:12:754 - info: [HTTP] {}
+2019-04-22 13:51:12:756 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:12:761 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/ec28a67e-77b1-4f96-8d88-5a18df348ff9/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/ec28a67e-77b1-4f96-8d88-5a18df348ff9/text] with body: {}
+2019-04-22 13:51:12:786 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:12:786 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:12:787 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/ec28a67e-77b1-4f96-8d88-5a18df348ff9/text 200 34 ms - 92
+2019-04-22 13:51:12:787 - info: [HTTP] 
+2019-04-22 13:51:12:894 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:12:894 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:12:895 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:12:898 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:12:898 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:12:900 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:12:948 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"a89b2a4d-e8df-409e-ac2d-e05434c82123"}}
+2019-04-22 13:51:12:950 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"a89b2a4d-e8df-409e-ac2d-e05434c82123"}
+2019-04-22 13:51:12:952 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 58 ms - 88
+2019-04-22 13:51:12:953 - info: [HTTP] 
+2019-04-22 13:51:12:959 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/a89b2a4d-e8df-409e-ac2d-e05434c82123/text
+2019-04-22 13:51:12:960 - info: [HTTP] {}
+2019-04-22 13:51:12:961 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:12:962 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/a89b2a4d-e8df-409e-ac2d-e05434c82123/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/a89b2a4d-e8df-409e-ac2d-e05434c82123/text] with body: {}
+2019-04-22 13:51:12:989 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:12:990 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:12:992 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/a89b2a4d-e8df-409e-ac2d-e05434c82123/text 200 32 ms - 92
+2019-04-22 13:51:12:992 - info: [HTTP] 
+2019-04-22 13:51:13:102 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:13:103 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:13:104 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:13:107 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:13:108 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:13:109 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:13:153 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"0893b782-81e2-40d5-92eb-fb1f91e73aa1"}}
+2019-04-22 13:51:13:157 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"0893b782-81e2-40d5-92eb-fb1f91e73aa1"}
+2019-04-22 13:51:13:159 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 56 ms - 88
+2019-04-22 13:51:13:159 - info: [HTTP] 
+2019-04-22 13:51:13:165 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/0893b782-81e2-40d5-92eb-fb1f91e73aa1/text
+2019-04-22 13:51:13:166 - info: [HTTP] {}
+2019-04-22 13:51:13:167 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:13:170 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/0893b782-81e2-40d5-92eb-fb1f91e73aa1/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/0893b782-81e2-40d5-92eb-fb1f91e73aa1/text] with body: {}
+2019-04-22 13:51:13:195 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:13:196 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:13:198 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/0893b782-81e2-40d5-92eb-fb1f91e73aa1/text 200 32 ms - 92
+2019-04-22 13:51:13:199 - info: [HTTP] 
+2019-04-22 13:51:13:304 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:13:305 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:13:307 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:13:309 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:13:310 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:13:311 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:13:350 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"e5216bcf-623c-4daf-955f-8c5c8482b66e"}}
+2019-04-22 13:51:13:353 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"e5216bcf-623c-4daf-955f-8c5c8482b66e"}
+2019-04-22 13:51:13:355 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 50 ms - 88
+2019-04-22 13:51:13:355 - info: [HTTP] 
+2019-04-22 13:51:13:360 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/e5216bcf-623c-4daf-955f-8c5c8482b66e/text
+2019-04-22 13:51:13:361 - info: [HTTP] {}
+2019-04-22 13:51:13:362 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:13:364 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/e5216bcf-623c-4daf-955f-8c5c8482b66e/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/e5216bcf-623c-4daf-955f-8c5c8482b66e/text] with body: {}
+2019-04-22 13:51:13:394 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:13:395 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:13:396 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/e5216bcf-623c-4daf-955f-8c5c8482b66e/text 200 35 ms - 92
+2019-04-22 13:51:13:397 - info: [HTTP] 
+2019-04-22 13:51:13:501 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:13:501 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:13:502 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:13:503 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:13:503 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:13:504 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:13:546 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"b60c0520-225c-430b-ae7b-ba9b71518427"}}
+2019-04-22 13:51:13:553 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"b60c0520-225c-430b-ae7b-ba9b71518427"}
+2019-04-22 13:51:13:555 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 53 ms - 88
+2019-04-22 13:51:13:556 - info: [HTTP] 
+2019-04-22 13:51:13:562 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/b60c0520-225c-430b-ae7b-ba9b71518427/text
+2019-04-22 13:51:13:562 - info: [HTTP] {}
+2019-04-22 13:51:13:564 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:13:565 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/b60c0520-225c-430b-ae7b-ba9b71518427/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/b60c0520-225c-430b-ae7b-ba9b71518427/text] with body: {}
+2019-04-22 13:51:13:590 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:13:591 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:13:594 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/b60c0520-225c-430b-ae7b-ba9b71518427/text 200 31 ms - 92
+2019-04-22 13:51:13:594 - info: [HTTP] 
+2019-04-22 13:51:13:697 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:13:697 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:13:698 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:13:699 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:13:700 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:13:700 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:13:743 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"9f6932b9-4df3-461e-a340-36e948f47dec"}}
+2019-04-22 13:51:13:745 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"9f6932b9-4df3-461e-a340-36e948f47dec"}
+2019-04-22 13:51:13:746 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 49 ms - 88
+2019-04-22 13:51:13:747 - info: [HTTP] 
+2019-04-22 13:51:13:754 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/9f6932b9-4df3-461e-a340-36e948f47dec/text
+2019-04-22 13:51:13:755 - info: [HTTP] {}
+2019-04-22 13:51:13:756 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:13:759 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/9f6932b9-4df3-461e-a340-36e948f47dec/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/9f6932b9-4df3-461e-a340-36e948f47dec/text] with body: {}
+2019-04-22 13:51:13:785 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:13:786 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:13:792 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/9f6932b9-4df3-461e-a340-36e948f47dec/text 200 34 ms - 92
+2019-04-22 13:51:13:797 - info: [HTTP] 
+2019-04-22 13:51:13:896 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:13:896 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:13:897 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:13:898 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:13:898 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:13:899 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:13:943 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"8978a1c2-d317-4af0-a25d-8e08dd803aab"}}
+2019-04-22 13:51:13:945 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8978a1c2-d317-4af0-a25d-8e08dd803aab"}
+2019-04-22 13:51:13:948 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 50 ms - 88
+2019-04-22 13:51:13:949 - info: [HTTP] 
+2019-04-22 13:51:13:953 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/8978a1c2-d317-4af0-a25d-8e08dd803aab/text
+2019-04-22 13:51:13:954 - info: [HTTP] {}
+2019-04-22 13:51:13:955 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:13:959 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/8978a1c2-d317-4af0-a25d-8e08dd803aab/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/8978a1c2-d317-4af0-a25d-8e08dd803aab/text] with body: {}
+2019-04-22 13:51:14:581 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:14:582 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:14:584 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/8978a1c2-d317-4af0-a25d-8e08dd803aab/text 200 630 ms - 92
+2019-04-22 13:51:14:585 - info: [HTTP] 
+2019-04-22 13:51:14:690 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:14:691 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:14:692 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:14:693 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:14:694 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:14:695 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:14:737 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"c825b25e-97af-460c-bc69-5f41982fe690"}}
+2019-04-22 13:51:14:739 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"c825b25e-97af-460c-bc69-5f41982fe690"}
+2019-04-22 13:51:14:741 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 50 ms - 88
+2019-04-22 13:51:14:741 - info: [HTTP] 
+2019-04-22 13:51:14:746 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/c825b25e-97af-460c-bc69-5f41982fe690/text
+2019-04-22 13:51:14:747 - info: [HTTP] {}
+2019-04-22 13:51:14:749 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:14:751 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/c825b25e-97af-460c-bc69-5f41982fe690/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/c825b25e-97af-460c-bc69-5f41982fe690/text] with body: {}
+2019-04-22 13:51:14:769 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:14:770 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:14:771 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/c825b25e-97af-460c-bc69-5f41982fe690/text 200 25 ms - 92
+2019-04-22 13:51:14:772 - info: [HTTP] 
+2019-04-22 13:51:14:874 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:14:874 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:14:875 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:14:875 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:14:875 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:14:876 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:14:917 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"de59b185-0e0e-4b1d-bbec-b65f64930482"}}
+2019-04-22 13:51:14:917 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"de59b185-0e0e-4b1d-bbec-b65f64930482"}
+2019-04-22 13:51:14:919 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 43 ms - 88
+2019-04-22 13:51:14:919 - info: [HTTP] 
+2019-04-22 13:51:14:921 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/de59b185-0e0e-4b1d-bbec-b65f64930482/text
+2019-04-22 13:51:14:922 - info: [HTTP] {}
+2019-04-22 13:51:14:922 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:14:923 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/de59b185-0e0e-4b1d-bbec-b65f64930482/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/de59b185-0e0e-4b1d-bbec-b65f64930482/text] with body: {}
+2019-04-22 13:51:14:945 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:14:945 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:14:946 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/de59b185-0e0e-4b1d-bbec-b65f64930482/text 200 24 ms - 92
+2019-04-22 13:51:14:946 - info: [HTTP] 
+2019-04-22 13:51:15:051 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:15:052 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:15:053 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:15:055 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:15:055 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:15:056 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:15:095 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"c980b357-d074-40fd-987c-b0d8fe4921bf"}}
+2019-04-22 13:51:15:098 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"c980b357-d074-40fd-987c-b0d8fe4921bf"}
+2019-04-22 13:51:15:099 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 47 ms - 88
+2019-04-22 13:51:15:100 - info: [HTTP] 
+2019-04-22 13:51:15:107 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/c980b357-d074-40fd-987c-b0d8fe4921bf/text
+2019-04-22 13:51:15:108 - info: [HTTP] {}
+2019-04-22 13:51:15:109 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:15:111 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/c980b357-d074-40fd-987c-b0d8fe4921bf/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/c980b357-d074-40fd-987c-b0d8fe4921bf/text] with body: {}
+2019-04-22 13:51:15:136 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:15:136 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:15:140 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/c980b357-d074-40fd-987c-b0d8fe4921bf/text 200 33 ms - 92
+2019-04-22 13:51:15:142 - info: [HTTP] 
+2019-04-22 13:51:15:245 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:15:246 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:15:249 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:15:250 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:15:250 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:15:265 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:15:307 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"687c08fb-a8e6-4204-8ee7-f611f7eed5cb"}}
+2019-04-22 13:51:15:311 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"687c08fb-a8e6-4204-8ee7-f611f7eed5cb"}
+2019-04-22 13:51:15:313 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 67 ms - 88
+2019-04-22 13:51:15:313 - info: [HTTP] 
+2019-04-22 13:51:15:319 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/687c08fb-a8e6-4204-8ee7-f611f7eed5cb/text
+2019-04-22 13:51:15:320 - info: [HTTP] {}
+2019-04-22 13:51:15:322 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:15:323 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/687c08fb-a8e6-4204-8ee7-f611f7eed5cb/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/687c08fb-a8e6-4204-8ee7-f611f7eed5cb/text] with body: {}
+2019-04-22 13:51:15:350 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:15:351 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:15:353 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/687c08fb-a8e6-4204-8ee7-f611f7eed5cb/text 200 33 ms - 92
+2019-04-22 13:51:15:353 - info: [HTTP] 
+2019-04-22 13:51:15:460 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:15:461 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:15:462 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:15:463 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:15:464 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:15:465 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:15:503 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"e88b3820-1892-4f8b-ade1-ca44639de366"}}
+2019-04-22 13:51:15:505 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"e88b3820-1892-4f8b-ade1-ca44639de366"}
+2019-04-22 13:51:15:507 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 47 ms - 88
+2019-04-22 13:51:15:507 - info: [HTTP] 
+2019-04-22 13:51:15:512 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/e88b3820-1892-4f8b-ade1-ca44639de366/text
+2019-04-22 13:51:15:514 - info: [HTTP] {}
+2019-04-22 13:51:15:514 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:15:516 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/e88b3820-1892-4f8b-ade1-ca44639de366/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/e88b3820-1892-4f8b-ade1-ca44639de366/text] with body: {}
+2019-04-22 13:51:15:540 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:15:540 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:15:542 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/e88b3820-1892-4f8b-ade1-ca44639de366/text 200 29 ms - 92
+2019-04-22 13:51:15:543 - info: [HTTP] 
+2019-04-22 13:51:15:648 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:15:649 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:15:651 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:15:652 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:15:653 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:15:654 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:15:694 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"4a27f7e2-87e2-4c38-a0c2-8fbbd50fb7fe"}}
+2019-04-22 13:51:15:696 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4a27f7e2-87e2-4c38-a0c2-8fbbd50fb7fe"}
+2019-04-22 13:51:15:698 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 49 ms - 88
+2019-04-22 13:51:15:699 - info: [HTTP] 
+2019-04-22 13:51:15:707 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/4a27f7e2-87e2-4c38-a0c2-8fbbd50fb7fe/text
+2019-04-22 13:51:15:708 - info: [HTTP] {}
+2019-04-22 13:51:15:709 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:15:710 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/4a27f7e2-87e2-4c38-a0c2-8fbbd50fb7fe/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/4a27f7e2-87e2-4c38-a0c2-8fbbd50fb7fe/text] with body: {}
+2019-04-22 13:51:15:733 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:15:734 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:15:736 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/4a27f7e2-87e2-4c38-a0c2-8fbbd50fb7fe/text 200 28 ms - 92
+2019-04-22 13:51:15:736 - info: [HTTP] 
+2019-04-22 13:51:15:844 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:15:844 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:15:845 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:15:847 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:15:847 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:15:848 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:15:884 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"02f4bac4-b6c2-4cc9-8e1e-7cfa23d11b18"}}
+2019-04-22 13:51:15:889 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"02f4bac4-b6c2-4cc9-8e1e-7cfa23d11b18"}
+2019-04-22 13:51:15:892 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 48 ms - 88
+2019-04-22 13:51:15:892 - info: [HTTP] 
+2019-04-22 13:51:15:896 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/02f4bac4-b6c2-4cc9-8e1e-7cfa23d11b18/text
+2019-04-22 13:51:15:898 - info: [HTTP] {}
+2019-04-22 13:51:15:898 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:15:900 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/02f4bac4-b6c2-4cc9-8e1e-7cfa23d11b18/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/02f4bac4-b6c2-4cc9-8e1e-7cfa23d11b18/text] with body: {}
+2019-04-22 13:51:15:924 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:15:925 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:15:926 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/02f4bac4-b6c2-4cc9-8e1e-7cfa23d11b18/text 200 29 ms - 92
+2019-04-22 13:51:15:927 - info: [HTTP] 
+2019-04-22 13:51:16:031 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:16:031 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:16:032 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:16:032 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:16:032 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:16:033 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:16:065 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"425e018a-7895-442d-8936-997de6b38c83"}}
+2019-04-22 13:51:16:065 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"425e018a-7895-442d-8936-997de6b38c83"}
+2019-04-22 13:51:16:066 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 34 ms - 88
+2019-04-22 13:51:16:066 - info: [HTTP] 
+2019-04-22 13:51:16:068 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/425e018a-7895-442d-8936-997de6b38c83/text
+2019-04-22 13:51:16:068 - info: [HTTP] {}
+2019-04-22 13:51:16:068 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:16:069 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/425e018a-7895-442d-8936-997de6b38c83/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/425e018a-7895-442d-8936-997de6b38c83/text] with body: {}
+2019-04-22 13:51:16:085 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:16:085 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:16:086 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/425e018a-7895-442d-8936-997de6b38c83/text 200 18 ms - 92
+2019-04-22 13:51:16:086 - info: [HTTP] 
+2019-04-22 13:51:16:192 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:16:192 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:16:193 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:16:195 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:16:195 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:16:196 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:16:236 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"594ebb6b-533e-48f7-9c81-3e2f7cf181cf"}}
+2019-04-22 13:51:16:245 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"594ebb6b-533e-48f7-9c81-3e2f7cf181cf"}
+2019-04-22 13:51:16:249 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 55 ms - 88
+2019-04-22 13:51:16:249 - info: [HTTP] 
+2019-04-22 13:51:16:254 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/594ebb6b-533e-48f7-9c81-3e2f7cf181cf/text
+2019-04-22 13:51:16:254 - info: [HTTP] {}
+2019-04-22 13:51:16:256 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:16:262 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/594ebb6b-533e-48f7-9c81-3e2f7cf181cf/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/594ebb6b-533e-48f7-9c81-3e2f7cf181cf/text] with body: {}
+2019-04-22 13:51:16:285 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:16:286 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:16:288 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/594ebb6b-533e-48f7-9c81-3e2f7cf181cf/text 200 33 ms - 92
+2019-04-22 13:51:16:288 - info: [HTTP] 
+2019-04-22 13:51:16:400 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:16:400 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:16:401 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:16:403 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:16:404 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:16:405 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:16:446 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"9f6cba02-3622-4b9b-9869-3e585d438fcc"}}
+2019-04-22 13:51:16:449 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"9f6cba02-3622-4b9b-9869-3e585d438fcc"}
+2019-04-22 13:51:16:452 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 51 ms - 88
+2019-04-22 13:51:16:452 - info: [HTTP] 
+2019-04-22 13:51:16:460 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/9f6cba02-3622-4b9b-9869-3e585d438fcc/text
+2019-04-22 13:51:16:460 - info: [HTTP] {}
+2019-04-22 13:51:16:462 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:16:464 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/9f6cba02-3622-4b9b-9869-3e585d438fcc/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/9f6cba02-3622-4b9b-9869-3e585d438fcc/text] with body: {}
+2019-04-22 13:51:16:488 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:16:489 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:16:490 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/9f6cba02-3622-4b9b-9869-3e585d438fcc/text 200 30 ms - 92
+2019-04-22 13:51:16:490 - info: [HTTP] 
+2019-04-22 13:51:16:595 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:16:596 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:16:597 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:16:599 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:16:600 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:16:601 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:17:130 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"25c813e0-f9aa-4426-b8c8-99d21c6ab0b7"}}
+2019-04-22 13:51:17:132 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"25c813e0-f9aa-4426-b8c8-99d21c6ab0b7"}
+2019-04-22 13:51:17:134 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 538 ms - 88
+2019-04-22 13:51:17:134 - info: [HTTP] 
+2019-04-22 13:51:17:139 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/25c813e0-f9aa-4426-b8c8-99d21c6ab0b7/text
+2019-04-22 13:51:17:140 - info: [HTTP] {}
+2019-04-22 13:51:17:141 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:17:143 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/25c813e0-f9aa-4426-b8c8-99d21c6ab0b7/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/25c813e0-f9aa-4426-b8c8-99d21c6ab0b7/text] with body: {}
+2019-04-22 13:51:17:167 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:17:167 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:17:169 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/25c813e0-f9aa-4426-b8c8-99d21c6ab0b7/text 200 29 ms - 92
+2019-04-22 13:51:17:170 - info: [HTTP] 
+2019-04-22 13:51:17:276 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:17:277 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:17:280 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:17:282 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:17:282 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:17:283 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:17:316 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"bdf3b47b-ce4a-4844-832c-521693cce0c7"}}
+2019-04-22 13:51:17:318 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"bdf3b47b-ce4a-4844-832c-521693cce0c7"}
+2019-04-22 13:51:17:320 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 43 ms - 88
+2019-04-22 13:51:17:321 - info: [HTTP] 
+2019-04-22 13:51:17:326 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/bdf3b47b-ce4a-4844-832c-521693cce0c7/text
+2019-04-22 13:51:17:327 - info: [HTTP] {}
+2019-04-22 13:51:17:328 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:17:330 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/bdf3b47b-ce4a-4844-832c-521693cce0c7/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/bdf3b47b-ce4a-4844-832c-521693cce0c7/text] with body: {}
+2019-04-22 13:51:17:348 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:17:349 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:17:351 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/bdf3b47b-ce4a-4844-832c-521693cce0c7/text 200 24 ms - 92
+2019-04-22 13:51:17:351 - info: [HTTP] 
+2019-04-22 13:51:17:457 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:17:458 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:17:459 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:17:460 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:17:461 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:17:461 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:17:509 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"88a00cbe-5170-4018-ac41-8fc1b30c7e91"}}
+2019-04-22 13:51:17:511 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"88a00cbe-5170-4018-ac41-8fc1b30c7e91"}
+2019-04-22 13:51:17:513 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 55 ms - 88
+2019-04-22 13:51:17:513 - info: [HTTP] 
+2019-04-22 13:51:17:518 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/88a00cbe-5170-4018-ac41-8fc1b30c7e91/text
+2019-04-22 13:51:17:519 - info: [HTTP] {}
+2019-04-22 13:51:17:520 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:17:526 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/88a00cbe-5170-4018-ac41-8fc1b30c7e91/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/88a00cbe-5170-4018-ac41-8fc1b30c7e91/text] with body: {}
+2019-04-22 13:51:17:552 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:17:553 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:17:555 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/88a00cbe-5170-4018-ac41-8fc1b30c7e91/text 200 35 ms - 92
+2019-04-22 13:51:17:555 - info: [HTTP] 
+2019-04-22 13:51:17:658 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:17:659 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:17:659 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:17:660 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:17:660 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:17:660 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:17:694 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"48168ab6-8cb6-4586-9bf9-2037cdbbce35"}}
+2019-04-22 13:51:17:696 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"48168ab6-8cb6-4586-9bf9-2037cdbbce35"}
+2019-04-22 13:51:17:698 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 38 ms - 88
+2019-04-22 13:51:17:698 - info: [HTTP] 
+2019-04-22 13:51:17:703 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/48168ab6-8cb6-4586-9bf9-2037cdbbce35/text
+2019-04-22 13:51:17:704 - info: [HTTP] {}
+2019-04-22 13:51:17:705 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:17:707 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/48168ab6-8cb6-4586-9bf9-2037cdbbce35/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/48168ab6-8cb6-4586-9bf9-2037cdbbce35/text] with body: {}
+2019-04-22 13:51:17:730 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:17:731 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:17:732 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/48168ab6-8cb6-4586-9bf9-2037cdbbce35/text 200 29 ms - 92
+2019-04-22 13:51:17:732 - info: [HTTP] 
+2019-04-22 13:51:17:838 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:17:847 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:17:848 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:17:849 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:17:850 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:17:851 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:17:892 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"702b1039-2639-4847-b0e5-c3a84ba13146"}}
+2019-04-22 13:51:17:894 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"702b1039-2639-4847-b0e5-c3a84ba13146"}
+2019-04-22 13:51:17:897 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 57 ms - 88
+2019-04-22 13:51:17:897 - info: [HTTP] 
+2019-04-22 13:51:17:903 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/702b1039-2639-4847-b0e5-c3a84ba13146/text
+2019-04-22 13:51:17:903 - info: [HTTP] {}
+2019-04-22 13:51:17:905 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:17:907 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/702b1039-2639-4847-b0e5-c3a84ba13146/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/702b1039-2639-4847-b0e5-c3a84ba13146/text] with body: {}
+2019-04-22 13:51:17:928 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:17:928 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:17:930 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/702b1039-2639-4847-b0e5-c3a84ba13146/text 200 27 ms - 92
+2019-04-22 13:51:17:931 - info: [HTTP] 
+2019-04-22 13:51:18:037 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:18:038 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:18:040 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:18:041 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:18:042 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:18:042 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:18:078 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"c7fdf872-9bc8-45c8-9bbd-1dd217e69b2a"}}
+2019-04-22 13:51:18:080 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"c7fdf872-9bc8-45c8-9bbd-1dd217e69b2a"}
+2019-04-22 13:51:18:081 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 44 ms - 88
+2019-04-22 13:51:18:082 - info: [HTTP] 
+2019-04-22 13:51:18:088 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/c7fdf872-9bc8-45c8-9bbd-1dd217e69b2a/text
+2019-04-22 13:51:18:088 - info: [HTTP] {}
+2019-04-22 13:51:18:090 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:18:091 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/c7fdf872-9bc8-45c8-9bbd-1dd217e69b2a/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/c7fdf872-9bc8-45c8-9bbd-1dd217e69b2a/text] with body: {}
+2019-04-22 13:51:18:116 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:18:117 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:18:118 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/c7fdf872-9bc8-45c8-9bbd-1dd217e69b2a/text 200 31 ms - 92
+2019-04-22 13:51:18:118 - info: [HTTP] 
+2019-04-22 13:51:18:225 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:18:225 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:18:226 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:18:228 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:18:229 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:18:229 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:18:270 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"2645002d-ac89-477c-b472-7d5922ee5fdd"}}
+2019-04-22 13:51:18:272 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2645002d-ac89-477c-b472-7d5922ee5fdd"}
+2019-04-22 13:51:18:273 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 48 ms - 88
+2019-04-22 13:51:18:274 - info: [HTTP] 
+2019-04-22 13:51:18:279 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/2645002d-ac89-477c-b472-7d5922ee5fdd/text
+2019-04-22 13:51:18:280 - info: [HTTP] {}
+2019-04-22 13:51:18:281 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:18:282 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/2645002d-ac89-477c-b472-7d5922ee5fdd/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/2645002d-ac89-477c-b472-7d5922ee5fdd/text] with body: {}
+2019-04-22 13:51:18:306 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:18:306 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:18:308 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/2645002d-ac89-477c-b472-7d5922ee5fdd/text 200 28 ms - 92
+2019-04-22 13:51:18:308 - info: [HTTP] 
+2019-04-22 13:51:18:413 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:18:414 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:18:414 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:18:415 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:18:415 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:18:416 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:18:450 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"2c3cedd9-bbc5-4632-b173-26ab0cf569f2"}}
+2019-04-22 13:51:18:452 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2c3cedd9-bbc5-4632-b173-26ab0cf569f2"}
+2019-04-22 13:51:18:453 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 39 ms - 88
+2019-04-22 13:51:18:453 - info: [HTTP] 
+2019-04-22 13:51:18:457 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/2c3cedd9-bbc5-4632-b173-26ab0cf569f2/text
+2019-04-22 13:51:18:458 - info: [HTTP] {}
+2019-04-22 13:51:18:459 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:18:459 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/2c3cedd9-bbc5-4632-b173-26ab0cf569f2/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/2c3cedd9-bbc5-4632-b173-26ab0cf569f2/text] with body: {}
+2019-04-22 13:51:18:481 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:18:482 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:18:483 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/2c3cedd9-bbc5-4632-b173-26ab0cf569f2/text 200 26 ms - 92
+2019-04-22 13:51:18:483 - info: [HTTP] 
+2019-04-22 13:51:18:590 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:18:590 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:18:591 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:18:592 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:18:593 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:18:593 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:18:629 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"9bb8c979-6533-4bcd-8a41-aecf4c6c63e3"}}
+2019-04-22 13:51:18:630 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"9bb8c979-6533-4bcd-8a41-aecf4c6c63e3"}
+2019-04-22 13:51:18:632 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 42 ms - 88
+2019-04-22 13:51:18:633 - info: [HTTP] 
+2019-04-22 13:51:18:638 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/9bb8c979-6533-4bcd-8a41-aecf4c6c63e3/text
+2019-04-22 13:51:18:639 - info: [HTTP] {}
+2019-04-22 13:51:18:640 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:18:642 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/9bb8c979-6533-4bcd-8a41-aecf4c6c63e3/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/9bb8c979-6533-4bcd-8a41-aecf4c6c63e3/text] with body: {}
+2019-04-22 13:51:18:665 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:18:666 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:18:668 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/9bb8c979-6533-4bcd-8a41-aecf4c6c63e3/text 200 29 ms - 92
+2019-04-22 13:51:18:669 - info: [HTTP] 
+2019-04-22 13:51:18:783 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:18:783 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:18:785 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:18:786 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:18:787 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:18:788 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:18:827 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"548507b3-48c0-415b-9bdf-d3d5699822fa"}}
+2019-04-22 13:51:18:830 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"548507b3-48c0-415b-9bdf-d3d5699822fa"}
+2019-04-22 13:51:18:832 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 48 ms - 88
+2019-04-22 13:51:18:833 - info: [HTTP] 
+2019-04-22 13:51:18:840 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/548507b3-48c0-415b-9bdf-d3d5699822fa/text
+2019-04-22 13:51:18:841 - info: [HTTP] {}
+2019-04-22 13:51:18:842 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:18:845 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/548507b3-48c0-415b-9bdf-d3d5699822fa/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/548507b3-48c0-415b-9bdf-d3d5699822fa/text] with body: {}
+2019-04-22 13:51:18:872 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:18:874 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:18:875 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/548507b3-48c0-415b-9bdf-d3d5699822fa/text 200 35 ms - 92
+2019-04-22 13:51:18:875 - info: [HTTP] 
+2019-04-22 13:51:18:981 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:18:982 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:18:983 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:18:984 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:18:985 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:18:986 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:19:023 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"e234256d-4552-48ed-8427-c6bd9a4fac6a"}}
+2019-04-22 13:51:19:025 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"e234256d-4552-48ed-8427-c6bd9a4fac6a"}
+2019-04-22 13:51:19:027 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 45 ms - 88
+2019-04-22 13:51:19:028 - info: [HTTP] 
+2019-04-22 13:51:19:033 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/e234256d-4552-48ed-8427-c6bd9a4fac6a/text
+2019-04-22 13:51:19:033 - info: [HTTP] {}
+2019-04-22 13:51:19:035 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:19:037 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/e234256d-4552-48ed-8427-c6bd9a4fac6a/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/e234256d-4552-48ed-8427-c6bd9a4fac6a/text] with body: {}
+2019-04-22 13:51:19:657 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:19:659 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:19:659 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/e234256d-4552-48ed-8427-c6bd9a4fac6a/text 200 626 ms - 92
+2019-04-22 13:51:19:661 - info: [HTTP] 
+2019-04-22 13:51:19:765 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:19:766 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:19:767 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:19:769 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:19:769 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:19:770 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:19:808 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"b3301002-a421-4065-b49d-b18e636787f0"}}
+2019-04-22 13:51:19:810 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"b3301002-a421-4065-b49d-b18e636787f0"}
+2019-04-22 13:51:19:812 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 45 ms - 88
+2019-04-22 13:51:19:812 - info: [HTTP] 
+2019-04-22 13:51:19:817 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/b3301002-a421-4065-b49d-b18e636787f0/text
+2019-04-22 13:51:19:818 - info: [HTTP] {}
+2019-04-22 13:51:19:819 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:19:820 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/b3301002-a421-4065-b49d-b18e636787f0/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/b3301002-a421-4065-b49d-b18e636787f0/text] with body: {}
+2019-04-22 13:51:19:843 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:19:844 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:19:845 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/b3301002-a421-4065-b49d-b18e636787f0/text 200 27 ms - 92
+2019-04-22 13:51:19:846 - info: [HTTP] 
+2019-04-22 13:51:19:951 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:19:952 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:19:953 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:19:955 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:19:956 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:19:957 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:19:994 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"58acbdc0-29df-4212-95f4-86b4c56b5f14"}}
+2019-04-22 13:51:19:995 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"58acbdc0-29df-4212-95f4-86b4c56b5f14"}
+2019-04-22 13:51:19:996 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 45 ms - 88
+2019-04-22 13:51:19:996 - info: [HTTP] 
+2019-04-22 13:51:20:000 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/58acbdc0-29df-4212-95f4-86b4c56b5f14/text
+2019-04-22 13:51:20:000 - info: [HTTP] {}
+2019-04-22 13:51:20:001 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:20:002 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/58acbdc0-29df-4212-95f4-86b4c56b5f14/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/58acbdc0-29df-4212-95f4-86b4c56b5f14/text] with body: {}
+2019-04-22 13:51:20:027 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:20:028 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:20:031 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/58acbdc0-29df-4212-95f4-86b4c56b5f14/text 200 29 ms - 92
+2019-04-22 13:51:20:033 - info: [HTTP] 
+2019-04-22 13:51:20:138 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:20:138 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:20:139 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:20:140 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:20:141 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:20:142 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:20:174 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"f74460ba-6e5e-4f36-96d1-e1771035a56b"}}
+2019-04-22 13:51:20:176 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"f74460ba-6e5e-4f36-96d1-e1771035a56b"}
+2019-04-22 13:51:20:178 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 39 ms - 88
+2019-04-22 13:51:20:178 - info: [HTTP] 
+2019-04-22 13:51:20:183 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/f74460ba-6e5e-4f36-96d1-e1771035a56b/text
+2019-04-22 13:51:20:184 - info: [HTTP] {}
+2019-04-22 13:51:20:185 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:20:187 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/f74460ba-6e5e-4f36-96d1-e1771035a56b/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/f74460ba-6e5e-4f36-96d1-e1771035a56b/text] with body: {}
+2019-04-22 13:51:20:210 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:20:211 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:20:214 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/f74460ba-6e5e-4f36-96d1-e1771035a56b/text 200 30 ms - 92
+2019-04-22 13:51:20:215 - info: [HTTP] 
+2019-04-22 13:51:20:320 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:20:321 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:20:322 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:20:323 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:20:324 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:20:325 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:20:358 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"f1d282ed-eb37-44f1-9509-605baab088c3"}}
+2019-04-22 13:51:20:362 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"f1d282ed-eb37-44f1-9509-605baab088c3"}
+2019-04-22 13:51:20:363 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 43 ms - 88
+2019-04-22 13:51:20:364 - info: [HTTP] 
+2019-04-22 13:51:20:369 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/f1d282ed-eb37-44f1-9509-605baab088c3/text
+2019-04-22 13:51:20:369 - info: [HTTP] {}
+2019-04-22 13:51:20:371 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:20:372 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/f1d282ed-eb37-44f1-9509-605baab088c3/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/f1d282ed-eb37-44f1-9509-605baab088c3/text] with body: {}
+2019-04-22 13:51:20:393 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:20:394 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:20:395 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/f1d282ed-eb37-44f1-9509-605baab088c3/text 200 26 ms - 92
+2019-04-22 13:51:20:397 - info: [HTTP] 
+2019-04-22 13:51:20:502 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:20:503 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:20:511 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:20:513 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:20:513 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:20:514 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:20:557 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"f884fdf7-fdec-43f2-9663-c74afc7175fa"}}
+2019-04-22 13:51:20:561 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"f884fdf7-fdec-43f2-9663-c74afc7175fa"}
+2019-04-22 13:51:20:563 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 60 ms - 88
+2019-04-22 13:51:20:564 - info: [HTTP] 
+2019-04-22 13:51:20:568 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/f884fdf7-fdec-43f2-9663-c74afc7175fa/text
+2019-04-22 13:51:20:569 - info: [HTTP] {}
+2019-04-22 13:51:20:571 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:20:575 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/f884fdf7-fdec-43f2-9663-c74afc7175fa/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/f884fdf7-fdec-43f2-9663-c74afc7175fa/text] with body: {}
+2019-04-22 13:51:20:610 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:20:610 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:20:612 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/f884fdf7-fdec-43f2-9663-c74afc7175fa/text 200 43 ms - 92
+2019-04-22 13:51:20:613 - info: [HTTP] 
+2019-04-22 13:51:20:718 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:20:719 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:20:720 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:20:722 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:20:723 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:20:723 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:20:755 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"a65e6935-8429-4086-a333-14ed592d5b42"}}
+2019-04-22 13:51:20:756 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"a65e6935-8429-4086-a333-14ed592d5b42"}
+2019-04-22 13:51:20:759 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 40 ms - 88
+2019-04-22 13:51:20:759 - info: [HTTP] 
+2019-04-22 13:51:20:764 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/a65e6935-8429-4086-a333-14ed592d5b42/text
+2019-04-22 13:51:20:766 - info: [HTTP] {}
+2019-04-22 13:51:20:766 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:20:768 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/a65e6935-8429-4086-a333-14ed592d5b42/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/a65e6935-8429-4086-a333-14ed592d5b42/text] with body: {}
+2019-04-22 13:51:20:790 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:20:792 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:20:793 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/a65e6935-8429-4086-a333-14ed592d5b42/text 200 28 ms - 92
+2019-04-22 13:51:20:794 - info: [HTTP] 
+2019-04-22 13:51:20:900 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:20:901 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:20:903 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:20:904 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:20:905 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:20:906 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:20:941 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"e45fa70b-de15-421f-8cdf-f074f1002e60"}}
+2019-04-22 13:51:20:944 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"e45fa70b-de15-421f-8cdf-f074f1002e60"}
+2019-04-22 13:51:20:947 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 45 ms - 88
+2019-04-22 13:51:20:947 - info: [HTTP] 
+2019-04-22 13:51:20:954 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/e45fa70b-de15-421f-8cdf-f074f1002e60/text
+2019-04-22 13:51:20:955 - info: [HTTP] {}
+2019-04-22 13:51:20:957 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:20:958 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/e45fa70b-de15-421f-8cdf-f074f1002e60/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/e45fa70b-de15-421f-8cdf-f074f1002e60/text] with body: {}
+2019-04-22 13:51:20:987 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:20:988 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:20:991 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/e45fa70b-de15-421f-8cdf-f074f1002e60/text 200 36 ms - 92
+2019-04-22 13:51:20:993 - info: [HTTP] 
+2019-04-22 13:51:21:097 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:21:099 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:21:099 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:21:101 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:21:101 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:21:102 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:21:139 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"d259168c-ddcb-473e-8ca0-be4d9641e3b3"}}
+2019-04-22 13:51:21:140 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"d259168c-ddcb-473e-8ca0-be4d9641e3b3"}
+2019-04-22 13:51:21:141 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 44 ms - 88
+2019-04-22 13:51:21:141 - info: [HTTP] 
+2019-04-22 13:51:21:143 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/d259168c-ddcb-473e-8ca0-be4d9641e3b3/text
+2019-04-22 13:51:21:143 - info: [HTTP] {}
+2019-04-22 13:51:21:143 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:21:144 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/d259168c-ddcb-473e-8ca0-be4d9641e3b3/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/d259168c-ddcb-473e-8ca0-be4d9641e3b3/text] with body: {}
+2019-04-22 13:51:21:162 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:21:162 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:21:163 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/d259168c-ddcb-473e-8ca0-be4d9641e3b3/text 200 20 ms - 92
+2019-04-22 13:51:21:163 - info: [HTTP] 
+2019-04-22 13:51:21:267 - info: [HTTP] --> POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element
+2019-04-22 13:51:21:268 - info: [HTTP] {"using":"id","sessionId":"66f1b4f0-d7cd-4e6d-9e56-d85a512fb737","value":"com.cy.patrol:id/v_title"}
+2019-04-22 13:51:21:268 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.cy.patrol:id/v_title","66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:21:269 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-22 13:51:21:269 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-22 13:51:21:270 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element] with body: {"strategy":"id","selector":"com.cy.patrol:id/v_title","context":"","multiple":false}
+2019-04-22 13:51:21:302 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"c81f82dc-fbcb-46eb-96f9-236e9b91e944","status":0,"value":{"ELEMENT":"312a21a1-ffc0-4420-8ffd-3ce233a1eb41"}}
+2019-04-22 13:51:21:303 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"312a21a1-ffc0-4420-8ffd-3ce233a1eb41"}
+2019-04-22 13:51:21:304 - info: [HTTP] <-- POST /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element 200 36 ms - 88
+2019-04-22 13:51:21:304 - info: [HTTP] 
+2019-04-22 13:51:21:307 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/312a21a1-ffc0-4420-8ffd-3ce233a1eb41/text
+2019-04-22 13:51:21:307 - info: [HTTP] {}
+2019-04-22 13:51:21:307 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 13:51:21:308 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/312a21a1-ffc0-4420-8ffd-3ce233a1eb41/text] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/element/312a21a1-ffc0-4420-8ffd-3ce233a1eb41/text] with body: {}
+2019-04-22 13:51:21:328 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"万博智慧交通\"}"
+2019-04-22 13:51:21:329 - info: [JSONWP Proxy] Replacing sessionId c81f82dc-fbcb-46eb-96f9-236e9b91e944 with 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:21:329 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/element/312a21a1-ffc0-4420-8ffd-3ce233a1eb41/text 200 22 ms - 92
+2019-04-22 13:51:21:330 - info: [HTTP] 
+2019-04-22 13:51:21:440 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/screenshot
+2019-04-22 13:51:21:440 - info: [HTTP] {}
+2019-04-22 13:51:21:441 - info: [debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:21:443 - info: [debug] [JSONWP Proxy] Proxying [GET /screenshot] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/screenshot] with no body
+2019-04-22 13:51:22:296 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAhwCAIAAABH2RmtAAAAA3NCSVQICAjb4U\\/gAAAgAElEQVR4\\nnOydd5gdxZW33565kzXKOWcJoQRCICQECIFkchQm2AQbh7WN8dredVh7115\\/u951WoMzxgaMweQc\\nREaBjFAACeWcszSaHO73x\\/Tc2KG6u\\/rentF5Hx5xp7vq16erq+p0dSXjhh\\/FEQRBEARBEARBiBIF\\n+TZAEARBEARBEAQhE2moCIIgCIIgCIIQOaShIgiCIAiCIAhC5JCGiiAIgiAIgiAIkUMaKoIgCIIg\\nCIIgRA5pqAiCIAiCIAiCEDmkoSIIgiAIgiAIQuSQhoogCIIgCIIgCJFDGiqCIAiCIAiCIEQOaagI\\ngiAIgiAIghA5pKEiCIIgCIIgCELkkIaKIAiCIAiCIAiRQxoqgiAIgiAIgiBEjg7bULnxQopjSiFL\\nirjxwpCtEQRBEARBEATBC2rv8u2Qc05h8mj+9Tc0NjF3GheeQXkJsRjxOPUN7NzP7Q9y5BjFRfzs\\n63TtxL3P5dtiQRAEQRAEQRDaMG74UTxHV4LRQ5g0itGD6d2dilKA6jr2HmTdNpatZe0WNJoyoBf\\/\\n7584VkNFGYU2\\/UabdtKrG2UlfP\\/37D6g79qCIAiCIAhCyPTowkVnMGkUXTpx5BjL1\\/HsYg4c0RBY\\niAi5aKgYBjMnc9EZ9OnuFGzPQZ5dzKJlxDVZdPnZXHaWe7BfPcDydXquKAiCIAiCIOSA8cO59dOU\\nFiePxGHFOn77CA2NmYGLi\\/jaPCaOwkg5WNfAbx7m4w2eL11azI++SNdOfPl\\/zCMTRnDFLAb05nAV\\nr3\\/A\\/Lf9fHy\\/9z8yj9z4Y88iE0fy+Uvp2sn75X1x+B...
+2019-04-22 13:51:22:314 - info: [debug] [W3C] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAhwCAIAAABH2RmtAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOydd5gdxZW33565kzXKOWcJoQRCICQECIFkchQm2AQbh7WN8dredVh7115/u951WoMzxgaMweQc\nREaBjFAACeWcszSaHO73x/Tc2KG6u/rentF5Hx5xp7vq16erq+p0dSXjhh/FEQRBEARBEARBiBIF\n+TZAEARBEARBEAQhE2moCIIgCIIgCIIQOaShIgiCIAiCIAhC5JCGiiAIgiAIgiAIkUMaKoIgCIIg\nCIIgRA5pqAiCIAiCIAiCEDmkoSIIgiAIgiAIQuSQhoogCIIgCIIgCJFDGiqCIAiCIAiCIEQOaagI\ngiAIgiAIghA5pKEiCIIgCIIgCELkkIaKIAiCIAiCIAiRQxoqgiAIgiAIgiBEjg7bULnxQopjSiFL\nirjxwpCtEQRBEARBEATBC2rv8u2Qc05h8mj+9Tc0NjF3GheeQXkJsRjxOPUN7NzP7Q9y5BjFRfzs\n63TtxL3P5dtiQRAEQRAEQRDaMG74UTxHV4LRQ5g0itGD6d2dilKA6jr2HmTdNpatZe0WNJoyoBf/\n7584VkNFGYU2/UabdtKrG2UlfP/37D6g79qCIAiCIAhCyPTowkVnMGkUXTpx5BjL1/HsYg4c0RBY\niAi5aKgYBjMnc9EZ9OnuFGzPQZ5dzKJlxDVZdPnZXHaWe7BfPcDydXquKAiCIAiCIOSA8cO59dOU\nFiePxGHFOn77CA2NmYGLi/jaPCaOwkg5WNfAbx7m4w2eL11azI++SNdOfPl/zCMTRnDFLAb05nAV\nr3/A/Lf9fHy/9z8yj9z4Y88iE0fy+Uvp2sn75X1x+Bh/eYoV68PSD33oV6+ufHUew/q7h+zTnc9f\nwjmn8LtH2Hc46HUH9lZqpQBXzWbFem2tI0EQBEEQBCFUenXla1cnWynxOIuX88wiimJcOIOxQ+jb\nMzl4Z/...
+2019-04-22 13:51:22:329 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/screenshot 200 885 ms - 385194
+2019-04-22 13:51:22:330 - info: [HTTP] 
+2019-04-22 13:51:22:341 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/screenshot
+2019-04-22 13:51:22:341 - info: [HTTP] {}
+2019-04-22 13:51:22:341 - info: [debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:22:342 - info: [debug] [JSONWP Proxy] Proxying [GET /screenshot] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/screenshot] with no body
+2019-04-22 13:51:23:202 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAhwCAIAAABH2RmtAAAAA3NCSVQICAjb4U\\/gAAAgAElEQVR4\\nnOydd5wcxZn3fz0zOzubpF2FVc5ZKIEQCAmBhECYHIUJJhqHM+B853C+s31+fb5zOhsbbGNMMDlI\\nBBFERgmRFJGEcs5hJW3enZ3p94\\/pmZ7p6VBVXT3TM\\/t8P7aY7a7+9dNPV9XT1RVaueVnKgiCIAiC\\nIAiCIPxEIN8GEARBEARBEARBGKGGCkEQBEEQBEEQvoMaKgRBEARBEARB+A5qqBAEQRAEQRAE4Tuo\\noUIQBEEQBEEQhO+ghgpBEARBEARBEL6DGioEQRAEQRAEQfgOaqgQBEEQBEEQBOE7qKFCEARBEARB\\nEITvoIYKQRAEQRAEQRC+gxoqBEEQBEEQBEH4DmqoEARBEARBEAThO6ihQhAEQRAEQRCE7yjahsqt\\nlyAcYkpZWoJbL\\/HYGoIgCIIgCIIgeGB7li9Azjsdk0bi3\\/6EaAcunIpLzkZ5KUIhqCra2rH\\/KP74\\nNE42IlyCX38T1ZV49NV8W0wQBEEQBEEQRBLllp+pOToTMHIQJo7AyIGo7YaKCAA0teJwHbbswerN\\n2LwLEk3p1xP\\/71\\/Q2IyKMgQt+o127EfPGpSV4sf34+AxeecmCIIgCIIgPKZ7V1x6NiaOQNdKnGzE\\nmi14ZSmOnZSQmPAJuWioKApmTMKlZ6NXN7tkh+rwylIsWQ1VkkVXzcSV5zon+\\/2TWLNFzhkJgiAI\\ngiCIHDBuKO75IiJhfYsKrN2CPz+H9qgxcbgEd8\\/FhBFQ0ja2tuNPz2LdNu5TR8L42VdRXYmv\\/4+2\\nZfwwXD0L\\/WpxogHvfYqFy0Vevj\\/6U+OWW3\\/OLXL5Ob...
+2019-04-22 13:51:23:218 - info: [debug] [W3C] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAhwCAIAAABH2RmtAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOydd5wcxZn3fz0zOzubpF2FVc5ZKIEQCAmBhECYHIUJJhqHM+B853C+s31+fb5zOhsbbGNMMDlI\nBBFERgmRFJGEcs5hJW3enZ3p94/pmZ7p6VBVXT3TM/t8P7aY7a7+9dNPV9XT1RVaueVnKgiCIAiC\nIAiCIPxEIN8GEARBEARBEARBGKGGCkEQBEEQBEEQvoMaKgRBEARBEARB+A5qqBAEQRAEQRAE4Tuo\noUIQBEEQBEEQhO+ghgpBEARBEARBEL6DGioEQRAEQRAEQfgOaqgQBEEQBEEQBOE7qKFCEARBEARB\nEITvoIYKQRAEQRAEQRC+gxoqBEEQBEEQBEH4DmqoEARBEARBEAThO6ihQhAEQRAEQRCE7yjahsqt\nlyAcYkpZWoJbL/HYGoIgCIIgCIIgeGB7li9Azjsdk0bi3/6EaAcunIpLzkZ5KUIhqCra2rH/KP74\nNE42IlyCX38T1ZV49NV8W0wQBEEQBEEQRBLllp+pOToTMHIQJo7AyIGo7YaKCAA0teJwHbbswerN\n2LwLEk3p1xP/71/Q2IyKMgQt+o127EfPGpSV4sf34+AxeecmCIIgCIIgPKZ7V1x6NiaOQNdKnGzE\nmi14ZSmOnZSQmPAJuWioKApmTMKlZ6NXN7tkh+rwylIsWQ1VkkVXzcSV5zon+/2TWLNFzhkJgiAI\ngiCIHDBuKO75IiJhfYsKrN2CPz+H9qgxcbgEd8/FhBFQ0ja2tuNPz2LdNu5TR8L42VdRXYmv/4+2\nZfwwXD0L/WpxogHvfYqFy0Vevj/6U+OWW3/OLXL5ObhqJgKKc0opxFW88D5eXuyVvudDv3pW4665\nGNLXOWWvbvjy5TjvdNz3HI6ccHve/rVMrRQA187G2q3SWkcEQRAEQRCEp/Ssxt3X6a0UVcXSNViw\nBCUhXD...
+2019-04-22 13:51:23:232 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/screenshot 200 887 ms - 384878
+2019-04-22 13:51:23:233 - info: [HTTP] 
+2019-04-22 13:51:23:248 - info: [HTTP] --> GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/screenshot
+2019-04-22 13:51:23:249 - info: [HTTP] {}
+2019-04-22 13:51:23:249 - info: [debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:23:250 - info: [debug] [JSONWP Proxy] Proxying [GET /screenshot] to [GET http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944/screenshot] with no body
+2019-04-22 13:51:24:091 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAhwCAIAAABH2RmtAAAAA3NCSVQICAjb4U\\/gAAAgAElEQVR4\\nnOydd5gdxZW33565kzXKOWcJoQRCICQECIFkchQm2AQbh7WN8dredVh7115\\/u951WoMzxgaMweQc\\nREaBjFAACeWcszSaHO73x\\/Tc2KG6u\\/rentF5Hx5xp7vq16erq+p0dSXjhh\\/FEQRBEARBEARBiBIF\\n+TZAEARBEARBEAQhE2moCIIgCIIgCIIQOaShIgiCIAiCIAhC5JCGiiAIgiAIgiAIkUMaKoIgCIIg\\nCIIgRA5pqAiCIAiCIAiCEDmkoSIIgiAIgiAIQuSQhoogCIIgCIIgCJFDGiqCIAiCIAiCIEQOaagI\\ngiAIgiAIghA5pKEiCIIgCIIgCELkkIaKIAiCIAiCIAiRQxoqgiAIgiAIgiBEjg7bULnxQopjSiFL\\nirjxwpCtEQRBEARBEATBC2rv8u2Qc05h8mj+9Tc0NjF3GheeQXkJsRjxOPUN7NzP7Q9y5BjFRfzs\\n63TtxL3P5dtiQRAEQRAEQRDaMG74UTxHV4LRQ5g0itGD6d2dilKA6jr2HmTdNpatZe0WNJoyoBf\\/\\n7584VkNFGYU2\\/UabdtKrG2UlfP\\/37D6g79qCIAiCIAhCyPTowkVnMGkUXTpx5BjL1\\/HsYg4c0RBY\\niAi5aKgYBjMnc9EZ9OnuFGzPQZ5dzKJlxDVZdPnZXHaWe7BfPcDydXquKAiCIAiCIOSA8cO59dOU\\nFiePxGHFOn77CA2NmYGLi\\/jaPCaOwkg5WNfAbx7m4w2eL11azI++SNdOfPl\\/zCMTRnDFLAb05nAV\\nr3\\/A\\/Lf9fHy\\/9z8yj9z4Y88iE0fy+Uvp2sn75X1x+B...
+2019-04-22 13:51:24:116 - info: [debug] [W3C] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAhwCAIAAABH2RmtAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOydd5gdxZW33565kzXKOWcJoQRCICQECIFkchQm2AQbh7WN8dredVh7115/u951WoMzxgaMweQc\nREaBjFAACeWcszSaHO73x/Tc2KG6u/rentF5Hx5xp7vq16erq+p0dSXjhh/FEQRBEARBEARBiBIF\n+TZAEARBEARBEAQhE2moCIIgCIIgCIIQOaShIgiCIAiCIAhC5JCGiiAIgiAIgiAIkUMaKoIgCIIg\nCIIgRA5pqAiCIAiCIAiCEDmkoSIIgiAIgiAIQuSQhoogCIIgCIIgCJFDGiqCIAiCIAiCIEQOaagI\ngiAIgiAIghA5pKEiCIIgCIIgCELkkIaKIAiCIAiCIAiRQxoqgiAIgiAIgiBEjg7bULnxQopjSiFL\nirjxwpCtEQRBEARBEATBC2rv8u2Qc05h8mj+9Tc0NjF3GheeQXkJsRjxOPUN7NzP7Q9y5BjFRfzs\n63TtxL3P5dtiQRAEQRAEQRDaMG74UTxHV4LRQ5g0itGD6d2dilKA6jr2HmTdNpatZe0WNJoyoBf/\n7584VkNFGYU2/UabdtKrG2UlfP/37D6g79qCIAiCIAhCyPTowkVnMGkUXTpx5BjL1/HsYg4c0RBY\niAi5aKgYBjMnc9EZ9OnuFGzPQZ5dzKJlxDVZdPnZXHaWe7BfPcDydXquKAiCIAiCIOSA8cO59dOU\nFiePxGHFOn77CA2NmYGLi/jaPCaOwkg5WNfAbx7m4w2eL11azI++SNdOfPl/zCMTRnDFLAb05nAV\nr3/A/Lf9fHy/9z8yj9z4Y88iE0fy+Uvp2sn75X1x+Bh/eYoV68PSD33oV6+ufHUew/q7h+zTnc9f\nwjmn8LtH2Hc46HUH9lZqpQBXzWbFem2tI0EQBEEQBCFUenXla1cnWynxOIuX88wiimJcOIOxQ+jb\nMzl4Z/...
+2019-04-22 13:51:24:133 - info: [HTTP] <-- GET /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737/screenshot 200 881 ms - 385194
+2019-04-22 13:51:24:133 - info: [HTTP] 
+2019-04-22 13:51:24:141 - info: [HTTP] --> DELETE /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737
+2019-04-22 13:51:24:141 - info: [HTTP] {}
+2019-04-22 13:51:24:142 - info: [debug] [W3C] Calling AppiumDriver.deleteSession() with args: ["66f1b4f0-d7cd-4e6d-9e56-d85a512fb737"]
+2019-04-22 13:51:24:143 - info: [debug] [BaseDriver] Event 'quitSessionRequested' logged at 1555941084142 (21:51:24 GMT+0800 (中国标准时间))
+2019-04-22 13:51:24:145 - info: [Appium] Removing session 66f1b4f0-d7cd-4e6d-9e56-d85a512fb737 from our master session list
+2019-04-22 13:51:24:147 - info: [debug] [UiAutomator2] Deleting UiAutomator2 session
+2019-04-22 13:51:24:150 - info: [debug] [UiAutomator2] Deleting UiAutomator2 server session
+2019-04-22 13:51:24:151 - info: [debug] [JSONWP Proxy] Proxying [DELETE /] to [DELETE http://localhost:8200/wd/hub/session/c81f82dc-fbcb-46eb-96f9-236e9b91e944] with no body
+2019-04-22 13:51:24:177 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"c81f82dc-fbcb-46eb-96f9-236e9b91e944\",\"status\":0,\"value\":\"Session deleted\"}"
+2019-04-22 13:51:24:177 - info: [debug] [UiAutomator2] Resetting IME to 'com.iflytek.inputmethod.smartisan/com.iflytek.inputmethod.FlyIME'
+2019-04-22 13:51:24:178 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell ime set com.iflytek.inputmethod.smartisan/com.iflytek.inputmethod.FlyIME'
+2019-04-22 13:51:24:559 - info: [debug] [UiAutomator2] [UIAutomator2] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:.
+2019-04-22 13:51:24:560 - info: [debug] [UiAutomator2] [UIAutomator2] Time: 22.029
+2019-04-22 13:51:24:561 - info: [debug] [UiAutomator2] [UIAutomator2] OK (1 test)
+2019-04-22 13:51:24:822 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell am force-stop com.cy.patrol'
+2019-04-22 13:51:25:443 - info: [debug] [Logcat] Stopping logcat capture
+2019-04-22 13:51:25:463 - info: [debug] [ADB] Removing forwarded port socket connection: 8200 
+2019-04-22 13:51:25:464 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 forward --remove tcp\:8200'
+2019-04-22 13:51:25:567 - info: [debug] [BaseDriver] Event 'quitSessionFinished' logged at 1555941085567 (21:51:25 GMT+0800 (中国标准时间))
+2019-04-22 13:51:25:568 - info: [debug] [W3C] Received response: null
+2019-04-22 13:51:25:569 - info: [debug] [W3C] But deleting session, so not returning
+2019-04-22 13:51:25:570 - info: [debug] [W3C] Responding to client with driver.deleteSession() result: null
+2019-04-22 13:51:25:572 - info: [HTTP] <-- DELETE /wd/hub/session/66f1b4f0-d7cd-4e6d-9e56-d85a512fb737 200 1428 ms - 14
+2019-04-22 13:51:25:572 - info: [HTTP] 

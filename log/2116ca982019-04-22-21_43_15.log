@@ -1,0 +1,227 @@
+2019-04-22 13:43:19:208 - warn: [Appium] Appium support for versions of node < 8 has been deprecated and will be removed in a future version. Please upgrade!
+2019-04-22 13:43:19:223 - info: [Appium] Welcome to Appium v1.8.1
+2019-04-22 13:43:19:224 - info: [Appium] Non-default server args:
+2019-04-22 13:43:19:225 - info: [Appium]   port: 4700
+2019-04-22 13:43:19:225 - info: [Appium]   bootstrapPort: 4900
+2019-04-22 13:43:19:225 - info: [Appium]   sessionOverride: true
+2019-04-22 13:43:19:225 - info: [Appium]   log: D:/pythonProgram/Appium27/log/2116ca982019-04-22-21_43_15.log
+2019-04-22 13:43:19:226 - info: [Appium]   udid: 2116ca98
+2019-04-22 13:43:19:226 - info: [Appium]   noReset: true
+2019-04-22 13:43:19:226 - warn: [Appium] Deprecated server args:
+2019-04-22 13:43:19:226 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"2116ca98"}'
+2019-04-22 13:43:19:227 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2019-04-22 13:43:19:227 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-04-22 13:43:19:227 - info: [Appium]   udid: 2116ca98
+2019-04-22 13:43:19:227 - info: [Appium]   noReset: true
+2019-04-22 13:43:19:270 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4700
+2019-04-22 13:43:36:895 - info: [HTTP] --> POST /wd/hub/session
+2019-04-22 13:43:36:895 - info: [HTTP] {"capabilities":{"firstMatch":[{"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:appWaitActivity":"com.cy.patrol.act.LoginAct","appium:automationName":"uiautomator2","appium:app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","appium:deviceName":"2116ca98","platformName":"Android"}]},"desiredCapabilities":{"deviceName":"2116ca98","unicodeKeyboard":true,"app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","appWaitActivity":"com.cy.patrol.act.LoginAct","resetKeyboard":true,"platformName":"Android","automationName":"uiautomator2"}}
+2019-04-22 13:43:36:898 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"2116ca98","unicodeKeyboard":true,"app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","appWaitActivity":"com.cy.patrol.act.LoginAct","resetKeyboard":true,"platformName":"Android","automationName":"uiautomator2"},null,{"firstMatch":[{"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:appWaitActivity":"com.cy.patrol.act.LoginAct","appium:automationName":"uiautomator2","appium:app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","appium:deviceName":"2116ca98","platformName":"Android"}]}]
+2019-04-22 13:43:36:899 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1555940616899 (21:43:36 GMT+0800 (中国标准时间))
+2019-04-22 13:43:36:903 - warn: [BaseDriver] The capabilities ["udid","noReset"] are not standard capabilities and should have an extension prefix
+2019-04-22 13:43:36:909 - info: [Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
+2019-04-22 13:43:36:909 - info: [Appium] Capabilities:
+2019-04-22 13:43:36:909 - info: [Appium]   udid: 2116ca98
+2019-04-22 13:43:36:909 - info: [Appium]   noReset: true
+2019-04-22 13:43:36:909 - info: [Appium]   platformName: Android
+2019-04-22 13:43:36:909 - info: [Appium]   unicodeKeyboard: true
+2019-04-22 13:43:36:909 - info: [Appium]   resetKeyboard: true
+2019-04-22 13:43:36:909 - info: [Appium]   appWaitActivity: com.cy.patrol.act.LoginAct
+2019-04-22 13:43:36:909 - info: [Appium]   automationName: uiautomator2
+2019-04-22 13:43:36:909 - info: [Appium]   app: E:\work\appium\xcry_appium/apk/0421.apk
+2019-04-22 13:43:36:909 - info: [Appium]   deviceName: 2116ca98
+2019-04-22 13:43:36:914 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"appium:udi... and MJSONWP desired capabilities [object Object] were provided
+2019-04-22 13:43:36:914 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"appium:udi...
+2019-04-22 13:43:36:929 - info: [BaseDriver] Session created with session id: f9a69d5c-48f1-4f25-8dfa-9b3e05748a48
+2019-04-22 13:43:36:933 - info: [BaseDriver] Using local app 'E:\work\appium\xcry_appium/apk/0421.apk'
+2019-04-22 13:43:36:934 - info: [debug] [UiAutomator2] Checking whether app is actually present
+2019-04-22 13:43:37:345 - info: [debug] [AndroidDriver] Getting Java version
+2019-04-22 13:43:37:587 - info: [AndroidDriver] Java version is: 1.8.0_151
+2019-04-22 13:43:37:590 - info: [ADB] Checking whether adb is present
+2019-04-22 13:43:37:596 - info: [ADB] Found 1 'build-tools' folders under 'E:\sdk' (newest first):
+2019-04-22 13:43:37:596 - info: [ADB]     E:/sdk/build-tools/android-4.3
+2019-04-22 13:43:37:596 - info: [ADB] Using adb.exe from E:\sdk\platform-tools\adb.exe
+2019-04-22 13:43:37:597 - info: [AndroidDriver] Retrieving device list
+2019-04-22 13:43:37:597 - info: [debug] [ADB] Trying to find a connected android device
+2019-04-22 13:43:37:598 - info: [debug] [ADB] Getting connected devices...
+2019-04-22 13:43:37:656 - info: [debug] [ADB] 1 device(s) connected
+2019-04-22 13:43:37:659 - info: [AndroidDriver] Using device: 2116ca98
+2019-04-22 13:43:37:665 - info: [debug] [ADB] Setting device id to 2116ca98
+2019-04-22 13:43:37:670 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell getprop ro.build.version.sdk'
+2019-04-22 13:43:37:757 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 25
+2019-04-22 13:43:37:758 - info: [debug] [ADB] Device API level: 25
+2019-04-22 13:43:37:761 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2019-04-22 13:43:37:773 - info: [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in E:\sdk\platform-tools\apkanalyzer.bat,E:\sdk\emulator\apkanalyzer.bat,E:\sdk\tools\apkanalyzer.bat,E:\sdk\tools\bin\apkanalyzer.bat,E:\sdk\build-tools\android-4.3\apkanalyzer.bat. Do you have the Android SDK installed at 'E:\sdk'?
+2019-04-22 13:43:37:776 - info: [ADB] Checking whether aapt is present
+2019-04-22 13:43:37:780 - info: [ADB] Using aapt.exe from E:\sdk\tools\aapt.exe
+2019-04-22 13:43:37:783 - info: [ADB] Extracting package and launch activity from manifest
+2019-04-22 13:43:37:859 - info: [ADB] Package name: 'com.cy.patrol'
+2019-04-22 13:43:37:859 - info: [ADB] Main activity name: 'com.cy.patrol.act.LoadingAct'
+2019-04-22 13:43:37:860 - info: [debug] [AndroidDriver] Parsed package and activity are: com.cy.patrol/com.cy.patrol.act.LoadingAct
+2019-04-22 13:43:37:862 - info: [ADB] Getting device platform version
+2019-04-22 13:43:37:863 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell getprop ro.build.version.release'
+2019-04-22 13:43:37:945 - info: [debug] [ADB] Current device property 'ro.build.version.release': 7.1.1
+2019-04-22 13:43:37:949 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell wm size'
+2019-04-22 13:43:38:511 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell wm density'
+2019-04-22 13:43:39:111 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell getprop ro.product.model'
+2019-04-22 13:43:39:237 - info: [debug] [ADB] Current device property 'ro.product.model': OS103
+2019-04-22 13:43:39:239 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell getprop ro.product.manufacturer'
+2019-04-22 13:43:39:340 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': smartisan
+2019-04-22 13:43:39:341 - info: [debug] [ADB] Device API level: 25
+2019-04-22 13:43:39:343 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell am force-stop io.appium.uiautomator2.server'
+2019-04-22 13:43:39:896 - info: [debug] [ADB] Checking app cert for C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk
+2019-04-22 13:43:39:906 - warn: [ADB] Cannot use apksigner tool for signature verification. Defaulting to verify.jar. Original error: Could not find apksigner.bat in E:\sdk\platform-tools\apksigner.bat,E:\sdk\emulator\apksigner.bat,E:\sdk\tools\apksigner.bat,E:\sdk\tools\bin\apksigner.bat,E:\sdk\build-tools\android-4.3\apksigner.bat. Do you have the Android SDK installed at 'E:\sdk'?
+2019-04-22 13:43:40:499 - info: [debug] [ADB] 'C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' is already signed.
+2019-04-22 13:43:40:500 - info: [debug] [ADB] Checking app cert for C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2019-04-22 13:43:40:500 - warn: [ADB] Cannot use apksigner tool for signature verification. Defaulting to verify.jar. Original error: Could not find apksigner.bat in E:\sdk\platform-tools\apksigner.bat,E:\sdk\emulator\apksigner.bat,E:\sdk\tools\apksigner.bat,E:\sdk\tools\bin\apksigner.bat,E:\sdk\build-tools\android-4.3\apksigner.bat. Do you have the Android SDK installed at 'E:\sdk'?
+2019-04-22 13:43:41:020 - info: [debug] [ADB] 'C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2019-04-22 13:43:41:024 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server
+2019-04-22 13:43:41:025 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell pm list packages io.appium.uiautomator2.server'
+2019-04-22 13:43:41:607 - info: [debug] [ADB] App is installed
+2019-04-22 13:43:41:611 - info: [debug] [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2019-04-22 13:43:41:613 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell dumpsys package io.appium.uiautomator2.server'
+2019-04-22 13:43:41:812 - info: [debug] [ADB] The installed 'io.appium.uiautomator2.server' package does not require upgrade ('1.12.0' >= '1.12.0')
+2019-04-22 13:43:41:819 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+2019-04-22 13:43:41:822 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell pm list packages io.appium.uiautomator2.server.test'
+2019-04-22 13:43:42:431 - info: [debug] [ADB] App is installed
+2019-04-22 13:43:42:433 - info: [debug] [ADB] Getting package info for 'io.appium.uiautomator2.server.test'
+2019-04-22 13:43:42:434 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell dumpsys package io.appium.uiautomator2.server.test'
+2019-04-22 13:43:42:584 - warn: [ADB] Cannot read version codes of 'C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+2019-04-22 13:43:42:589 - warn: [ADB] Cannot read version names of 'C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+2019-04-22 13:43:42:591 - info: [debug] [UiAutomator2] Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+2019-04-22 13:43:42:597 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell pm list instrumentation'
+2019-04-22 13:43:43:221 - info: [debug] [UiAutomator2] Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+2019-04-22 13:43:43:227 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 wait-for-device'
+2019-04-22 13:43:43:323 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell echo ping'
+2019-04-22 13:43:43:427 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2019-04-22 13:43:43:429 - info: [debug] [ADB] Getting install status for io.appium.settings
+2019-04-22 13:43:43:430 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell pm list packages io.appium.settings'
+2019-04-22 13:43:44:028 - info: [debug] [ADB] App is installed
+2019-04-22 13:43:44:030 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2019-04-22 13:43:44:030 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell dumpsys package io.appium.settings'
+2019-04-22 13:43:44:212 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade (13 > 5)
+2019-04-22 13:43:44:216 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell ps'
+2019-04-22 13:43:44:423 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-04-22 13:43:44:425 - info: [debug] [ADB] Device API level: 25
+2019-04-22 13:43:44:427 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell appops set io.appium.settings android\:mock_location allow'
+2019-04-22 13:43:44:573 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2019-04-22 13:43:44:574 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2019-04-22 13:43:44:580 - info: [debug] [Logcat] Starting logcat capture
+2019-04-22 13:43:44:692 - info: [debug] [AndroidDriver] Enabling Unicode keyboard support
+2019-04-22 13:43:44:693 - info: [debug] [AndroidDriver] Pushing unicode ime to device...
+2019-04-22 13:43:44:697 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 install C\:\\Users\\30280\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-ime\\bin\\UnicodeIME-debug.apk'
+2019-04-22 13:43:45:605 - info: [debug] [ADB] Install command stdout: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.android.ime without first uninstalling.]
+2019-04-22 13:43:45:607 - info: [debug] [ADB] Application 'C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-ime\bin\UnicodeIME-debug.apk' already installed. Continuing.
+2019-04-22 13:43:45:611 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell settings get secure default_input_method'
+2019-04-22 13:43:46:209 - info: [debug] [AndroidDriver] Unsetting previous IME com.iflytek.inputmethod.smartisan/com.iflytek.inputmethod.FlyIME
+2019-04-22 13:43:46:210 - info: [debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+2019-04-22 13:43:46:212 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell ime enable io.appium.android.ime/.UnicodeIME'
+2019-04-22 13:43:46:785 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell ime set io.appium.android.ime/.UnicodeIME'
+2019-04-22 13:43:47:387 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2019-04-22 13:43:47:389 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2019-04-22 13:43:47:391 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell pm list packages io.appium.unlock'
+2019-04-22 13:43:47:997 - info: [debug] [ADB] App is installed
+2019-04-22 13:43:47:999 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2019-04-22 13:43:48:002 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell dumpsys package io.appium.unlock'
+2019-04-22 13:43:48:234 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2019-04-22 13:43:48:235 - info: [debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2019-04-22 13:43:48:236 - info: [debug] [ADB] Forwarding system: 8200 to device: 6790
+2019-04-22 13:43:48:237 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 forward tcp\:8200 tcp\:6790'
+2019-04-22 13:43:48:308 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell rm -rf /data/local/tmp/strings.json'
+2019-04-22 13:43:48:386 - info: [debug] [AndroidDriver] Extracting strings from apk
+2019-04-22 13:43:48:390 - info: [debug] [AndroidDriver] E:\work\appium\xcry_appium/apk/0421.apk
+2019-04-22 13:43:48:392 - info: [debug] [AndroidDriver] null
+2019-04-22 13:43:48:392 - info: [debug] [AndroidDriver] C:\Users\30280\AppData\Local\Temp\com.cy.patrol
+2019-04-22 13:43:48:395 - info: [debug] [ADB] Extracting strings for language: default
+2019-04-22 13:43:48:674 - info: [ADB] Successfully extracted 498 strings from 'E:\work\appium\xcry_appium/apk/0421.apk' resources for '(default)' configuration
+2019-04-22 13:43:48:694 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 push C\:\\Users\\30280\\AppData\\Local\\Temp\\com.cy.patrol\\strings.json /data/local/tmp'
+2019-04-22 13:43:48:803 - info: [debug] [ADB] Checking app cert for E:\work\appium\xcry_appium/apk/0421.apk
+2019-04-22 13:43:48:804 - warn: [ADB] Cannot use apksigner tool for signature verification. Defaulting to verify.jar. Original error: Could not find apksigner.bat in E:\sdk\platform-tools\apksigner.bat,E:\sdk\emulator\apksigner.bat,E:\sdk\tools\apksigner.bat,E:\sdk\tools\bin\apksigner.bat,E:\sdk\build-tools\android-4.3\apksigner.bat. Do you have the Android SDK installed at 'E:\sdk'?
+2019-04-22 13:43:50:389 - info: [debug] [ADB] 'E:\work\appium\xcry_appium/apk/0421.apk' is already signed.
+2019-04-22 13:43:50:390 - info: [debug] [ADB] Getting install status for com.cy.patrol
+2019-04-22 13:43:50:391 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell pm list packages com.cy.patrol'
+2019-04-22 13:43:50:985 - info: [debug] [ADB] App is installed
+2019-04-22 13:43:50:986 - info: [debug] [ADB] Getting package info for 'com.cy.patrol'
+2019-04-22 13:43:50:987 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell dumpsys package com.cy.patrol'
+2019-04-22 13:43:51:262 - info: [debug] [ADB] The installed 'com.cy.patrol' package does not require upgrade ('1.0.0' >= '1.0.0')
+2019-04-22 13:43:51:264 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell am force-stop io.appium.uiautomator2.server'
+2019-04-22 13:43:51:806 - info: [UiAutomator2] Starting uiautomator2 server 1.12.0
+2019-04-22 13:43:51:807 - info: [UiAutomator2] Using UIAutomator2 server from 'C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' and test from 'C:\Users\30280\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2019-04-22 13:43:51:809 - info: [UiAutomator2] Running command: 'adb -s 2116ca98 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+2019-04-22 13:43:51:817 - info: [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+2019-04-22 13:43:51:822 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-04-22 13:43:52:859 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-04-22 13:43:53:878 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-04-22 13:43:54:893 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-04-22 13:43:54:945 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+2019-04-22 13:43:54:949 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","udid":"2116ca98","noReset":true,"unicodeKeyboard":true,"resetKeyboard":true,"appWaitActivity":"com.cy.patrol.act.LoginAct","automationName":"uiautomator2","app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","deviceName":"2116ca98"},"platformName":"Android","udid":"2116ca98","noReset":true,"unicodeKeyboard":true,"resetKeyboard":true,"appWaitActivity":"com.cy.patrol.act.LoginAct","automationName":"uiautomator2","app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","deviceName":"2116ca98","deviceUDID":"2116ca98","platformVersion":"7.1.1","deviceScreenSize":"1080x2160","deviceScreenDensity":400,"deviceModel":"OS103","deviceManufacturer":"smartisan","deviceApiLevel":25,"appPackage":"com.cy.patrol"}}
+2019-04-22 13:43:54:988 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"12e7c8e8-fb7e-4b90-94d3-cd4942a5bbb8","status":0,"value":"Created Session"}
+2019-04-22 13:43:54:994 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell dumpsys window'
+2019-04-22 13:43:55:129 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2019-04-22 13:43:55:131 - info: [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.cy.patrol/com.cy.patrol.act.LoginAct'. Starting it ourselves
+2019-04-22 13:43:55:133 - info: [debug] [ADB] Device API level: 25
+2019-04-22 13:43:55:135 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell am start -W -n com.cy.patrol/com.cy.patrol.act.LoadingAct -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-04-22 13:43:56:992 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.cy.patrol' and activity: 'com.cy.patrol.act.LoginAct' to be focused
+2019-04-22 13:43:56:994 - info: [debug] [ADB] Possible activities, to be checked: 'com.cy.patrol.act.LoginAct', 'com.cy.patrol.com.cy.patrol.act.LoginAct'
+2019-04-22 13:43:56:998 - info: [debug] [ADB] Getting focused package and activity
+2019-04-22 13:43:56:999 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell dumpsys window windows'
+2019-04-22 13:43:57:169 - info: [debug] [ADB] Found package: 'com.cy.patrol' and fully qualified activity name : 'com.cy.patrol.act.LoginAct'
+2019-04-22 13:43:57:173 - info: [debug] [JSONWP Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8200/wd/hub/session/12e7c8e8-fb7e-4b90-94d3-cd4942a5bbb8/appium/device/pixel_ratio] with body: {}
+2019-04-22 13:43:57:191 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"12e7c8e8-fb7e-4b90-94d3-cd4942a5bbb8\",\"status\":0,\"value\":2.5}"
+2019-04-22 13:43:57:193 - info: [debug] [JSONWP Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8200/wd/hub/session/12e7c8e8-fb7e-4b90-94d3-cd4942a5bbb8/appium/device/system_bars] with body: {}
+2019-04-22 13:43:57:218 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"12e7c8e8-fb7e-4b90-94d3-cd4942a5bbb8\",\"status\":0,\"value\":{\"statusBar\":60}}"
+2019-04-22 13:43:57:221 - info: [debug] [JSONWP Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8200/wd/hub/session/12e7c8e8-fb7e-4b90-94d3-cd4942a5bbb8/window/current/size] with body: {}
+2019-04-22 13:43:57:240 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"12e7c8e8-fb7e-4b90-94d3-cd4942a5bbb8\",\"status\":0,\"value\":{\"height\":2070,\"width\":1080}}"
+2019-04-22 13:43:57:244 - info: [Appium] New AndroidUiautomator2Driver session created successfully, session f9a69d5c-48f1-4f25-8dfa-9b3e05748a48 added to master session list
+2019-04-22 13:43:57:248 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1555940637248 (21:43:57 GMT+0800 (中国标准时间))
+2019-04-22 13:43:57:252 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","udid":"2116ca98","noReset":true,"unicodeKeyboard":true,"resetKeyboard":true,"appWaitActivity":"com.cy.patrol.act.LoginAct","automationName":"uiautomator2","app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","deviceName":"2116ca98"},"platformName":"Android","udid":"2116ca98","noReset":true,"unicodeKeyboard":true,"resetKeyboard":true,"appWaitActivity":"com.cy.patrol.act.LoginAct","automationName":"uiautomator2","app":"E:\\work\\appium\\xcry_appium/apk/0421.apk","deviceName":"2116ca98","deviceUDID":"2116ca98","platformVersion":"7.1.1","deviceScreenSize":"1080x2160","deviceScreenDensity":400,"deviceModel":"OS103","deviceManufacturer":"smartisan","deviceApiLevel":25,"appPackage":"com.cy.patrol","pixelRatio":2.5,"statBarHeight":60,"viewportRect":{"left":0,"top":60,"widt...
+2019-04-22 13:43:57:272 - info: [HTTP] <-- POST /wd/hub/session 200 20369 ms - 1106
+2019-04-22 13:43:57:273 - info: [HTTP] 
+2019-04-22 13:43:57:293 - info: [HTTP] --> GET /wd/hub/session/f9a69d5c-48f1-4f25-8dfa-9b3e05748a48/screenshot
+2019-04-22 13:43:57:294 - info: [HTTP] {}
+2019-04-22 13:43:57:297 - info: [debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["f9a69d5c-48f1-4f25-8dfa-9b3e05748a48"]
+2019-04-22 13:43:57:301 - info: [debug] [JSONWP Proxy] Proxying [GET /screenshot] to [GET http://localhost:8200/wd/hub/session/12e7c8e8-fb7e-4b90-94d3-cd4942a5bbb8/screenshot] with no body
+2019-04-22 13:43:57:906 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"12e7c8e8-fb7e-4b90-94d3-cd4942a5bbb8\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAhwCAIAAABH2RmtAAAAA3NCSVQICAjb4U\\/gAAAgAElEQVR4\\nnOzdeVwU9ePH8VmO5VZBQBA8URG8JTXxPjK\\/mkfhkWXf1DLNyiPPvNK8r8wy7dA8v5hXlpp55Il4\\npuZ93wIiKAoLLC6w3z9Gp2mBdXdZYIDX89Gj38xnPzPz2X7fB8ybz6XSpmUKAAAAAKAkNgXdAAAA\\nAAAwRFABAAAAoDgEFQAAAACKQ1ABAAAAoDgEFQAAAACKQ1ABAAAAoDgEFQAAAACKQ1ABAAAAoDgE\\nFQAAAACKQ1ABAAAAoDgEFQAAAACKQ1ABAAAAoDgEFQAAAACKU2SDyvffLXr69KkpNbVa7Q\\/fL87r\\n9gAAAAAwnUqbllnQbcgTb7zeubSn57fffqdWq7ds+W3Tpl9SkpN1Op1KpXJ0dPTz8x\\/z2Th3d\\/e0\\ntLRBgwYkPHr0y6bNBd1kAAAAAM\\/kX1DR6\\/UXLpw\\/eeKvS5cuRcdEJ2s0giC4uLqW9S0bGBgY8lKD\\n4OAaKpXKWo+7e\\/fOsKGD3UqU0CQlZWRkZFunSpWqDx7EJicnL\\/h6YdmyftZ6NAAAAPJafFzcxo3r\\nT5w88TghoZS7e0j9kLCw7p5eXrmvDIXIj6Ci1+v37Plz48YN92NijFTz8fUNC+vWunVba8WVNWv+\\nt37d2hdWGzd+YkjIS1Z5IgAAAPLB6dN\\/z541IzU1VSpRqVT1Q0JGjBjt4OBgUDktLW3u3FknT5zQ\\n6\\/VSoZOT08hRY+rWrWfuo7Va7YgRw548frxq9Rqx5NSpkz+vCb979467h0e7dq927tzVgrfZN17v\\nbFBiwXifDRvWrlu7JjMzn\\/ohbGxsevTs1a1bzzy6f54H...
+2019-04-22 13:43:57:920 - info: [debug] [W3C] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAhwCAIAAABH2RmtAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdeVwU9ePH8VmO5VZBQBA8URG8JTXxPjK/mkfhkWXf1DLNyiPPvNK8r8wy7dA8v5hXlpp55Il4\npuZ93wIiKAoLLC6w3z9Gp2mBdXdZYIDX89Gj38xnPzPz2X7fB8ybz6XSpmUKAAAAAKAkNgXdAAAA\nAAAwRFABAAAAoDgEFQAAAACKQ1ABAAAAoDgEFQAAAACKQ1ABAAAAoDgEFQAAAACKQ1ABAAAAoDgE\nFQAAAACKQ1ABAAAAoDgEFQAAAACKQ1ABAAAAoDgEFQAAAACKU2SDyvffLXr69KkpNbVa7Q/fL87r\n9gAAAAAwnUqbllnQbcgTb7zeubSn57fffqdWq7ds+W3Tpl9SkpN1Op1KpXJ0dPTz8x/z2Th3d/e0\ntLRBgwYkPHr0y6bNBd1kAAAAAM/kX1DR6/UXLpw/eeKvS5cuRcdEJ2s0giC4uLqW9S0bGBgY8lKD\n4OAaKpXKWo+7e/fOsKGD3UqU0CQlZWRkZFunSpWqDx7EJicnL/h6YdmyftZ6NAAAAPJafFzcxo3r\nT5w88TghoZS7e0j9kLCw7p5eXrmvDIXIj6Ci1+v37Plz48YN92NijFTz8fUNC+vWunVba8WVNWv+\nt37d2hdWGzd+YkjIS1Z5IgAAAPLB6dN/z541IzU1VSpRqVT1Q0JGjBjt4OBgUDktLW3u3FknT5zQ\n6/VSoZOT08hRY+rWrWfuo7Va7YgRw548frxq9Rqx5NSpkz+vCb979467h0e7dq927tzVgrfZN17v\nbFBiwXifDRvWrlu7JjMzn/ohbGxsevTs1a1bzzy6f54HlQcPYufOmX3t2lUT61epUnXEyFHe3mVy\n+dw7d24PHfKJKTUrVqw0d958G5siO10HAACgKHnwIHb4p0OTk5PFU5VK1ap1627deqSlpR0+fOjC\n+fNR0V...
+2019-04-22 13:43:57:933 - info: [HTTP] <-- GET /wd/hub/session/f9a69d5c-48f1-4f25-8dfa-9b3e05748a48/screenshot 200 635 ms - 163176
+2019-04-22 13:43:57:934 - info: [HTTP] 
+2019-04-22 13:43:57:944 - info: [HTTP] --> GET /wd/hub/session/f9a69d5c-48f1-4f25-8dfa-9b3e05748a48/screenshot
+2019-04-22 13:43:57:945 - info: [HTTP] {}
+2019-04-22 13:43:57:948 - info: [debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["f9a69d5c-48f1-4f25-8dfa-9b3e05748a48"]
+2019-04-22 13:43:57:950 - info: [debug] [JSONWP Proxy] Proxying [GET /screenshot] to [GET http://localhost:8200/wd/hub/session/12e7c8e8-fb7e-4b90-94d3-cd4942a5bbb8/screenshot] with no body
+2019-04-22 13:43:58:489 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"12e7c8e8-fb7e-4b90-94d3-cd4942a5bbb8\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAhwCAIAAABH2RmtAAAAA3NCSVQICAjb4U\\/gAAAgAElEQVR4\\nnOzdeVxUVePH8Tvsqwv7EmKKiIiSirnvS1aWuWBumZXlkpZL5pZLmgtPaVZmmZpomltYhnsiirim\\nqInikisCgojCsA8yvz\\/u77m\\/+xsWYRjgAp\\/3H89rzplzzz30+IL5zj2LSqvVCgAAAACgJEaVPQAA\\nAAAA0EVQAQAAAKA4BBUAAAAAikNQAQAAAKA4BBUAAAAAikNQAQAAAKA4BBUAAAAAikNQAQAAAKA4\\nBBUAAAAAikNQAQAAAKA4BBUAAAAAikNQAQAAAKA4BBUAAAAAilNtg8qqVatyc3NL0jI7O\\/uHH34o\\n7\\/EAAAAAKDmVVqut7DGUi9dee83BwWH16tVmZma7du0KCQnJyMjQaDQqlcrCwuK555777LPP6tat\\nm5OT88EHH6SkpISGhlb2kAEAAAD8r4oLKlqt9vLly2fPno2JiYmPj09PTxcEwcbGxs3NzcfHp3Xr\\n1k2bNlWpVIa63b179yZOnFirVi21Wv306dNC2zRq1CgxMTEjI+P77793d3c31K0BAABQ3h4+fLhj\\nx46zZ88+fvy4bt26AQEBgYGBjo6OZW8MhaiIoKLVag8dOrRjx46EhIRimrm6ugYGBvbs2dNQcWXz\\n5s1bt259ZrN58+YFBAQY5I4AAACoABcuXFi8eHFWVpZUo1KpAgICpk+fbm5urtM4JycnKCjo7Nmz\\n8s+9lpaWM2fObNGiRWlvnZ2dPWnSpCdPnkifM6OiojZv3nzv3j07O7s+ffq88cYbenyafe2113Rq\\n9Jjvs23btl9\\/\\/TU\\/P7+0F+rHyMho2LBhb775Zjn1X+5BJTExMSgo...
+2019-04-22 13:43:58:495 - info: [debug] [W3C] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAhwCAIAAABH2RmtAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdeVxUVePH8Tvsqwv7EmKKiIiSirnvS1aWuWBumZXlkpZL5pZLmgtPaVZmmZpomltYhnsiirim\nqInikisCgojCsA8yvz/u77m/+xsWYRjgAp/3H89rzplzzz30+IL5zj2LSqvVCgAAAACgJEaVPQAA\nAAAA0EVQAQAAAKA4BBUAAAAAikNQAQAAAKA4BBUAAAAAikNQAQAAAKA4BBUAAAAAikNQAQAAAKA4\nBBUAAAAAikNQAQAAAKA4BBUAAAAAikNQAQAAAKA4BBUAAAAAilNtg8qqVatyc3NL0jI7O/uHH34o\n7/EAAAAAKDmVVqut7DGUi9dee83BwWH16tVmZma7du0KCQnJyMjQaDQqlcrCwuK555777LPP6tat\nm5OT88EHH6SkpISGhlb2kAEAAAD8r4oLKlqt9vLly2fPno2JiYmPj09PTxcEwcbGxs3NzcfHp3Xr\n1k2bNlWpVIa63b179yZOnFirVi21Wv306dNC2zRq1CgxMTEjI+P77793d3c31K0BAABQ3h4+fLhj\nx46zZ88+fvy4bt26AQEBgYGBjo6OZW8MhaiIoKLVag8dOrRjx46EhIRimrm6ugYGBvbs2dNQcWXz\n5s1bt259ZrN58+YFBAQY5I4AAACoABcuXFi8eHFWVpZUo1KpAgICpk+fbm5urtM4JycnKCjo7Nmz\n8s+9lpaWM2fObNGiRWlvnZ2dPWnSpCdPnkifM6OiojZv3nzv3j07O7s+ffq88cYbenyafe2113Rq\n9Jjvs23btl9//TU/P7+0F+rHyMho2LBhb775Zjn1X+5BJTExMSgo6MaNGyVs36hRo+nTpzs7O5fx\nvnfv3p0wYUJJWj7//PMrVqwwMqq2y3UAAACqk8TExI8//jgjI0MsqlSqHj16DB48OCcn58SJE9HR\n0XFxcd...
+2019-04-22 13:43:58:503 - info: [HTTP] <-- GET /wd/hub/session/f9a69d5c-48f1-4f25-8dfa-9b3e05748a48/screenshot 200 555 ms - 100268
+2019-04-22 13:43:58:504 - info: [HTTP] 
+2019-04-22 13:43:58:520 - info: [HTTP] --> GET /wd/hub/session/f9a69d5c-48f1-4f25-8dfa-9b3e05748a48/screenshot
+2019-04-22 13:43:58:525 - info: [HTTP] {}
+2019-04-22 13:43:58:528 - info: [debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["f9a69d5c-48f1-4f25-8dfa-9b3e05748a48"]
+2019-04-22 13:43:58:531 - info: [debug] [JSONWP Proxy] Proxying [GET /screenshot] to [GET http://localhost:8200/wd/hub/session/12e7c8e8-fb7e-4b90-94d3-cd4942a5bbb8/screenshot] with no body
+2019-04-22 13:43:59:085 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"12e7c8e8-fb7e-4b90-94d3-cd4942a5bbb8\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAhwCAIAAABH2RmtAAAAA3NCSVQICAjb4U\\/gAAAgAElEQVR4\\nnOzdeVxU1eP\\/8Tvsw6qAIJBiioiIkoqZa+7ZoqaJmZRaWS5puWRuubS48CnNFk1LE00\\/bmEZ7oko\\n4pqiJYpLuCEgiCCMrIPM74\\/7637ud1iEYYALvJ5\\/fB5zzpx778FPD5j3nE2l0+kEAAAAAFASk+ru\\nAAAAAADoI6gAAAAAUByCCgAAAADFIagAAAAAUByCCgAAAADFIagAAAAAUByCCgAAAADFIagAAAAA\\nUByCCgAAAADFIagAAAAAUByCCgAAAADFIagAAAAAUByCCgAAAADFqbVBZeXKlfn5+WVpmZub+\\/33\\n31d2fwAAAACUnUqn01V3HyrFgAEDnJ2dV69ebWFhsXPnztDQ0KysLK1Wq1KprKysnnjiiY8\\/\\/rh+\\n\\/fp5eXnvvvtuWlpaWFhYdXcZAAAAwP9XdUFFp9NdvHjxzJkzsbGxiYmJDx8+FATB1tbW3d3dx8en\\nQ4cOrVq1UqlUxnrc7du3J02aZG9vr9FoHj16VGyb5s2bJycnZ2VlrVixwsPDw1iPBgAAQGW7d+\\/e\\n9u3bz5w5k56eXr9+\\/YCAgMDAwAYNGlS8MRSiKoKKTqc7ePDg9u3bk5KSSmnm5uYWGBjYp08fY8WV\\nTZs2bdmy5bHN5s+fHxAQYJQnAgAAoAqcP39+0aJFOTk5Uo1KpQoICJgxY4alpaVe47y8vODg4DNn\\nzsg\\/96rV6lmzZrVt27a8j87NzZ08efKDBw+kz5nR0dGbNm26ffu2o6Nj\\/\\/79X375ZQM+zQ4YMECv\\nxoD5PseOHVu5cmVmZmZ5LzSMvb39hAkTunTpUkn3r\...
+2019-04-22 13:43:59:095 - info: [debug] [W3C] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAhwCAIAAABH2RmtAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdeVxU1eP/8Tvsw6qAIJBiioiIkoqZa+7ZoqaJmZRaWS5puWRuubS48CnNFk1LE00/bmEZ7oko\n4pqiJYpLuCEgiCCMrIPM74/7637ud1iEYYALvJ5/fB5zzpx778FPD5j3nE2l0+kEAAAAAFASk+ru\nAAAAAADoI6gAAAAAUByCCgAAAADFIagAAAAAUByCCgAAAADFIagAAAAAUByCCgAAAADFIagAAAAA\nUByCCgAAAADFIagAAAAAUByCCgAAAADFIagAAAAAUByCCgAAAADFqbVBZeXKlfn5+WVpmZub+/33\n31d2fwAAAACUnUqn01V3HyrFgAEDnJ2dV69ebWFhsXPnztDQ0KysLK1Wq1KprKysnnjiiY8//rh+\n/fp5eXnvvvtuWlpaWFhYdXcZAAAAwP9XdUFFp9NdvHjxzJkzsbGxiYmJDx8+FATB1tbW3d3dx8en\nQ4cOrVq1UqlUxnrc7du3J02aZG9vr9FoHj16VGyb5s2bJycnZ2VlrVixwsPDw1iPBgAAQGW7d+/e\n9u3bz5w5k56eXr9+/YCAgMDAwAYNGlS8MRSiKoKKTqc7ePDg9u3bk5KSSmnm5uYWGBjYp08fY8WV\nTZs2bdmy5bHN5s+fHxAQYJQnAgAAoAqcP39+0aJFOTk5Uo1KpQoICJgxY4alpaVe47y8vODg4DNn\nzsg/96rV6lmzZrVt27a8j87NzZ08efKDBw+kz5nR0dGbNm26ffu2o6Nj//79X375ZQM+zQ4YMECv\nxoD5PseOHVu5cmVmZmZ5LzSMvb39hAkTunTpUkn3r/SgkpycHBwcfO3atTK2b968+YwZM1xdXSv4\n3Fu3bk2cOLEsLZ988snly5ebmNTa5ToAAAC1SXJy8gcffJCVlSUWVSpV7969hw0blpeXd/z48ZiY\nmISEBG...
+2019-04-22 13:43:59:104 - info: [HTTP] <-- GET /wd/hub/session/f9a69d5c-48f1-4f25-8dfa-9b3e05748a48/screenshot 200 581 ms - 101056
+2019-04-22 13:43:59:104 - info: [HTTP] 
+2019-04-22 13:43:59:111 - info: [HTTP] --> DELETE /wd/hub/session/f9a69d5c-48f1-4f25-8dfa-9b3e05748a48
+2019-04-22 13:43:59:111 - info: [HTTP] {}
+2019-04-22 13:43:59:111 - info: [debug] [W3C] Calling AppiumDriver.deleteSession() with args: ["f9a69d5c-48f1-4f25-8dfa-9b3e05748a48"]
+2019-04-22 13:43:59:112 - info: [debug] [BaseDriver] Event 'quitSessionRequested' logged at 1555940639112 (21:43:59 GMT+0800 (中国标准时间))
+2019-04-22 13:43:59:114 - info: [Appium] Removing session f9a69d5c-48f1-4f25-8dfa-9b3e05748a48 from our master session list
+2019-04-22 13:43:59:117 - info: [debug] [UiAutomator2] Deleting UiAutomator2 session
+2019-04-22 13:43:59:120 - info: [debug] [UiAutomator2] Deleting UiAutomator2 server session
+2019-04-22 13:43:59:120 - info: [debug] [JSONWP Proxy] Proxying [DELETE /] to [DELETE http://localhost:8200/wd/hub/session/12e7c8e8-fb7e-4b90-94d3-cd4942a5bbb8] with no body
+2019-04-22 13:43:59:140 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"12e7c8e8-fb7e-4b90-94d3-cd4942a5bbb8\",\"status\":0,\"value\":\"Session deleted\"}"
+2019-04-22 13:43:59:141 - info: [debug] [UiAutomator2] Resetting IME to 'com.iflytek.inputmethod.smartisan/com.iflytek.inputmethod.FlyIME'
+2019-04-22 13:43:59:142 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell ime set com.iflytek.inputmethod.smartisan/com.iflytek.inputmethod.FlyIME'
+2019-04-22 13:43:59:781 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 shell am force-stop com.cy.patrol'
+2019-04-22 13:43:59:861 - info: [debug] [UiAutomator2] [UIAutomator2] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:.
+2019-04-22 13:43:59:861 - info: [debug] [UiAutomator2] [UIAutomator2] Time: 6.021
+2019-04-22 13:43:59:863 - info: [debug] [UiAutomator2] [UIAutomator2] OK (1 test)
+2019-04-22 13:44:00:412 - info: [debug] [Logcat] Stopping logcat capture
+2019-04-22 13:44:00:440 - info: [debug] [ADB] Removing forwarded port socket connection: 8200 
+2019-04-22 13:44:00:442 - info: [debug] [ADB] Running 'E:\sdk\platform-tools\adb.exe -P 5037 -s 2116ca98 forward --remove tcp\:8200'
+2019-04-22 13:44:00:543 - info: [debug] [BaseDriver] Event 'quitSessionFinished' logged at 1555940640542 (21:44:00 GMT+0800 (中国标准时间))
+2019-04-22 13:44:00:547 - info: [debug] [W3C] Received response: null
+2019-04-22 13:44:00:547 - info: [debug] [W3C] But deleting session, so not returning
+2019-04-22 13:44:00:547 - info: [debug] [W3C] Responding to client with driver.deleteSession() result: null
+2019-04-22 13:44:00:550 - info: [HTTP] <-- DELETE /wd/hub/session/f9a69d5c-48f1-4f25-8dfa-9b3e05748a48 200 1438 ms - 14
+2019-04-22 13:44:00:550 - info: [HTTP] 

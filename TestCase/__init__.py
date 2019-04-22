@@ -20,3 +20,7 @@ class ParameTestCase(unittest.TestCase):
         """
         baseDriver = BaseDriver()
         cls.driver = baseDriver.get_android_driver(parame)
+
+    @classmethod
+    def kill_driver(cls):
+        cls.driver.quit()
