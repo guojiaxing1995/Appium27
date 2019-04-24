@@ -1,4 +1,6 @@
 #coding=utf-8
+import os
+
 from doc_cmd import DosCmd
 from port import Port
 import threading
@@ -31,9 +33,13 @@ class Server:
         device_list = self.get_devices()
         appium_port_list = port.create_port_list(4700,device_list)
         bootstrap_port_list = port.create_port_list(4900,device_list)
+        # 获取当前目录
+        current_dir = os.path.dirname(__file__)
+        # 获取当前目录的父级目录
+        parent_dir = os.path.dirname(current_dir)
         for i in range(len(device_list)):
             now = time.strftime('%Y-%m-%d-%H_%M_%S')
-            command = "appium -p "+str(appium_port_list[i])+" -bp "+str(bootstrap_port_list[i])+" -U "+device_list[i]+" --no-reset --session-override --log D:/pythonProgram/Appium27/log/"+device_list[i]+str(now)+".log"
+            command = "appium -p "+str(appium_port_list[i])+" -bp "+str(bootstrap_port_list[i])+" -U "+device_list[i]+" --no-reset --session-override --log "+parent_dir+"/log/"+device_list[i]+str(now)+".log"
             command_list.append(command)
             self.operateYaml.clear_data()
             self.operateYaml.write_yaml(self.operateYaml.join_devices_data(i,device_list[i],str(bootstrap_port_list[i]),str(appium_port_list[i])))
