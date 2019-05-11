@@ -1,5 +1,5 @@
 import unittest
-
+import sys,time
 from base.BaseDriver import BaseDriver
 
 
@@ -24,3 +24,13 @@ class ParameTestCase(unittest.TestCase):
     @classmethod
     def kill_driver(cls):
         cls.driver.quit()
+
+    def setUp(self):
+        self.imgs = []
+
+    def tearDown(self):
+        if sys.exc_info()[0]:
+            now = time.strftime('%Y-%m-%d-%H_%M_%S')
+            self.driver.save_screenshot('../img/'+now+'.jpg')
+            #将截图加入报告
+            self.imgs.append(self.driver.get_screenshot_as_base64())

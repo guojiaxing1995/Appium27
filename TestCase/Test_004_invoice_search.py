@@ -17,8 +17,6 @@ class InvoiceSearch(ParameTestCase):
         cls.search_business = SearchBusiness(cls.driver)
         cls.wallet_business = WalletBusiness(cls.driver)
 
-    def setUp(self):
-        pass
 
     def test_001_search_all(self):
         """搜索全部发票"""
@@ -49,7 +47,3 @@ class InvoiceSearch(ParameTestCase):
         """模糊搜索"""
         self.search_business.vague_serach()
 
-    def tearDown(self):
-        if sys.exc_info()[0]:
-            now = time.strftime('%Y-%m-%d-%H_%M_%S')
-            self.driver.save_screenshot('../img/'+now+'.jpg')

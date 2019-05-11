@@ -18,9 +18,6 @@ class BatchOperation(ParameTestCase):
         cls.manual_business = ManualBusiness(cls.driver)
         cls.wallet_business = WalletBusiness(cls.driver)
 
-    def setUp(self):
-        self.imgs = []
-
     def test_001_batchIcon_open_close(self):
         """批量操作按钮弹出收起成功"""
         self.wallet_business.batchIcon_open_close()
@@ -46,9 +43,3 @@ class BatchOperation(ParameTestCase):
         self.wallet_business.send_email()
         self.driver.back()
 
-    def tearDown(self):
-        if sys.exc_info()[0]:
-            now = time.strftime('%Y-%m-%d-%H_%M_%S')
-            self.driver.save_screenshot('../img/'+now+'.jpg')
-            # 将截图加入报告
-            self.imgs.append(self.driver.get_screenshot_as_base64())

@@ -17,8 +17,6 @@ class InvoiceDetail(ParameTestCase):
         cls.wallet_business = WalletBusiness(cls.driver)
         cls.detail_business = DetailBusiness(cls.driver)
 
-    def setUp(self):
-        pass
 
     def test_001_enter_eInvoice(self):
         """进入电票详情页面"""
@@ -102,8 +100,3 @@ class InvoiceDetail(ParameTestCase):
         """详情页删除打车票"""
         self.detail_business.delete_invoice()
 
-
-    def tearDown(self):
-        if sys.exc_info()[0]:
-            now = time.strftime('%Y-%m-%d-%H_%M_%S')
-            self.driver.save_screenshot('../img/'+now+'.jpg')

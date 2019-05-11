@@ -17,9 +17,6 @@ class InvoiceCollection(ParameTestCase):
         cls.manual_business = ManualBusiness(cls.driver)
         cls.wallet_business = WalletBusiness(cls.driver)
 
-    def setUp(self):
-        self.imgs = []
-
     def test_001_enter_add_scan(self):
         """进入新增扫一扫页面"""
         self.home_business.enter_add_scan()
@@ -87,9 +84,3 @@ class InvoiceCollection(ParameTestCase):
 
 
 
-    def tearDown(self):
-        if sys.exc_info()[0]:
-            now = time.strftime('%Y-%m-%d-%H_%M_%S')
-            self.driver.save_screenshot('../img/' + now + '.jpg')
-            # 将截图加入报告
-            self.imgs.append(self.driver.get_screenshot_as_base64())

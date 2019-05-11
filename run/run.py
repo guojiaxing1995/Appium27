@@ -51,6 +51,16 @@ class Run:
         # test_suite.addTest(InvoiceCollection("test_011_weChatBag_add", parames=i))
         # test_suite.addTest(BBS("test_001_enter_discover", parames=i))
 
+        """
+        将一个类下的case全部加载
+        login_case = unittest.TestLoader().getTestCaseNames(Login)
+        for case in login_case:
+            test_suite.addTest(Login(case, parames=i))
+
+        test_suite.addTest(ParameTestCase("kill_driver", parames=i))
+        """
+
+
         return test_suite
 
     def run_case_creat_report(self,i,title=u'Appium自动化',description=u'用例执行情况:',tester=u'自动化测试团队'):
