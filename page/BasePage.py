@@ -6,6 +6,7 @@
 @File    : BasePage.py
 @Desc    :
 """
+from selenium.webdriver.common.by import By
 
 from util.get_by_local import GetByLocal
 from selenium.webdriver.support.ui import WebDriverWait
@@ -16,7 +17,24 @@ class BasePage(object):
         self.driver = driver
         self.getByLocal = GetByLocal(self.driver)
 
-    def get_toast(self,message):
+    def get_toast(self,section,key):
         """获取toast"""
-        toast = ("xpath", "//*[contains(@text," + message + ")]")
+        message = self.getByLocal.get_element(section,key)
+        toast = (By.XPATH, "//*[contains(@text," + message + ")]")
         WebDriverWait(self.driver, 5, 0.1).until(EC.presence_of_element_located(toast))
+
+
+    def switch_to_native(self):
+        """切换NATIVE_APP"""
+        self.driver.switch_to_context('NATIVE_APP')
+
+    def switch_to_native(self,WEBVIEW=None):
+        """切换内嵌h5"""
+        view = self.driver.contexts
+        if WEBVIEW:
+            self.driver.switch_to_context(WEBVIEW)
+        else:
+            for v in view:
+                if 'WEBVIEW' in v:
+                    self.driver.switch_to_context(v)
+                    break

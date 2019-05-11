@@ -33,6 +33,8 @@ class GetByLocal:
                 return self.driver.find_elements_by_id(local_value)[int(local.split('>')[2])]
             else:
                 return self.driver.find_elements_by_id(local_value)
+        elif local_by == 'toast':
+            return local_value
         else:
             return None
     def get_locator(self,section,key):
