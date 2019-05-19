@@ -26,15 +26,15 @@ class BasePage(object):
 
     def switch_to_native(self):
         """切换NATIVE_APP"""
-        self.driver.switch_to_context('NATIVE_APP')
+        self.driver.switch_to.context('NATIVE_APP')
 
-    def switch_to_native(self,WEBVIEW=None):
+    def switch_to_web_view(self,WEBVIEW=None):
         """切换内嵌h5"""
         view = self.driver.contexts
         if WEBVIEW:
-            self.driver.switch_to_context(WEBVIEW)
+            self.driver.switch_to.context(WEBVIEW)
         else:
             for v in view:
                 if 'WEBVIEW' in v:
-                    self.driver.switch_to_context(v)
+                    self.driver.switch_to.context(v)
                     break
