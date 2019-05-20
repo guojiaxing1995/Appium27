@@ -1,6 +1,7 @@
 import unittest
 import sys,time
 from base.BaseDriver import BaseDriver
+from util.switch_context_back import switch_context_back
 
 
 class ParameTestCase(unittest.TestCase):
@@ -23,11 +24,15 @@ class ParameTestCase(unittest.TestCase):
 
     @classmethod
     def kill_driver(cls):
+        if cls.driver.view == "WEB":
+            cls.driver.switch_to.context('NATIVE_APP')
+            cls.driver.view = 'NATIVE'
         cls.driver.quit()
 
     def setUp(self):
         self.imgs = []
 
+    @switch_context_back
     def tearDown(self):
         if sys.exc_info()[0]:
             now = time.strftime('%Y-%m-%d-%H_%M_%S')
