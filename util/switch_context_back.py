@@ -18,6 +18,8 @@ def switch_context_back(func):
 
             args[0].driver.switch_to.context(context)
             args[0].driver.view = 'WEB'
+        else:
+            func(*args, **kwargs)
 
 
     return wrapper
